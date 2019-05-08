@@ -5,7 +5,7 @@ description: Overview of construction of a website with GitHub Pages
 ---
 
 <h1>Lindsay Millard has a blog:</h1> 
-<h2>About Me</h2>
+About Me
 Chartered Engineer (Engineers Australia and Institution of Civil Engineers) 
 Registered Professional Engineer Queensland. 
 
@@ -30,7 +30,7 @@ Core Software Specialties: Modelling: TUFLOW, GoldSim, Anaconda: Python - Pandas
 
 <br/>
 
-<h2></h2>Original Detail</h2>
+Original Detail
 The present site is simple, with a style derived from
 [JekyllBootstrap](https://jekyllbootstrap.com/) and
 [Twitter Bootstrap](https://getbootstrap.com) with a particular
