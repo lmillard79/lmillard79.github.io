@@ -21,13 +21,14 @@ production_url : https://lmillard79.github.io
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
+theme: jekyll-theme-midnight
 markdown: kramdown
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
   version : 0.3.0
-  theme: jekyll-theme-midnight
+  
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
