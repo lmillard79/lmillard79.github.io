@@ -42,7 +42,7 @@ read any of the other things, such as
 [how to test your site locally](pages/local_test.html).
 
 - [Overview](pages/overview.html)
-- [Musings on Hydrology](pages/about.md)
+- [About](pages/about.md)
 - [Dam Breakage](pages/user_site.html)
 - [Jamming flow into a Hydraulic model](pages/project_site.html)
 - [Post Processing all the output](pages/nojekyll.html)
