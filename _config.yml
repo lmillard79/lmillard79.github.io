@@ -8,7 +8,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Lindsay's Hitchhikers guide to his adventures in coding 
+title : Probably a Blog 
 author :
   name : Lindsay Millard
   email : 
@@ -17,7 +17,7 @@ author :
   feedburner : nil
 
 # NOTE: Replacing this next line with your own URL
-production_url : https://lmillard79.github.io/simple_site
+production_url : https://lmillard79.github.io
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
@@ -52,7 +52,7 @@ JB :
   #     This means always setting the protocol (http|https) or prefixing with "/"
   #
   # NOTE: Replace this next line with your own URL, likely with username.github.io
-  BASE_PATH : https://lmillard79.github.io/simple_site
+  #BASE_PATH : https://lmillard79.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
