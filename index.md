@@ -1,12 +1,3 @@
----
-layout: page
-title: Python and Hydrology
-tagline: Adventures in Australian Hydrology
-description: Minimal tutorial on using Python with Hydrology
-theme: jekyll-theme-midnight
----
-
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/lmillard79/lmillard79.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
