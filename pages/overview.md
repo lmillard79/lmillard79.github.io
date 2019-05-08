@@ -6,7 +6,7 @@ description: Overview of construction of a website with GitHub Pages
 
 <h1>Lindsay Millard has a blog:</h1> 
 <h2>About Me</h2>
-<p>Chartered Engineer (Engineers Australia and Institution of Civil Engineers) 
+Chartered Engineer (Engineers Australia and Institution of Civil Engineers) 
 Registered Professional Engineer Queensland. 
 
 I have over 15 years experience working in the field of Water Resource Engineering. This includes completing projects on Flood Risk, Bridge Hydraulics, Scour Design, Dam Engineering, Flood Emergency planning, Surface Water Management and other Civil Engineering.
@@ -30,7 +30,7 @@ Core Software Specialties: Modelling: TUFLOW, GoldSim, Anaconda: Python - Pandas
 
 <br/>
 
-<h2>Original Detail</h2>
+<h2></h2>Original Detail</h2>
 The present site is simple, with a style derived from
 [JekyllBootstrap](https://jekyllbootstrap.com/) and
 [Twitter Bootstrap](https://getbootstrap.com) with a particular
