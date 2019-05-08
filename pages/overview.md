@@ -4,16 +4,17 @@ title: Overview of GitHub Pages
 description: Overview of construction of a website with GitHub Pages
 ---
 
-<h1>Lindsay Millard has a blog: About Me</h1>
+<h1>Lindsay Millard has a blog:</h1> 
+<h2>About Me</h2>
 <p>Chartered Engineer (Engineers Australia and Institution of Civil Engineers) 
 Registered Professional Engineer Queensland. 
 
 I have over 15 years experience working in the field of Water Resource Engineering. This includes completing projects on Flood Risk, Bridge Hydraulics, Scour Design, Dam Engineering, Flood Emergency planning, Surface Water Management and other Civil Engineering.
-
+<br/>
 I have a strong focus on flood studies and modelling (TUFLOW and MIKE FLOOD), stormwater drainage analysis and design, transport infrastructure drainage design, water balance (GoldSIM), mine water management and  water resource planning and management (IQQM)
-
+<br/>
 As a chartered engineer I have gained experience in a variety of water resources projects for large-scale  engineering in the road, mining, rail and civil infrastructure sectors. My experience includes floodplain management, urban drainage, stormwater, catchment management, water sensitive design and surface water studies.
-
+<br/>
 I have project managed technical design staff to deliver the following for clients in England, UAE, Saudi Arabia  and Australia: 
  - planning and feasibility studies, 
  - bridge and culvert hydraulics,  
@@ -23,11 +24,13 @@ I have project managed technical design staff to deliver the following for clien
  - development assessments 
  - site investigation reports and 
  - detailed engineering design.
-
+<br/>
 Core Software Specialties: Modelling: TUFLOW, GoldSim, Anaconda: Python - Pandas, SciPy,  Seaborn/ R, Tableau, QGIS, Delft FEWS configuration, URBS,  MIKE Flood by DHI, ArcGis, ArcMap, WaterRIDE, RORB, XP Rafts, HEC RAS, InfoWorks RS, ISIS. 
+<br/>
 
+<br/>
 
-
+<h2>Original Detail</h2>
 The present site is simple, with a style derived from
 [JekyllBootstrap](https://jekyllbootstrap.com/) and
 [Twitter Bootstrap](https://getbootstrap.com) with a particular
