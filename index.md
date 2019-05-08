@@ -2,7 +2,13 @@
 
 You can use the [editor on GitHub](https://github.com/lmillard79/lmillard79.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [Overview](pages/overview.html)
+- [About](pages/about.md)
+- [Dam Breakage](pages/user_site.html)
+- [Jamming flow into a Hydraulic model](pages/project_site.html)
+- [Post Processing all the output](pages/nojekyll.html)
+- [Flood Early Warning Systems](pages/local_test.html)
+- [Resources](pages/resources.html)
 
 ### Markdown
 
@@ -32,19 +38,5 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lmillard79/lmillard79.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-Start by reading the [Overview page](pages/overview.html), which
-explains the basic structure of these sites. Then
-read any of the other things, such as
-[how to test your site locally](pages/local_test.html).
-
-- [Overview](pages/overview.html)
-- [About](pages/about.md)
-- [Dam Breakage](pages/user_site.html)
-- [Jamming flow into a Hydraulic model](pages/project_site.html)
-- [Post Processing all the output](pages/nojekyll.html)
-- [Flood Early Warning Systems](pages/local_test.html)
-- [Resources](pages/resources.html)
