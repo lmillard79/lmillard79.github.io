@@ -35,3 +35,16 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+Start by reading the [Overview page](pages/overview.html), which
+explains the basic structure of these sites. Then
+read any of the other things, such as
+[how to test your site locally](pages/local_test.html).
+
+- [Overview](pages/overview.html)
+- [Musings on Hydrology](pages/independent_site.html)
+- [Dam Breakage](pages/user_site.html)
+- [Jamming flow into a Hydraulic model](pages/project_site.html)
+- [Post Processing all the output](pages/nojekyll.html)
+- [Flood Early Warning Systems](pages/local_test.html)
+- [Resources](pages/resources.html)
