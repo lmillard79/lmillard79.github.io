@@ -88,7 +88,7 @@ author:
   avatar           : "/images/0.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Water Resources Engineer / Hydrologist"
   location         : "Brisbane, Australia"
-  email            :
+  email            : "lindsay.milard79@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
