@@ -3,7 +3,7 @@ title: "First Post to Github Pages"
 date: 2019-05-12
 tags: [data science, neural network, hydrology]
 header:
-  images: "/images/lake.jpg"
+  image: "/images/lake.jpg"
 excerpt: "Labyrinth, Data science"
 mathjax: "true"
 ---
