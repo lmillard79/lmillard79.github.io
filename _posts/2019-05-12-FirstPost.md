@@ -33,5 +33,6 @@ here some inline code 'x+y'
 
 $$z = x+y$$
 Put inline $$z=x+y$$
-See michael rose webseite
+
+
      
