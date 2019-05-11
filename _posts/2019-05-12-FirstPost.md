@@ -3,7 +3,7 @@ title: "First Post to Github Pages"
 date: 2019-05-12
 tags: [data science, neural network, hydrology]
 header:
-  images: "/images/laby01.jpg"
+  images: "/images/lake.jpg"
 excerpt: "Labyrinth, Data science"
 mathjax: "true"
 ---
@@ -12,21 +12,13 @@ mathjax: "true"
 
 ### Heading 3
 
-Heres some basic text and examples for later
+Heres some basic text and example of markdown for later posts that I will write:
 
-Python code block:
-'''python
-    import numpy as np
-
-    def test_function(x,y):
-        z = np.sum(x,y)
-        return z
-'''
 And here's some *italics*
 
 Here's some **bold** text.
 
-What about a [link](https://github.com/dataoptimal)?
+What about a [link](https://qwp.org.au)?
 
 Here's a bulleted list:
 * First item
@@ -60,9 +52,9 @@ $$z = x+y$$
 Put inline $$z=x+y$$
 
 Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/laby1.jpg" alt="A Labyrinth physical model">
 
 Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/images/laby.jpg)
 
      
