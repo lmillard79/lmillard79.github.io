@@ -34,5 +34,10 @@ here some inline code 'x+y'
 $$z = x+y$$
 Put inline $$z=x+y$$
 
+Here's an image:
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
+
+Here's another image using Kramdown:
+![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
 
      
