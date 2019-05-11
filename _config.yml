@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Lindsay Millard, Hydrologist - Data Carpenter"
 title_separator          : "-"
 name                     : "Lindsay Millard"
-description              : "Hydrologist / Data Scientist"
+description              : "Data Science Portofolio - wringing useful information from hydrological data"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Lindsay Millard"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hydrologist"
+  bio              : "Water Resources Engineer / Hydrologist"
   location         : "Brisbane, Australia"
   email            :
   uri              :
@@ -253,3 +253,11 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+# _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
