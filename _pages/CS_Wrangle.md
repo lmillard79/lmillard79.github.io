@@ -8,9 +8,9 @@ sidebar:
   nav: sidebar-sample
 ---
 
-## Markdown Syntax used in this Blog  
-### Mainly for my reference as I can't remember anything
+### Mainly for my reference 
 
+Loop through URBS results
 ```python
 nparr = np.zeros((15,2))
 
@@ -28,6 +28,7 @@ for i, l in enumerate(lst):
             nparr[c,i] = mx
             arr.append(m1)
 ```
+Go grab the flows from Tuflow results and build a multi-index header
 
 ```python
 dfQ = pd.read_table(Q, skipfooter=2, skipinitialspace=True, delimiter=',', index_col=None, skiprows=(0,3,4,5,6), header=[0,1])
@@ -45,6 +46,7 @@ dfQ.ix[:,~dfQ.columns.duplicated()]
 dfQ.columns = pd.MultiIndex.from_tuples(dfQ.columns.tolist())
 ```
 
+Find the location of results in URBS CSV result files to
 ```python
 for n, line in enumerate(p):      
     if "River Levels" in line:
@@ -55,7 +57,8 @@ for n, line in enumerate(p):
         param_start = int(n)
 count = 0
 ```
-
+Calculation of Standard Normal Deviate from AEP
+[Tony Summarises this as an R blog](https://tonyladson.wordpress.com/2017/07/04/converting-between-ey-aep-and-ari/)
 ```python
 ## - Standard Normal Deviate 
 dfRES_24mrg['Z'] = -1*scipy.stats.norm.ppf(dfRES_24mrg['aep%'])
