@@ -3,7 +3,7 @@ layout: archive
 permalink: /datascience/
 title: "Data Science posts by Tags"
 author_profile: True
-#header: 
+# header: 
 #  image: "images/intake.jpg"  ## reduce the resolution
 ---
 
