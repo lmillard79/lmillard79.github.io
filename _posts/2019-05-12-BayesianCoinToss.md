@@ -8,7 +8,7 @@ mathjax: "true"
 ## Bayesian Coin Toss example code 
 
 To improve my understanding of Bayesian Inference I followed the example available at:
-https://www.quantstart.com/articles/Bayesian-Statistics-A-Beginners-Guide
+[Beginners Guide to Bayesian statistics](https://www.quantstart.com/articles/Bayesian-Statistics-A-Beginners-Guide)
 
 Originally I did this in Jupyter, and it is available as Jupyter Notebook at GitHub.
 A handy feature to turn it into a Blog Post is to use NBConvert.
@@ -35,8 +35,8 @@ A handy feature to turn it into a Blog Post is to use NBConvert.
     # Discretise the x-axis into 100 separate plotting points
     x = np.linspace(0, 1, 100)
 
-    # Loops over the number_of_trials list to continually add
-    # more coin toss data. For each new set of data, we update
+    > # Loops over the number_of_trials list to continually add
+    > more coin toss data. For each new set of data, we update
     # our (current) prior belief to be a new posterior. This is
     # carried out using what is known as the Beta-Binomial model.
     # For the time being, we won't worry about this too much. It 
