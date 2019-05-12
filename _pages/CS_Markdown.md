@@ -7,6 +7,7 @@ sidebar:
   title: "Top Tips"
   nav: sidebar-sample
 ---
+[How to build a Jekyll website](https://mmistakes.github.io/minimal-mistakes/layout-sidebar-nav-list/)
 
 [View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
 
