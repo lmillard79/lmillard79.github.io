@@ -2,8 +2,25 @@
 permalink: /cheatsheets_markdown/
 title: Markdown Style Guide
 ---
-[Markdown](/cheatsheets/markdown-cheatsheet-online.pdf)
-This is a demo of all styled elements in Jekyll Now. 
+
+## Core Information to get started:
+* [Python](/cheatsheets/python.png)
+* [Python Data Science](/cheatsheets/pythonfordatascience.pdf)
+
+* [Numpy](/cheatsheets/Numpy_Python_Cheat_Sheet.pdf)
+* [Matplotlib](/cheatsheets/Python_Matplotlib_cheat_sheet.pdf)
+* [Pandas](/cheatsheets/Pandas_Cheat_Sheet.pdf)
+
+* [Conda](/cheatsheets/conda-cheatsheets.pdf)
+* [Anaconda](/cheatsheets/Anaconda_Cheatsheet.pdf)
+
+* [Markdown](/cheatsheets/markdown-cheatsheet-online.pdf)
+ 
+
+
+
+## Markdown Syntax used in this Blog  
+### Mainly for my reference as I can't remember anything
 
 [View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
 
@@ -15,12 +32,8 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 
 #### Header 4
  
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
+A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big literal link <http://github.com/barryclark/jekyll-now/>
   
-An image, located within /images
-
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
-
 * A bulletted list
 - alternative syntax 1
 + alternative syntax 2
