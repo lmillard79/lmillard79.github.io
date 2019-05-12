@@ -1,15 +1,15 @@
 ---
 title: "First Post to Github Pages"
 date: 2019-05-12
-tags: [data science, neural network, hydrology]
+tags: [data science, cheat sheet, markdown]
 header:
   image: "/images/lake.jpg"
-excerpt: "Labyrinth, Data science"
+excerpt: "Cheat Sheet, markdown, Data science"
 mathjax: "true"
 ---
 
-title: Markdown Style Guide
----
+## Markdown Style Guide
+
 [Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 This is a demo of all styled elements in Jekyll Now. 

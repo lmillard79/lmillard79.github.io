@@ -1,7 +1,7 @@
 ---
 title: "Peak over Threshold Example - Using python"
 date: 2019-05-12
-tags: [data science, AR&R 2016, hydrology]
+tags: [POT, AR&R 2016, hydrology]
 #header:
 #  image: "/images/lake.jpg"  #something smaller
 excerpt: "POT, FFA, Data science"
@@ -15,11 +15,12 @@ I found it confusing and difficult to follow. I am grateful to the assistance I 
 
 Head over to Tony's site and have a read. What follows is the python code I used to do the same analysis. 
 
-[Peak Over Threshold](https://tonyladson.wordpress.com/2019/03/25/fitting-a-probability-model-to-pot-data/)
+[Tony's blog about Peak Over Threshold](https://tonyladson.wordpress.com/2019/03/25/fitting-a-probability-model-to-pot-data/)
 
 Here is the Python Code Block:
 
 '''python
+
     import pandas as pd
     import matplotlib.pyplot as plt
     import matplotlib.ticker as ticker
