@@ -3,19 +3,22 @@ title: "Post Processing data"
 permalink: /Post-processing/
 header:
   image: "/images/pano1.jpg"
+
+author_profile: False
+
+sidebar:
+  title: "Top Tips"
+  nav: sidebar-sample
 ---
-## Vectors
 
-## Rasters
+## EXCEL
 
-## SAGA / GDAL 
+## Python
 
-## QGIS
+## R
 
-### Scripts
+## CMD
 
-## ArcGIS
-
-### Scripts
+## Nec
 
 
