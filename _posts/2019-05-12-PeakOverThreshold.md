@@ -99,5 +99,4 @@ Head over to Tony's site and have a read. What follows is the python code I used
     ax.set_xlim(100,1)
     ax.xaxis.set_major_formatter(ticker.FuncFormatter(lambda x,pos:'%.0f%%'%x))
     ax.set_xlabel('AEP')
-
 '''
