@@ -12,6 +12,8 @@ There is a heap of great information on the web - the following are links I use 
 
 * [Tony Ladson's Blog - full of great information](https://tonyladson.wordpress.com/links/)
 
+* [Tom Pagano's Blog - not recently active](http://tompagano.blogspot.com/)
+
 ### Software Links
 Version control of modelling software and code is important to learn
 [Getting Started with GitHub](http://kbroman.org/github_tutorial/)
