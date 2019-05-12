@@ -1,5 +1,5 @@
 ---
-permalink: /cheatsheets/CS_Wrangle/
+permalink: /cheatsheets/CS_wrangle/
 title: Data Wrangling tips
 author_profile: False
 
