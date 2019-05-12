@@ -8,15 +8,3 @@ main:
     url: /links/
   - title: "Cheat Sheets"
     url: /cheatsheets/
-
-docs:
-- title: Python tidbits
-  children:
-  - title:  "Pandas"
-    url: /docs/pandas/
-
-- title: Modelling
-  children:
-  - title: "Hydraulic Models"
-    url: /docs/Hydraulic
-    
