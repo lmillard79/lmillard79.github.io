@@ -25,7 +25,7 @@ A handy feature to turn it into a Blog Post is to use NBConvert.
     from matplotlib import pyplot as fig
 
 
-    \ # Create a list of the number of coin tosses ("Bernoulli trials")
+    \# Create a list of the number of coin tosses ("Bernoulli trials")
     number_of_trials = [0, 1, 2, 5, 10, 25, 1000,100000]# 100, 500, 1000, 10000, 20000]
 
     # Conduct 500 coin tosses and output into a list of 0s and 1s
