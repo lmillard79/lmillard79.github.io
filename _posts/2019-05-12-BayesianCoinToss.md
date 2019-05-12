@@ -25,7 +25,7 @@ A handy feature to turn it into a Blog Post is to use NBConvert.
     from matplotlib import pyplot as fig
 
 
-    \# Create a list of the number of coin tosses ("Bernoulli trials")
+    # Create a list of the number of coin tosses ("Bernoulli trials")
     number_of_trials = [0, 1, 2, 5, 10, 25, 1000,100000]# 100, 500, 1000, 10000, 20000]
 
     # Conduct 500 coin tosses and output into a list of 0s and 1s
@@ -34,14 +34,14 @@ A handy feature to turn it into a Blog Post is to use NBConvert.
 
     # Discretise the x-axis into 100 separate plotting points
     x = np.linspace(0, 1, 100)
+```
 
-    > # Loops over the number_of_trials list to continually add
-    > more coin toss data. For each new set of data, we update
-    # our (current) prior belief to be a new posterior. This is
-    # carried out using what is known as the Beta-Binomial model.
-    # For the time being, we won't worry about this too much. It 
-    # will be the subject of a later article!
+Loops over the number_of_trials list to continually add
+more coin toss data. For each new set of data, we update
+our (current) prior belief to be a new posterior. This is
+carried out using what is known as the Beta-Binomial model.
 
+```python
     fig = plt.figure(figsize=(6,8))
 
     for i, N in enumerate(number_of_trials):
@@ -158,7 +158,22 @@ The images don't display very well in Jekyll, so I recommend you regenerate them
 
     # Plot the posterior histogram from MCMC analysis
     bins=50
+```
+Here is the log while pyMC3 solver was running
 
+```
+    logp = -1.1786, ||grad|| = 5.2703: 100%|█████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+    Multiprocess sampling (4 chains in 4 jobs)
+    Metropolis: [theta]
+    Sampling 4 chains: 100%|████████████████████████████████████████████████████| 42000/42000 [00:28<00:00, 1488.17draws/s]
+    The number of effective samples is smaller than 25% for some parameters.
+    C:\ProgramData\Anaconda3\lib\site-packages\matplotlib\figure.py:459: UserWarning: matplotlib is currently using a non-GUI backend, so cannot show the figure
+      "matplotlib is currently using a non-GUI backend, "
+```
+
+Create a figure to display the results
+
+```python
     fig,ax = plt.subplots(figsize=(8,5))
 
     ax.hist(
@@ -200,15 +215,9 @@ The images don't display very well in Jekyll, so I recommend you regenerate them
 
 ![png](/images/BayesianCointoss/Bayesian%20Cointoss_3_1.png)
 
-```
-    logp = -1.1786, ||grad|| = 5.2703: 100%|█████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
-    Multiprocess sampling (4 chains in 4 jobs)
-    Metropolis: [theta]
-    Sampling 4 chains: 100%|████████████████████████████████████████████████████| 42000/42000 [00:28<00:00, 1488.17draws/s]
-    The number of effective samples is smaller than 25% for some parameters.
-    C:\ProgramData\Anaconda3\lib\site-packages\matplotlib\figure.py:459: UserWarning: matplotlib is currently using a non-GUI backend, so cannot show the figure
-      "matplotlib is currently using a non-GUI backend, "
-```
+
+
+
     
 
 
