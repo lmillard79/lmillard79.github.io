@@ -39,7 +39,5 @@ sidebar:
 - [Conda](/cheatsheets/conda-cheatsheet.pdf)
   - [Anaconda](/cheatsheets/Anaconda_CheatSheet.pdf)
 
-## Markdown Syntax used in this Blog  
-### Mainly for my reference 
-
-[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
+### Markdown Syntax used in this Blog  
+- [View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).

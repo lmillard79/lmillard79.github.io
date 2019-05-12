@@ -1,15 +1,12 @@
 ---
 permalink: /cheatsheets/CS_Markdown/
-title: Various Cheat Sheets by Others
+title: Markdown Syntax used in this Blog
 author_profile: False
 
 sidebar:
   title: "Top Tips"
   nav: sidebar-sample
 ---
-
-## Markdown Syntax used in this Blog  
-### Mainly for my reference as I can't remember anything
 
 [View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
 
