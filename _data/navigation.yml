@@ -8,3 +8,18 @@ main:
     url: /links/
   - title: "Cheat Sheets"
     url: /cheatsheets/
+
+sidebar-sample:
+  - title: 'Parent'
+    children:
+      - title: "Child1"
+        url: /
+      - title: "child2"
+        url: /
+  - title: 'ParentB'
+    children:
+      - title: "Child3"
+        url: /
+      - title: "Child4"
+        url: /
+      

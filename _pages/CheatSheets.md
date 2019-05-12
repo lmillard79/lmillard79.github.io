@@ -4,22 +4,8 @@ title: Various Cheat Sheets by Others
 author_profile: False
 
 sidebar:
-  - title: Getting Started
-    children:
-      - title: "Quick Start Guide"
-        url: /_pages/quick-start-guide/
-      - title: "Data Wrangling"
-        url: /_pages/pandas/
-      - title: "Visualisation"
-        url: /_pages/visuals/
-
-  - title: "Modelling"
-    children:
-      - title: "Hydraulic"
-        url: /_pages/2d/
-      - title: "Hydrologic"
-        url: /_pages/urbs/
-        text: "More text here."
+  title: "Sample"
+  nav: sidebar-sample
 ---
 
 ## Core Information to get started 
