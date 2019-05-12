@@ -15,12 +15,20 @@ sidebar-sample:
     children:
       - title: "Markdown"
         url: /cheatsheets/CS_Markdown/
-      - title: "child2"
+      - title: "Data Wrangling"
         url: /
-  - title: 'ParentB'
+      - title: "Data Visualisation"
+        url: / 
+      - title: "Bayesian Inference"
+        url: / 
+  - title: 'Modelling'
     children:
-      - title: "Child3"
+      - title: "Hydrologic"
         url: /
-      - title: "Child4"
+      - title: "Embankment Breach"
+        url: /
+      - title: "Hydraulic"
+        url: /
+      - title: "Post Processing"
         url: /
       
