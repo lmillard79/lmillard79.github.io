@@ -10,10 +10,11 @@ main:
     url: /cheatsheets/
 
 sidebar-sample:
-  - title: 'Parent'
+  - title: 'Cheat Sheets'
+    url: /cheatsheets/
     children:
-      - title: "Child1"
-        url: /
+      - title: "Markdown"
+        url: /cheatsheets/CS_Markdown/
       - title: "child2"
         url: /
   - title: 'ParentB'
