@@ -1,6 +1,5 @@
 ---
-permalink: /cheatsheets/markdown/
-layout: post
+permalink: /cheatsheets_markdown/
 title: Markdown Style Guide
 ---
 [Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
