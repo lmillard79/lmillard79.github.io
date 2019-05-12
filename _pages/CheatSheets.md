@@ -1,6 +1,8 @@
 ---
-permalink: /cheatsheets_markdown/
+permalink: /cheatsheets/
 title: Various Cheat Sheets by Others
+sidebar:
+  nav: "docs"
 ---
 
 ## Core Information to get started 
