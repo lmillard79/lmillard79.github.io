@@ -2,6 +2,7 @@
 permalink: /cheatsheets_markdown/
 title: Markdown Style Guide
 ---
+
 [Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 This is a demo of all styled elements in Jekyll Now. 
