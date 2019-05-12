@@ -18,8 +18,7 @@ Head over to Tony's site and have a read. What follows is the python code I used
 [Tony's blog about Peak Over Threshold](https://tonyladson.wordpress.com/2019/03/25/fitting-a-probability-model-to-pot-data/)
 
 Here is the Python Code Block:
-
-'''python
+```python
 
     import pandas as pd
     import matplotlib.pyplot as plt
@@ -101,4 +100,4 @@ Here is the Python Code Block:
     ax.set_xlim(100,1)
     ax.xaxis.set_major_formatter(ticker.FuncFormatter(lambda x,pos:'%.0f%%'%x))
     ax.set_xlabel('AEP')
-'''
+```
