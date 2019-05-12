@@ -19,7 +19,7 @@ sidebar-sample:
         url: /cheatsheets/CS_wrangle/
       - title: "Data Visualisation"
         url: /cheatsheets/CS_visualisation/ 
-      - title: "Bayesian Inference"
+      - title: "Bayesian Inference/Monte Carlo"
         url: /Bayesian/ 
       - title: "GIS"
         url: '/GIS/'
