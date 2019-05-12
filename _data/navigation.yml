@@ -16,7 +16,7 @@ sidebar-sample:
       - title: "Markdown"
         url: /cheatsheets/CS_Markdown/
       - title: "Data Wrangling"
-        url: /
+        url: /cheatsheets/CS_wrangle/
       - title: "Data Visualisation"
         url: / 
       - title: "Bayesian Inference"
