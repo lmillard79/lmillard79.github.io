@@ -14,6 +14,7 @@ There is a heap of great information on the web - the following are links I use 
 
 * [Tom Pagano's Blog - not recently active](http://tompagano.blogspot.com/)
 
+* [Anita Graser's QGIS Blog](https://anitagraser.com/pyqgis-101-introduction-to-qgis-python-programming-for-non-programmers/)
 
 
 ### Software Links

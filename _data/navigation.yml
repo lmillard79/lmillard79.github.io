@@ -10,7 +10,7 @@ main:
     url: /cheatsheets/
 
 sidebar-sample:
-  - title: 'Cheat Sheets'
+  - title: 'Quick Tips'
     url: /cheatsheets/
     children:
       - title: "Markdown"
@@ -18,17 +18,19 @@ sidebar-sample:
       - title: "Data Wrangling"
         url: /cheatsheets/CS_wrangle/
       - title: "Data Visualisation"
-        url: / 
+        url: /cheatsheets/CS_visualisation/ 
       - title: "Bayesian Inference"
-        url: / 
+        url: /Bayesian/ 
+      - title: "GIS"
+        url: '/GIS/'
   - title: 'Modelling'
     children:
       - title: "Hydrologic"
-        url: /
+        url: /Hydrology/
       - title: "Embankment Breach"
-        url: /
+        url: /Breach/
       - title: "Hydraulic"
-        url: /
+        url: /Hydraulic/
       - title: "Post Processing"
-        url: /
+        url: /Post-processing/
       
