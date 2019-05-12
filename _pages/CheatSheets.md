@@ -17,6 +17,7 @@ title: Various Cheat Sheets by Others
 
 ### Coding 
 * [Command Line](https://ss64.com/nt/)
+  - [Tips](https://wiki.tuflow.com/index.php?title=DOS_Window_Tips)
 * [R](/cheatsheets/R_cheatsheet.png)
 * [SQL](/cheatsheets/SQL.pdf)
 * [Machine Learning Map](/cheatsheets/ml_map.png)

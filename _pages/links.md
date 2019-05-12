@@ -14,6 +14,8 @@ There is a heap of great information on the web - the following are links I use 
 
 * [Tom Pagano's Blog - not recently active](http://tompagano.blogspot.com/)
 
+
+
 ### Software Links
 Version control of modelling software and code is important to learn
 [Getting Started with GitHub](http://kbroman.org/github_tutorial/)
@@ -23,6 +25,26 @@ Highly recommend Jupyter as part of the Anaconda Distribution
 
 A lot of global data /modelling results come packaged as NetCDF 
 [NASA NetCDF viewer](https://www.giss.nasa.gov/tools/panoply/download/)
+
+[FEWS Configuartion](https://oss.deltares.nl/web/delft-fews/windows)
+
+
+[HEC RAS](https://www.hec.usace.army.mil/software/hec-ras/)
+  - [HEC RAS Forum](http://hecrasmodel.blogspot.com/)
+
+ - [SurfaceWater Biz](http://www.surfacewater.biz/about-us/)
+
+[TUFLOW](https://wiki.tuflow.com/index.php?title=Main_Page)
+-   [Notepad++](https://wiki.tuflow.com/index.php?title=NotepadPlusPlus_Tips)
+
+[wFlow](https://wflow.readthedocs.io/en/latest/)
+
+[URBS](http://members.optusnet.com.au/~doncarroll/index.htm)
+
+[RORB](https://www.harc.com.au/software/rorb/)
+- [RORB - Legacy](https://www.monash.edu/engineering/departments/civil/research/themes/water/rorb)
+- [RORB - Tony](https://tonyladson.wordpress.com/rorb/)
+
 
 ## Modelling Guidelines
 
@@ -35,6 +57,9 @@ A lot of global data /modelling results come packaged as NetCDF
 * [Moreton Bay Regional Council Flood Risk mapping](https://www.moretonbay.qld.gov.au/mbrc-planning-scheme/info-sheets/flood-check-vs-overlay-mapping/)
 
 ## Presentations:
-[Delft FEWS user days Australia 2017](https://www.delft-fews.nl/dfuda-2017)
 
-[Delft FEWS user days Australia 2018](https://www.delft-fews.nl/dfuda-2018)
+[Delft FEWS user days Australia 2017](https://oss.deltares.nl/web/delft-fews/dfuda-2016)
+
+[Delft FEWS user days Australia 2017](https://oss.deltares.nl/web/delft-fews/dfuda-2017)
+
+[Delft FEWS user days Australia 2018](https://oss.deltares.nl/web/delft-fews/dfuda-2018)
