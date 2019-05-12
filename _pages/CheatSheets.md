@@ -4,15 +4,15 @@ title: Markdown Style Guide
 ---
 
 ## Core Information to get started:
-* [Python](/cheatsheets/python.png)
-* [Python Data Science](/cheatsheets/pythonfordatascience.pdf)
+* [Python](/cheatsheets/Python.png)
+* [Python Data Science](/cheatsheets/PythonForDataScience.pdf)
 
 * [Numpy](/cheatsheets/Numpy_Python_Cheat_Sheet.pdf)
-* [Matplotlib](/cheatsheets/Python_Matplotlib_cheat_sheet.pdf)
+* [Matplotlib](/cheatsheets/Python_Matplotlib_Cheat_Sheet.pdf)
 * [Pandas](/cheatsheets/Pandas_Cheat_Sheet.pdf)
 
-* [Conda](/cheatsheets/conda-cheatsheets.pdf)
-* [Anaconda](/cheatsheets/Anaconda_Cheatsheet.pdf)
+* [Conda](/cheatsheets/conda-cheatsheet.pdf)
+* [Anaconda](/cheatsheets/Anaconda_CheatSheet.pdf)
 
 * [Markdown](/cheatsheets/markdown-cheatsheet-online.pdf)
  
