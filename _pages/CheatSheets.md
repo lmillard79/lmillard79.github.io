@@ -1,19 +1,19 @@
 ---
 permalink: /cheatsheets_markdown/
-title: Markdown Style Guide
+title: Various Cheat Sheets by Others
 ---
 
 ## Core Information to get started 
 ### All work by others, collected from around the web:
 
 * [Probability](/cheatsheets/Probability_cheatsheet.pdf)
-- [Probability](/cheatsheets/cheatsheet-probability.pdf)
+  - [Probability](/cheatsheets/cheatsheet-probability.pdf)
 * [Statistics](/cheatsheets/Statics_cheatsheet.pdf)
-- [Statistics](/cheatsheets/cheatsheet-statistics.pdf)
+  - [Statistics](/cheatsheets/cheatsheet-statistics.pdf)
 
 * [Calculus](/cheatsheets/Calculus.pdf)
-1. [ODEs](/cheatsheets/cheatsheet-first-ode.pdf)
-2. [ODEs](/cheatsheets/cheatsheet-second-ode.pdf)
+  1. [First Order ODEs](/cheatsheets/cheatsheet-first-ode.pdf)
+  2. [Second Order ODEs](/cheatsheets/cheatsheet-second-ode.pdf)
 
 ### Coding 
 * [Command Line](https://ss64.com/nt/)
@@ -24,15 +24,14 @@ title: Markdown Style Guide
 
 ### Python
 * [Python Data Science](/cheatsheets/PythonForDataScience.pdf)
+  - [Numpy](/cheatsheets/Numpy_cheatsheet.pdf)
+  - [Matplotlib](/cheatsheets/Matplotlib_cheatsheet.pdf) 
+  - [SciPy](/cheatsheets/scipy_cheatsheet.png)
+  - [Pandas](/cheatsheets/Pandas_cheatsheet.pdf)
+  - [Pandas](/cheatsheets/Pandas_Notes.pdf)
 
-* [Numpy](/cheatsheets/Numpy_cheatsheet.pdf)
-* [Matplotlib](/cheatsheets/Matplotlib_cheatsheet.pdf)
-* [SciPy](/cheatsheets/scipy_cheatsheet.png)
-* [Pandas](/cheatsheets/Pandas_cheatsheet.pdf)
-- [Pandas](/cheatsheets/Pandas_Notes.pdf)
-
-* [Conda](/cheatsheets/conda-cheatsheet.pdf)
-* [Anaconda](/cheatsheets/Anaconda_CheatSheet.pdf)
+- [Conda](/cheatsheets/conda-cheatsheet.pdf)
+  - [Anaconda](/cheatsheets/Anaconda_CheatSheet.pdf)
 
 
  
@@ -52,7 +51,8 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 
 #### Header 4
  
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big literal link <http://github.com/barryclark/jekyll-now/>
+A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/).
+A big literal link <http://github.com/barryclark/jekyll-now/>
   
 * A bulletted list
 - alternative syntax 1
