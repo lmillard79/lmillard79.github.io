@@ -2,8 +2,8 @@
 title: "Peak over Threshold Example - Using python"
 date: 2019-05-12
 tags: [POT, AR&R 2016, hydrology]
-#header:
-#  image: "/images/lake.jpg"  #something smaller
+header:
+  image: "/images/lake.jpg"  #something smaller
 excerpt: "POT, FFA, Data science"
 mathjax: "true"
 ---

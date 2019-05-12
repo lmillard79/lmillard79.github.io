@@ -3,8 +3,8 @@ layout: archive
 permalink: /datascience/
 title: "Data Science posts by Tags"
 author_profile: True
-# header: 
-#  image: "images/intake.jpg"  ## reduce the resolution
+header: 
+  image: "images/intake.jpg"  ## reduce the resolution
 ---
 
 {% include base_path %}
