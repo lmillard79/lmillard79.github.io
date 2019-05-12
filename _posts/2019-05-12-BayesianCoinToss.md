@@ -10,6 +10,10 @@ mathjax: "true"
 To improve my understanding of Bayesian Inference I followed the example available at:
 [Beginners Guide to Bayesian statistics](https://www.quantstart.com/articles/Bayesian-Statistics-A-Beginners-Guide)
 
+Another great example is available at:
+[Rasmus's Blog](http://sumsar.net/blog/2017/02/introduction-to-bayesian-data-analysis-part-one/)
+[Github Jupyter Notebook](https://github.com/rasmusab/bayesianprobabilitiesworkshop/blob/master/Exercise%201.ipynb)
+
 Originally I did this in Jupyter, and it is available as Jupyter Notebook at GitHub.
 A handy feature to turn it into a Blog Post is to use NBConvert.
 
