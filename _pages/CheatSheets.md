@@ -3,18 +3,38 @@ permalink: /cheatsheets_markdown/
 title: Markdown Style Guide
 ---
 
-## Core Information to get started:
-* [Python](/cheatsheets/Python.png)
+## Core Information to get started 
+### All work by others, collected from around the web:
+
+* [Probability](/cheatsheets/Probability_cheatsheet.pdf)
+- [Probability](/cheatsheets/cheatsheet-probability.pdf)
+* [Statistics](/cheatsheets/Statics_cheatsheet.pdf)
+- [Statistics](/cheatsheets/cheatsheet-statistics.pdf)
+
+* [Calculus](/cheatsheets/Calculus.pdf)
+1. [ODEs](/cheatsheets/cheatsheet-first-ode.pdf)
+2. [ODEs](/cheatsheets/cheatsheet-second-ode.pdf)
+
+### Coding 
+* [Command Line](https://ss64.com/nt/)
+* [R](/cheatsheets/R_cheatsheet.png)
+* [SQL](/cheatsheets/SQL.pdf)
+* [Machine Learning Map](/cheatsheets/ml_map.png)
+* [Markdown](/cheatsheets/markdown-cheatsheet-online.pdf)
+
+### Python
 * [Python Data Science](/cheatsheets/PythonForDataScience.pdf)
 
-* [Numpy](/cheatsheets/Numpy_Python_Cheat_Sheet.pdf)
-* [Matplotlib](/cheatsheets/Python_Matplotlib_Cheat_Sheet.pdf)
-* [Pandas](/cheatsheets/Pandas_Cheat_Sheet.pdf)
+* [Numpy](/cheatsheets/Numpy_cheatsheet.pdf)
+* [Matplotlib](/cheatsheets/Matplotlib_cheatsheet.pdf)
+* [SciPy](/cheatsheets/scipy_cheatsheet.png)
+* [Pandas](/cheatsheets/Pandas_cheatsheet.pdf)
+- [Pandas](/cheatsheets/Pandas_Notes.pdf)
 
 * [Conda](/cheatsheets/conda-cheatsheet.pdf)
 * [Anaconda](/cheatsheets/Anaconda_CheatSheet.pdf)
 
-* [Markdown](/cheatsheets/markdown-cheatsheet-online.pdf)
+
  
 
 
