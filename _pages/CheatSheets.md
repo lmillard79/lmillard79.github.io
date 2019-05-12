@@ -1,8 +1,14 @@
 ---
 permalink: /cheatsheets/
 title: Various Cheat Sheets by Others
+
 sidebar:
-  nav: "docs"
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
 ---
 
 ## Core Information to get started 
