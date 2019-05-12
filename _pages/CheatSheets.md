@@ -4,7 +4,7 @@ title: Various Cheat Sheets by Others
 author_profile: False
 
 sidebar:
-  title: "Sample"
+  title: "Top Tips"
   nav: sidebar-sample
 ---
 
