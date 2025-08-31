@@ -48,7 +48,6 @@ social:
 # Pagination & Permalinks
 paginate: 5
 paginate_path: /page:num/
-permalink: /:categories/:title/
 
 # Markdown & Syntax
 markdown: kramdown
