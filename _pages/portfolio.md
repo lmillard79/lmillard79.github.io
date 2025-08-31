@@ -1,6 +1,8 @@
 ---
-title: "Portfolio"
+title: "Flood Modeling Portfolio - Hydraulic Analysis & Risk Assessment"
 permalink: /portfolio/
+meta_description: "Professional flood modeling services including TUFLOW hydraulic modeling, flood risk assessment, and hydrological analysis for infrastructure projects. Expert consultant with 10+ years experience."
+keywords: "flood modeling, hydraulic modeling, TUFLOW, flood risk assessment, hydrological modeling, water resources, Australia"
 header:
   image: "/images/pano1.jpg"
   caption: "Professional Portfolio"
@@ -193,6 +195,40 @@ This web application presents all of the floods that have been modeled in Austra
 
 <a href="https://area-peakflow-66e1be9aba7f.herokuapp.com/" class="btn btn--success" target="_blank">Launch Web Application</a>
 <a href="#" class="btn btn--info">View Technical Documentation</a>
+
+---
+
+### Open Source Tools & Extensions
+**Contributions to the hydrological modeling community**
+
+Development of open-source tools and extensions to improve productivity and collaboration in the hydrological modeling community.
+
+<div class="feature__wrapper">
+  <div class="feature__item" style="display: flex; align-items: center; margin-bottom: 20px;">
+    <div class="feature__content" style="flex: 1;">
+      <h3 style="margin-top: 0;">Billabong QGIS Plugin</h3>
+      <p>A QGIS plugin for hydrological data processing and visualization, designed to streamline common tasks in water resources analysis.</p>
+      <ul>
+        <li>Automated data import and processing workflows</li>
+        <li>Specialized tools for hydrological analysis</li>
+        <li>Integration with common hydrological data formats</li>
+        <li>Open-source contribution to the QGIS community</li>
+      </ul>
+      <h3 style="margin-top: 0;">TUFLOW Helper VS Code Extension</h3>
+      <p>A Visual Studio Code extension that enhances productivity when working with TUFLOW hydraulic modeling files.</p>
+      <ul>
+        <li>Syntax highlighting for TUFLOW file formats</li>
+        <li>IntelliSense support for TUFLOW commands</li>
+        <li>Code snippets for common modeling patterns</li>
+        <li>Improved workflow for TUFLOW model development</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<a href="https://plugins.qgis.org/plugins/Billabong/" class="btn btn--success" target="_blank">QGIS Plugin Repository</a>
+<a href="https://github.com/lmillard79/Billabong-QGIS-Plugin" class="btn btn--info" target="_blank">View on GitHub</a>
+<a href="https://marketplace.visualstudio.com/items?itemName=lmillard79.tuflow-helper" class="btn btn--warning" target="_blank">VS Code Extension</a>
 
 ---
 

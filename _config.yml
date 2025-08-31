@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" #"air", "aqua", "contrast", "dark", "dirt",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lindsay Millard - Hydrologist & Data Scientist"
+title                    : "Lindsay Millard - Flood Modeling & Hydrological Analysis Expert"
 title_separator          : "-"
 name                     : "Lindsay Millard"
-description              : "Professional showcase of hydrological modeling and environmental data analysis expertise"
+description              : "Expert flood modeling and hydraulic analysis services. Specializing in TUFLOW, HEC-RAS, and flood risk assessment for infrastructure projects across Australia."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -55,7 +55,7 @@ search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 
 # SEO Related
-google_site_verification :
+google_site_verification : "your-google-verification-code-here"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -77,9 +77,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-G7EJXT9KGR"
 
 
 # Site Author
@@ -193,6 +193,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -201,6 +202,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-seo-tag
 
 
 # Archives
@@ -261,6 +263,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-
-theme: jekyll-theme-hacker
