@@ -68,6 +68,13 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
 
+# Custom CSS
+include:
+  - /assets/css/custom.css
+
+include:
+  - /assets/css/style.scss
+
 # Sass
 sass:
   sass_dir: _sass
