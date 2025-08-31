@@ -2,10 +2,21 @@
 title: "Useful Links"
 permalink: /links/
 header:
-  image: "/images/pano1.jpg"
+  image: "/images/SinglePlotArea_vs_PeakFlow_analysis.png"
 
 
 ---
+
+<div style="text-align: center; margin: 20px 0;">
+  <h3 style="color: #007cba;">Open Source Contributions</h3>
+  <p style="font-size: 1.1em; margin-bottom: 15px;">Check out my open-source tools that enhance productivity in hydrological modeling:</p>
+  <a href="https://plugins.qgis.org/plugins/Billabong/" class="btn btn--success btn--large" target="_blank" style="margin: 5px;">QGIS Plugin Repository</a>
+  <a href="https://github.com/lmillard79/Billabong-QGIS-Plugin" class="btn btn--info btn--large" target="_blank" style="margin: 5px;">View on GitHub</a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=lmillard79.tuflow-helper" class="btn btn--warning btn--large" target="_blank" style="margin: 5px;">VS Code Extension</a>
+</div>
+
+<a href="https://area-peakflow-66e1be9aba7f.herokuapp.com/" class="btn btn--success" target="_blank">Launch Web Application</a>
+<a href="#" class="btn btn--info">View Technical Documentation</a>
 
 ## Quick Start links
 There is a heap of great information on the web - the following are links I use regularly

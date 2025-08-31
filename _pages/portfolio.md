@@ -14,6 +14,122 @@ Explore my professional work in hydrological modeling, data analysis, and water 
 
 ## Featured Projects
 
+---
+
+### Peak Area Relationship Visualization Tool
+**Interactive web application for Australian flood data analysis**
+
+This web application presents all of the floods that have been modeled in Australia and summarizes them by peak area relationships. The tool provides an interactive visualization platform for exploring flood characteristics across the continent.
+
+<div class="feature__wrapper">
+  <div class="feature__item">
+    <div class="feature__content">
+      <h3>Key Features</h3>
+      <ul>
+        <li>Comprehensive database of Australian flood events</li>
+        <li>Interactive peak area relationship visualizations</li>
+        <li>Geospatial mapping of flood characteristics</li>
+        <li>Data exploration and analysis tools</li>
+      </ul>
+      <h3>Technical Implementation</h3>
+      <ul>
+        <li>Web-based interactive dashboard</li>
+        <li>Geospatial data visualization</li>
+        <li>Statistical analysis of flood relationships</li>
+        <li>Responsive design for multiple devices</li>
+      </ul>
+      <h3>Project Impact</h3>
+      <ul>
+        <li>Enhanced understanding of flood patterns across Australia</li>
+        <li>Improved flood risk assessment capabilities</li>
+        <li>Valuable resource for researchers and practitioners</li>
+        <li>Data-driven insights for water resources planning</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<a href="https://area-peakflow-66e1be9aba7f.herokuapp.com/" class="btn btn--success" target="_blank">Launch Web Application</a>
+<a href="#" class="btn btn--info">View Technical Documentation</a>
+
+---
+
+### Open Source Tools & Extensions
+**Contributions to the hydrological modeling community**
+
+![Personal Profile](/images/PenPic_WRM.png){: .align-center}
+
+Development of open-source tools and extensions to improve productivity and collaboration in the hydrological modeling community.
+
+<div class="feature__wrapper">
+  <div class="feature__item">
+    <div class="feature__content">
+      <h3>Billabong QGIS Plugin</h3>
+      <p>A QGIS plugin for hydrological data processing and visualization, designed to streamline common tasks in water resources analysis.</p>
+      <ul>
+        <li>Automated data import and processing workflows</li>
+        <li>Specialized tools for hydrological analysis</li>
+        <li>Integration with common hydrological data formats</li>
+        <li>Open-source contribution to the QGIS community</li>
+      </ul>
+      <h3>TUFLOW Helper VS Code Extension</h3>
+      <p>A Visual Studio Code extension that enhances productivity when working with TUFLOW hydraulic modeling files.</p>
+      <ul>
+        <li>Syntax highlighting for TUFLOW file formats</li>
+        <li>IntelliSense support for TUFLOW commands</li>
+        <li>Code snippets for common modeling patterns</li>
+        <li>Improved workflow for TUFLOW model development</li>
+      </ul>
+      <h3>URBS Builder in PyRomb Plugin</h3>
+      <p>Contributed to the development of an URBS model builder within Tom Norman's PyRomb QGIS plugin, enabling easier setup and configuration of URBS hydrological models.</p>
+      <ul>
+        <li>Streamlined URBS model creation process</li>
+        <li>Integration with QGIS for spatial data handling</li>
+        <li>Enhanced accessibility of URBS modeling for practitioners</li>
+        <li>Collaborative open-source development</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div style="text-align: center; margin: 20px 0;">
+  <h3 style="color: #007cba;">Open Source Contributions</h3>
+  <p style="font-size: 1.1em; margin-bottom: 15px;">Check out my open-source tools that enhance productivity in hydrological modeling:</p>
+  <a href="https://plugins.qgis.org/plugins/Billabong/" class="btn btn--success btn--large" target="_blank" style="margin: 5px;">QGIS Plugin Repository</a>
+  <a href="https://github.com/lmillard79/Billabong-QGIS-Plugin" class="btn btn--info btn--large" target="_blank" style="margin: 5px;">View on GitHub</a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=lmillard79.tuflow-helper" class="btn btn--warning btn--large" target="_blank" style="margin: 5px;">VS Code Extension</a>
+</div>
+
+---
+
+## Publications & Research
+
+### Peer-Reviewed Papers
+
+**"Draining Down the Risk"** - ANCOLD 2021 Conference Paper
+- Risk-based approaches to water management in challenging environments
+- Innovative drainage solutions for complex site conditions
+
+**"A Continuous Future Climate for Water Resources Management"** - HWRS 2025 Conference Paper (Co-author)
+- Climate change implications for long-term water resources planning
+- Continuous simulation modeling approaches for future climate scenarios
+
+**"Climate Data for the Next Century"** - HWRS 2025 Conference Paper
+- Analysis of long-term climate trends and their implications for hydrological modeling
+- Development of climate scenarios for water resources planning
+
+**"Hourly Rainfall from Daily Data"** - WRM Conference Paper
+- Statistical methods for disaggregating rainfall data
+- Applications in flood modeling and urban drainage design
+
+### Technical Reports & Short Courses
+
+**"Uncertain About Uncertainty"** - ARR 2016 Short Course
+- Practical approaches to uncertainty quantification in hydrological modeling
+- Implementation of Bayesian methods for parameter estimation
+
+[View Full Publication List](#){: .btn .btn--info}
+
 ### Delft FEWS Model Adapter
 **Integration of legacy models with modern forecasting systems**
 
@@ -157,122 +273,6 @@ Application of statistical methods, machine learning, and data visualization tec
 </div>
 
 [View Technical Blog](/datascience/){: .btn .btn--info}
-
----
-
-### Peak Area Relationship Visualization Tool
-**Interactive web application for Australian flood data analysis**
-
-This web application presents all of the floods that have been modeled in Australia and summarizes them by peak area relationships. The tool provides an interactive visualization platform for exploring flood characteristics across the continent.
-
-<div class="feature__wrapper">
-  <div class="feature__item">
-    <div class="feature__content">
-      <h3>Key Features</h3>
-      <ul>
-        <li>Comprehensive database of Australian flood events</li>
-        <li>Interactive peak area relationship visualizations</li>
-        <li>Geospatial mapping of flood characteristics</li>
-        <li>Data exploration and analysis tools</li>
-      </ul>
-      <h3>Technical Implementation</h3>
-      <ul>
-        <li>Web-based interactive dashboard</li>
-        <li>Geospatial data visualization</li>
-        <li>Statistical analysis of flood relationships</li>
-        <li>Responsive design for multiple devices</li>
-      </ul>
-      <h3>Project Impact</h3>
-      <ul>
-        <li>Enhanced understanding of flood patterns across Australia</li>
-        <li>Improved flood risk assessment capabilities</li>
-        <li>Valuable resource for researchers and practitioners</li>
-        <li>Data-driven insights for water resources planning</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<a href="https://area-peakflow-66e1be9aba7f.herokuapp.com/" class="btn btn--success" target="_blank">Launch Web Application</a>
-<a href="#" class="btn btn--info">View Technical Documentation</a>
-
----
-
-### Open Source Tools & Extensions
-**Contributions to the hydrological modeling community**
-
-![Personal Profile](/images/PenPic_WRM.png){: .align-center}
-
-Development of open-source tools and extensions to improve productivity and collaboration in the hydrological modeling community.
-
-<div class="feature__wrapper">
-  <div class="feature__item">
-    <div class="feature__content">
-      <h3>Billabong QGIS Plugin</h3>
-      <p>A QGIS plugin for hydrological data processing and visualization, designed to streamline common tasks in water resources analysis.</p>
-      <ul>
-        <li>Automated data import and processing workflows</li>
-        <li>Specialized tools for hydrological analysis</li>
-        <li>Integration with common hydrological data formats</li>
-        <li>Open-source contribution to the QGIS community</li>
-      </ul>
-      <h3>TUFLOW Helper VS Code Extension</h3>
-      <p>A Visual Studio Code extension that enhances productivity when working with TUFLOW hydraulic modeling files.</p>
-      <ul>
-        <li>Syntax highlighting for TUFLOW file formats</li>
-        <li>IntelliSense support for TUFLOW commands</li>
-        <li>Code snippets for common modeling patterns</li>
-        <li>Improved workflow for TUFLOW model development</li>
-      </ul>
-      <h3>URBS Builder in PyRomb Plugin</h3>
-      <p>Contributed to the development of an URBS model builder within Tom Norman's PyRomb QGIS plugin, enabling easier setup and configuration of URBS hydrological models.</p>
-      <ul>
-        <li>Streamlined URBS model creation process</li>
-        <li>Integration with QGIS for spatial data handling</li>
-        <li>Enhanced accessibility of URBS modeling for practitioners</li>
-        <li>Collaborative open-source development</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div style="text-align: center; margin: 20px 0;">
-  <h3 style="color: #007cba;">Open Source Contributions</h3>
-  <p style="font-size: 1.1em; margin-bottom: 15px;">Check out my open-source tools that enhance productivity in hydrological modeling:</p>
-  <a href="https://plugins.qgis.org/plugins/Billabong/" class="btn btn--success btn--large" target="_blank" style="margin: 5px;">QGIS Plugin Repository</a>
-  <a href="https://github.com/lmillard79/Billabong-QGIS-Plugin" class="btn btn--info btn--large" target="_blank" style="margin: 5px;">View on GitHub</a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=lmillard79.tuflow-helper" class="btn btn--warning btn--large" target="_blank" style="margin: 5px;">VS Code Extension</a>
-</div>
-
----
-
-## Publications & Research
-
-### Peer-Reviewed Papers
-
-**"Draining Down the Risk"** - ANCOLD 2021 Conference Paper
-- Risk-based approaches to water management in challenging environments
-- Innovative drainage solutions for complex site conditions
-
-**"A Continuous Future Climate for Water Resources Management"** - HWRS 2025 Conference Paper (Co-author)
-- Climate change implications for long-term water resources planning
-- Continuous simulation modeling approaches for future climate scenarios
-
-**"Climate Data for the Next Century"** - HWRS 2025 Conference Paper
-- Analysis of long-term climate trends and their implications for hydrological modeling
-- Development of climate scenarios for water resources planning
-
-**"Hourly Rainfall from Daily Data"** - WRM Conference Paper
-- Statistical methods for disaggregating rainfall data
-- Applications in flood modeling and urban drainage design
-
-### Technical Reports & Short Courses
-
-**"Uncertain About Uncertainty"** - ARR 2016 Short Course
-- Practical approaches to uncertainty quantification in hydrological modeling
-- Implementation of Bayesian methods for parameter estimation
-
-[View Full Publication List](#){: .btn .btn--info}
 
 ---
 
