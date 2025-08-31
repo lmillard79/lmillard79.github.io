@@ -9,7 +9,9 @@ name: Update Links and then Deploy Jekyll site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: 
+      - "main"
+
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -46,7 +48,24 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: |
+          echo "=== Jekyll Build Debug Info ==="
+          echo "Base path: ${{ steps.pages.outputs.base_path }}"
+          echo "Current directory: $(pwd)"
+          echo "=== Config file contents ==="
+          cat _config.yml
+          echo "=== About page front matter ==="
+          head -10 _pages/about.md
+          echo "=== Portfolio page front matter ==="
+          head -10 _pages/portfolio.md
+          echo "=== Starting Jekyll build with verbose output ==="
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose --trace
+          echo "=== Build completed, checking generated site structure ==="
+          find _site -name "*.html" | head -20
+          echo "=== Checking if about page was generated ==="
+          ls -la _site/about/ || echo "about directory not found"
+          echo "=== Checking if portfolio page was generated ==="
+          ls -la _site/portfolio/ || echo "portfolio directory not found"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact

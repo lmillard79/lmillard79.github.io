@@ -8,7 +8,6 @@ baseurl: ""
 repository: "lmillard79/lmillard79.github.io"
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
-permalink: pretty
 
 # SEO
 plugins:
@@ -113,6 +112,11 @@ exclude:
   - README
   - /docs
   - /test
+
+# Debug settings
+verbose: true
+liquid:
+  error_mode: strict
 
 keep_files:
   - .git
