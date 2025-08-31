@@ -222,6 +222,14 @@ Development of open-source tools and extensions to improve productivity and coll
         <li>Code snippets for common modeling patterns</li>
         <li>Improved workflow for TUFLOW model development</li>
       </ul>
+      <h3>URBS Builder in PyRomb Plugin</h3>
+      <p>Contributed to the development of an URBS model builder within Tom Norman's PyRomb QGIS plugin, enabling easier setup and configuration of URBS hydrological models.</p>
+      <ul>
+        <li>Streamlined URBS model creation process</li>
+        <li>Integration with QGIS for spatial data handling</li>
+        <li>Enhanced accessibility of URBS modeling for practitioners</li>
+        <li>Collaborative open-source development</li>
+      </ul>
     </div>
   </div>
 </div>
