@@ -1,36 +1,48 @@
 # main links
 main:
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
-  - title: "Data Science Posts"
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Blog"
     url: /datascience/
-  - title: "Useful Links"
+  - title: "Resources"
     url: /links/
-  - title: "Cheat Sheets"
-    url: /cheatsheets/
 
 sidebar-sample:
-  - title: 'Quick Tips'
+  - title: 'Data Science'
+    url: /datascience/
+    children:
+      - title: "Blog Posts"
+        url: /datascience/
+      - title: "FEWS Adapter Project"
+        url: /DFUDA-FEWSAdapter/
+      - title: "Bayesian Methods"
+        url: /BayesianCoinToss/
+      - title: "Extreme Value Analysis"
+        url: /PeakOverThreshold/
+  - title: 'Technical Skills'
     url: /cheatsheets/
     children:
+      - title: "Python Data Wrangling"
+        url: /cheatsheets/CS_wrangle/
+      - title: "Data Visualization"
+        url: /cheatsheets/CS_visualisation/
       - title: "Markdown"
         url: /cheatsheets/CS_Markdown/
-      - title: "Data Wrangling"
-        url: /cheatsheets/CS_wrangle/
-      - title: "Data Visualisation"
-        url: /cheatsheets/CS_visualisation/ 
-      - title: "Bayesian Inference/Monte Carlo"
-        url: /Monte/ 
+      - title: "Bayesian Inference"
+        url: /Monte/
       - title: "GIS"
         url: '/GIS/'
-  - title: 'Modelling'
+  - title: 'Hydrological Modeling'
     children:
-      - title: "Hydrologic"
+      - title: "Hydrologic Models"
         url: /Hydrology/
-      - title: "Embankment Breach"
-        url: /Breach/
-      - title: "Hydraulic"
+      - title: "Hydraulic Analysis"
         url: /Hydraulic/
+      - title: "Breach Modeling"
+        url: /Breach/
       - title: "Post Processing"
         url: /Post-processing/
-      

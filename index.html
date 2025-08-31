@@ -1,6 +1,73 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+author_profile: false
 header:
-  image: "/images/pano1.jpg"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /images/pano1.jpg
+feature_row:
+  - image_path: /images/data_analysis.jpg
+    alt: "Data Science"
+    title: "Data Science & Analytics"
+    excerpt: "Leveraging Python, R, and advanced statistical methods to solve complex hydrological challenges. Specializing in Bayesian inference, extreme value analysis, and uncertainty quantification."
+    url: /datascience/
+    btn_label: "View Projects"
+    btn_class: "btn--primary"
+  - image_path: /images/hydro_modeling.jpg
+    alt: "Hydrological Modeling"
+    title: "Hydrological Modeling"
+    excerpt: "Expert in continuous simulation (GoldSim), flood modeling (TUFLOW, MIKE FLOOD), and conceptual modeling (RORB, URBS). Integrating legacy models with modern forecasting systems."
+    url: /hydrology/
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /images/project_management.jpg
+    alt: "Project Management"
+    title: "Project Delivery"
+    excerpt: "15+ years delivering water resources projects across transport, mining, and urban development sectors. Chartered Professional Engineer with strong client relationships."
+    url: /about/
+    btn_label: "Professional Bio"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+<div class="feature__wrapper">
+  <div class="feature__item" style="display: flex; align-items: center; margin-bottom: 20px;">
+    <div class="feature__content" style="flex: 1;">
+      <h2 style="margin-top: 0;">Featured Technical Work</h2>
+      <ul>
+        <li><strong>Delft FEWS Integration</strong> - Custom Python adapters with XML parsing and automated data workflows</li>
+        <li><strong>Continuous Simulation Modeling</strong> - Advanced GoldSim models with Monte Carlo analysis</li>
+        <li><strong>Flood Risk Assessment</strong> - TUFLOW 1D/2D and HEC-RAS for bridge scour analysis</li>
+        <li><strong>Data Science Applications</strong> - Bayesian methods and extreme value analysis (POT)</li>
+        <li><strong>Peak Area Relationship Tool</strong> - Interactive web application for Australian flood data analysis</li>
+      </ul>
+      <a href="/portfolio/" class="btn btn--success">View Complete Portfolio</a>
+    </div>
+  </div>
+</div>
+
+## Technical Expertise
+
+### Modeling Tools
+- TUFLOW
+- MIKE FLOOD
+- GoldSim
+- HEC-RAS
+- RORB
+- URBS
+
+### Data Science & Programming
+- Python (Pandas, NumPy, SciPy, Seaborn)
+- R
+- Tableau
+- Delft FEWS Configuration
+
+### GIS & Spatial Analysis
+- QGIS
+- ArcGIS
+- WaterRIDE
+
+[View Full Skills List](/about/){: .btn .btn--success}
