@@ -6,7 +6,9 @@ locale: "en-US"
 url: "https://lmillard79.github.io"
 baseurl: ""
 repository: "lmillard79/lmillard79.github.io"
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
+permalink: pretty
 
 # SEO
 plugins:

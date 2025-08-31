@@ -1,6 +1,8 @@
 ---
 title: "About Lindsay Millard"
 permalink: /about/
+layout: single
+author_profile: true
 header:
   image: "/images/pano1.jpg"
   caption: "Professional Water Resources Engineer and Data Scientist"
