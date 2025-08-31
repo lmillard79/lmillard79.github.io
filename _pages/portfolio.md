@@ -1,8 +1,8 @@
 ---
-title: "Flood Modeling Portfolio - Hydraulic Analysis & Risk Assessment"
+title: "Flood modelling Portfolio - Hydraulic Analysis & Risk Assessment"
 permalink: /portfolio/
-meta_description: "Professional flood modeling services including TUFLOW hydraulic modeling, flood risk assessment, and hydrological analysis for infrastructure projects. Expert consultant with 10+ years experience."
-keywords: "flood modeling, hydraulic modeling, TUFLOW, flood risk assessment, hydrological modeling, water resources, Australia"
+meta_description: "Professional flood modelling services including TUFLOW hydraulic modelling, flood risk assessment, and hydrological analysis for infrastructure projects. Expert consultant with 10+ years experience."
+keywords: "flood modelling, hydraulic modelling, TUFLOW, flood risk assessment, hydrological modelling, water resources, Australia"
 header:
   image: "/images/pano1.jpg"
   caption: "Professional Portfolio"
@@ -10,16 +10,62 @@ header:
 
 # Project Portfolio
 
-Explore my professional work in hydrological modeling, data analysis, and water resources engineering.
+Explore my professional work in hydrological modelling, data analysis, and water resources engineering.
+
+
+---
+
+## Professional Skills
+
+### Hydrological modelling
+- TUFLOW (1D/2D hydraulic modelling)
+- MIKE FLOOD (Integrated flood modelling)
+- GoldSim (Continuous simulation)
+- HEC-RAS (River analysis)
+- RORB & URBS (Conceptual models)
+
+### Data Science & Programming
+- Python (Pandas, NumPy, SciPy, Matplotlib)
+- R (Statistical modelling)
+- Database design and querying
+- Automated data processing workflows
+
+### Project Management
+- Multi-disciplinary team leadership
+- Client relationship management
+- Technical report writing
+- Regulatory compliance
+
+[Download CV](/docs/Lindsay%20Millard_6%20pager.pdf){: .btn .btn--success}
+[Contact for Consultation](mailto:lindsay.milard@outlook.com.au){: .btn .btn--primary}
+
+## Research Papers & Presentations
+
+### 2025
+- [Floodplain Management Association 2025: Continuous Simulation for Flood Frequency Analysis](/docs/Millard_FMA2025_11D_ContSimFFA.pdf){: .btn .btn--info .btn--small}
+- [Life of Mine 2025: Hourly Rainfall from Daily Data](/docs/HourlyRainfallfromDaily_WRM_LoM_paper183.pdf){: .btn .btn--info .btn--small}
+- [HWRS 2025: Climate Data for the Next Century](/docs/FullPaper_Millard_ClimateDataCentury_HWRS2025.pdf){: .btn .btn--info .btn--small}
+- [HWRS 2025: URBS Continuous Simulation modelling](/docs/FullPaper_Cullen_URBS_CSM_HWRS2025.pdf){: .btn .btn--info .btn--small}
+
+### 2021
+- [ANCOLD 2021: Draining Down the Risk](/docs/ANCOLD_2021_paper128_DrainingDowntheRisk_combination_rev1_01_submitted_27Sep2021.docx){: .btn .btn--info .btn--small}
+
+### 2020-2019
+- [ANCOLD 2020: A Tale of Two Sites - Fish Passage](/docs/ANCOLD%20%23107_TaleofTwoSites_FishPassage_combination_rev1_PRINT.pdf){: .btn .btn--info .btn--small}
+- [ANCOLD 2019: One Breach or More](/docs/ANCOLD%202019%20-%20One%20breach%20or%20more_v03.pdf){: .btn .btn--info .btn--small}
+
+### 2013
+- [E&T Forum 2013: Scour Evaluation Presentation](/docs/ET%20Forum%20L%20Millard%20Scour%20Evaluation%20Presentation%20(Final).pdf){: .btn .btn--info .btn--small}
+
 
 ## Featured Projects
 
 ---
 
-### Peak Area Relationship Visualization Tool
+### Peak Area Relationship Visualisation Tool
 **Interactive web application for Australian flood data analysis**
 
-This web application presents all of the floods that have been modeled in Australia and summarizes them by peak area relationships. The tool provides an interactive visualization platform for exploring flood characteristics across the continent.
+This web application presents all of the floods that have been modeled in Australia and summarizes them by peak area relationships. The tool provides an interactive visualisation platform for exploring flood characteristics across the continent.
 
 <div class="feature__wrapper">
   <div class="feature__item">
@@ -27,14 +73,14 @@ This web application presents all of the floods that have been modeled in Austra
       <h3>Key Features</h3>
       <ul>
         <li>Comprehensive database of Australian flood events</li>
-        <li>Interactive peak area relationship visualizations</li>
+        <li>Interactive peak area relationship visualisations</li>
         <li>Geospatial mapping of flood characteristics</li>
         <li>Data exploration and analysis tools</li>
       </ul>
       <h3>Technical Implementation</h3>
       <ul>
         <li>Web-based interactive dashboard</li>
-        <li>Geospatial data visualization</li>
+        <li>Geospatial data visualisation</li>
         <li>Statistical analysis of flood relationships</li>
         <li>Responsive design for multiple devices</li>
       </ul>
@@ -55,17 +101,17 @@ This web application presents all of the floods that have been modeled in Austra
 ---
 
 ### Open Source Tools & Extensions
-**Contributions to the hydrological modeling community**
+**Contributions to the hydrological modelling community**
 
 ![Personal Profile](/images/PenPic_WRM.png){: .align-center}
 
-Development of open-source tools and extensions to improve productivity and collaboration in the hydrological modeling community.
+Development of open-source tools and extensions to improve productivity and collaboration in the hydrological modelling community.
 
 <div class="feature__wrapper">
   <div class="feature__item">
     <div class="feature__content">
       <h3>Billabong QGIS Plugin</h3>
-      <p>A QGIS plugin for hydrological data processing and visualization, designed to streamline common tasks in water resources analysis.</p>
+      <p>A QGIS plugin for hydrological data processing and visualisation, designed to streamline common tasks in water resources analysis.</p>
       <ul>
         <li>Automated data import and processing workflows</li>
         <li>Specialized tools for hydrological analysis</li>
@@ -73,11 +119,11 @@ Development of open-source tools and extensions to improve productivity and coll
         <li>Open-source contribution to the QGIS community</li>
       </ul>
       <h3>TUFLOW Helper VS Code Extension</h3>
-      <p>A Visual Studio Code extension that enhances productivity when working with TUFLOW hydraulic modeling files.</p>
+      <p>A Visual Studio Code extension that enhances productivity when working with TUFLOW hydraulic modelling files.</p>
       <ul>
         <li>Syntax highlighting for TUFLOW file formats</li>
         <li>IntelliSense support for TUFLOW commands</li>
-        <li>Code snippets for common modeling patterns</li>
+        <li>Code snippets for common modelling patterns</li>
         <li>Improved workflow for TUFLOW model development</li>
       </ul>
       <h3>URBS Builder in PyRomb Plugin</h3>
@@ -85,7 +131,7 @@ Development of open-source tools and extensions to improve productivity and coll
       <ul>
         <li>Streamlined URBS model creation process</li>
         <li>Integration with QGIS for spatial data handling</li>
-        <li>Enhanced accessibility of URBS modeling for practitioners</li>
+        <li>Enhanced accessibility of URBS modelling for practitioners</li>
         <li>Collaborative open-source development</li>
       </ul>
     </div>
@@ -94,7 +140,7 @@ Development of open-source tools and extensions to improve productivity and coll
 
 <div style="text-align: center; margin: 20px 0;">
   <h3 style="color: #007cba;">Open Source Contributions</h3>
-  <p style="font-size: 1.1em; margin-bottom: 15px;">Check out my open-source tools that enhance productivity in hydrological modeling:</p>
+  <p style="font-size: 1.1em; margin-bottom: 15px;">Check out my open-source tools that enhance productivity in hydrological modelling:</p>
   <a href="https://plugins.qgis.org/plugins/Billabong/" class="btn btn--success btn--large" target="_blank" style="margin: 5px;">QGIS Plugin Repository</a>
   <a href="https://github.com/lmillard79/Billabong-QGIS-Plugin" class="btn btn--info btn--large" target="_blank" style="margin: 5px;">View on GitHub</a>
   <a href="https://marketplace.visualstudio.com/items?itemName=lmillard79.tuflow-helper" class="btn btn--warning btn--large" target="_blank" style="margin: 5px;">VS Code Extension</a>
@@ -112,20 +158,20 @@ Development of open-source tools and extensions to improve productivity and coll
 
 **"A Continuous Future Climate for Water Resources Management"** - HWRS 2025 Conference Paper (Co-author)
 - Climate change implications for long-term water resources planning
-- Continuous simulation modeling approaches for future climate scenarios
+- Continuous simulation modelling approaches for future climate scenarios
 
 **"Climate Data for the Next Century"** - HWRS 2025 Conference Paper
-- Analysis of long-term climate trends and their implications for hydrological modeling
+- Analysis of long-term climate trends and their implications for hydrological modelling
 - Development of climate scenarios for water resources planning
 
 **"Hourly Rainfall from Daily Data"** - WRM Conference Paper
 - Statistical methods for disaggregating rainfall data
-- Applications in flood modeling and urban drainage design
+- Applications in flood modelling and urban drainage design
 
 ### Technical Reports & Short Courses
 
 **"Uncertain About Uncertainty"** - ARR 2016 Short Course
-- Practical approaches to uncertainty quantification in hydrological modeling
+- Practical approaches to uncertainty quantification in hydrological modelling
 - Implementation of Bayesian methods for parameter estimation
 
 [View Full Publication List](#){: .btn .btn--info}
@@ -133,7 +179,7 @@ Development of open-source tools and extensions to improve productivity and coll
 ### Delft FEWS Model Adapter
 **Integration of legacy models with modern forecasting systems**
 
-This project demonstrates advanced integration techniques for connecting legacy hydrological models with Delft FEWS, a leading flood forecasting and early warning system. The solution enables seamless data exchange between different modeling platforms through custom Python adapters.
+This project demonstrates advanced integration techniques for connecting legacy hydrological models with Delft FEWS, a leading flood forecasting and early warning system. The solution enables seamless data exchange between different modelling platforms through custom Python adapters.
 
 <div class="feature__wrapper">
   <div class="feature__item">
@@ -166,18 +212,18 @@ This project demonstrates advanced integration techniques for connecting legacy 
 
 ---
 
-### Continuous Simulation Modeling with GoldSim
-**Long-term water balance and reservoir operations modeling**
+### Continuous Simulation modelling with GoldSim
+**Long-term water balance and reservoir operations modelling**
 
 Development of sophisticated continuous simulation models using GoldSim for complex water resource systems including reservoir operations, mine water management, and regional water balances.
 
 <div class="feature__wrapper">
   <div class="feature__item">
     <div class="feature__content">
-      <h3>Modeling Approaches</h3>
+      <h3>Modelling Approaches</h3>
       <ul>
-        <li>Water balance modeling for complex catchment systems</li>
-        <li>Discrete event simulation for operational rule modeling</li>
+        <li>Water balance modelling for complex catchment systems</li>
+        <li>Discrete event simulation for operational rule modelling</li>
         <li>Level pool routing for reservoir operation analysis</li>
         <li>Storage-discharge relationships for natural and constructed water bodies</li>
         <li>Climate scenario analysis for long-term planning</li>
@@ -186,15 +232,15 @@ Development of sophisticated continuous simulation models using GoldSim for comp
       <ul>
         <li>GoldSim discrete event and continuous simulation</li>
         <li>Monte Carlo analysis for uncertainty quantification</li>
-        <li>Scenario modeling for risk assessment</li>
-        <li>Dashboard development for results visualization</li>
+        <li>Scenario modelling for risk assessment</li>
+        <li>Dashboard development for results visualisation</li>
       </ul>
       <h3>Project Impact</h3>
       <ul>
         <li>Optimized reservoir operations for water supply reliability</li>
         <li>Improved mine water management strategies</li>
         <li>Enhanced long-term water resources planning</li>
-        <li>Reduced operational costs through efficient modeling</li>
+        <li>Reduced operational costs through efficient modelling</li>
       </ul>
     </div>
   </div>
@@ -202,17 +248,17 @@ Development of sophisticated continuous simulation models using GoldSim for comp
 
 ---
 
-### Flood Risk Assessment & Hydraulic Modeling
+### Flood Risk Assessment & Hydraulic Modelling
 **Comprehensive flood studies for infrastructure projects**
 
-Multi-scale flood risk assessments combining hydraulic modeling, statistical analysis, and risk evaluation for transportation, urban development, and mining projects.
+Multi-scale flood risk assessments combining hydraulic modelling, statistical analysis, and risk evaluation for transportation, urban development, and mining projects.
 
 <div class="feature__wrapper">
   <div class="feature__item">
     <div class="feature__content">
       <h3>Technical Components</h3>
       <ul>
-        <li>TUFLOW 1D/2D hydraulic modeling for floodplain analysis</li>
+        <li>TUFLOW 1D/2D hydraulic modelling for floodplain analysis</li>
         <li>HEC-RAS river analysis for bridge scour assessment</li>
         <li>Statistical flood frequency analysis using historical data</li>
         <li>Risk-based design approaches for critical infrastructure</li>
@@ -241,7 +287,7 @@ Multi-scale flood risk assessments combining hydraulic modeling, statistical ana
 ### Data Science Applications in Hydrology
 **Leveraging modern data science for water resources challenges**
 
-Application of statistical methods, machine learning, and data visualization techniques to solve complex hydrological problems.
+Application of statistical methods, machine learning, and data visualisation techniques to solve complex hydrological problems.
 
 <div class="feature__wrapper">
   <div class="feature__item">
@@ -251,15 +297,15 @@ Application of statistical methods, machine learning, and data visualization tec
         <li>Bayesian inference for parameter estimation and uncertainty analysis</li>
         <li>Extreme value analysis (POT methods) for flood risk assessment</li>
         <li>Time series analysis and forecasting for water supply planning</li>
-        <li>Uncertainty quantification in hydrological modeling</li>
+        <li>Uncertainty quantification in hydrological modelling</li>
         <li>Climate data analysis for long-term planning</li>
       </ul>
       <h3>Tools & Technologies</h3>
       <ul>
         <li>Python (Pandas, NumPy, SciPy, Matplotlib, Seaborn)</li>
-        <li>R for statistical modeling and visualization</li>
+        <li>R for statistical modelling and visualisation</li>
         <li>Database design for hydrological data management</li>
-        <li>Automated reporting and visualization workflows</li>
+        <li>Automated reporting and visualisation workflows</li>
       </ul>
       <h3>Project Impact</h3>
       <ul>
@@ -273,47 +319,3 @@ Application of statistical methods, machine learning, and data visualization tec
 </div>
 
 [View Technical Blog](/datascience/){: .btn .btn--info}
-
----
-
-## Professional Skills
-
-### Hydrological Modeling
-- TUFLOW (1D/2D hydraulic modeling)
-- MIKE FLOOD (Integrated flood modeling)
-- GoldSim (Continuous simulation)
-- HEC-RAS (River analysis)
-- RORB & URBS (Conceptual models)
-
-### Data Science & Programming
-- Python (Pandas, NumPy, SciPy, Matplotlib)
-- R (Statistical modeling)
-- Database design and querying
-- Automated data processing workflows
-
-### Project Management
-- Multi-disciplinary team leadership
-- Client relationship management
-- Technical report writing
-- Regulatory compliance
-
-[Download CV](/docs/Lindsay%20Millard_6%20pager.pdf){: .btn .btn--success}
-[Contact for Consultation](mailto:lindsay.milard@outlook.com.au){: .btn .btn--primary}
-
-## Research Papers & Presentations
-
-### 2025
-- [Floodplain Management Association 2025: Continuous Simulation for Flood Frequency Analysis](/docs/Millard_FMA2025_11D_ContSimFFA.pdf){: .btn .btn--info .btn--small}
-- [Life of Mine 2025: Hourly Rainfall from Daily Data](/docs/HourlyRainfallfromDaily_WRM_LoM_paper183.pdf){: .btn .btn--info .btn--small}
-- [HWRS 2025: Climate Data for the Next Century](/docs/FullPaper_Millard_ClimateDataCentury_HWRS2025.pdf){: .btn .btn--info .btn--small}
-- [HWRS 2025: URBS Continuous Simulation Modeling](/docs/FullPaper_Cullen_URBS_CSM_HWRS2025.pdf){: .btn .btn--info .btn--small}
-
-### 2021
-- [ANCOLD 2021: Draining Down the Risk](/docs/ANCOLD_2021_paper128_DrainingDowntheRisk_combination_rev1_01_submitted_27Sep2021.docx){: .btn .btn--info .btn--small}
-
-### 2020-2019
-- [ANCOLD 2020: A Tale of Two Sites - Fish Passage](/docs/ANCOLD%20%23107_TaleofTwoSites_FishPassage_combination_rev1_PRINT.pdf){: .btn .btn--info .btn--small}
-- [ANCOLD 2019: One Breach or More](/docs/ANCOLD%202019%20-%20One%20breach%20or%20more_v03.pdf){: .btn .btn--info .btn--small}
-
-### 2013
-- [E&T Forum 2013: Scour Evaluation Presentation](/docs/ET%20Forum%20L%20Millard%20Scour%20Evaluation%20Presentation%20(Final).pdf){: .btn .btn--info .btn--small}

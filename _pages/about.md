@@ -10,7 +10,7 @@ header:
 
 ## Professional Overview
 
-I am a Chartered Water Resources Engineer with over 15 years of experience solving complex hydrological problems through advanced data analysis and modeling. My expertise lies at the intersection of traditional water resources engineering and modern data science techniques.
+I am a Chartered Water Resources Engineer with over 15 years of experience solving complex hydrological problems through advanced data analysis and modelling. My expertise lies at the intersection of traditional water resources engineering and modern data science techniques.
 
 As a **Chartered Engineer** (Engineers Australia and Institution of Civil Engineers) and **Registered Professional Engineer Queensland**, I bring both technical depth and professional accountability to every project.
 
@@ -18,10 +18,10 @@ As a **Chartered Engineer** (Engineers Australia and Institution of Civil Engine
 
 ### Technical Expertise
 
-**Hydrological & Hydraulic Modeling:**
+**Hydrological & Hydraulic modelling:**
 - TUFLOW
 - MIKE FLOOD
-- GoldSim (Continuous Simulation & Discrete Event Modeling)
+- GoldSim (Continuous Simulation & Discrete Event modelling)
 - HEC-RAS
 - RORB & URBS
 - XP Rafts

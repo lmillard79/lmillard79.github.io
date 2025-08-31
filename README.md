@@ -9,14 +9,14 @@ The website is built using Jekyll with the Minimal Mistakes theme and is hosted 
 - **Professional Homepage**: A splash page highlighting my core competencies and expertise
 - **About Section**: Detailed professional background and technical skills
 - **Portfolio**: Showcase of key projects and technical work
-- **Blog**: Technical articles on hydrological modeling and data analysis
+- **Blog**: Technical articles on hydrological modelling and data analysis
 - **Resources**: Cheat sheets and useful links for data science and hydrology
 
 ## Key Features
 
 ### Technical Expertise Highlighted
 
-- Hydrological and hydraulic modeling (TUFLOW, MIKE FLOOD, GoldSim, HEC-RAS)
+- Hydrological and hydraulic modelling (TUFLOW, MIKE FLOOD, GoldSim, HEC-RAS)
 - Data science and programming (Python, R, statistical analysis)
 - GIS and spatial analysis (QGIS, ArcGIS)
 - Project management and client relations
