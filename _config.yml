@@ -1,250 +1,75 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# Site Identity
+title: "Lindsay Millard – Flood Modeling & Hydrological Analysis Expert"
+name: "Lindsay Millard"
+description: "Expert flood modeling and hydraulic analysis services. Specializing in TUFLOW, HEC-RAS, and flood risk assessment for infrastructure projects across Australia."
+locale: "en-US"
+url: "https://lmillard79.github.io"
+baseurl: ""
+repository: "lmillard79/lmillard79.github.io"
+minimal_mistakes_skin: "default"
 
-minimal_mistakes_skin    : "default" #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# SEO
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-compress-html  
 
-# Site Settings
-locale                   : "en-US"
-title                    : "Lindsay Millard - Flood Modeling & Hydrological Analysis Expert"
-title_separator          : "-"
-name                     : "Lindsay Millard"
-description              : "Expert flood modeling and hydraulic analysis services. Specializing in TUFLOW, HEC-RAS, and flood risk assessment for infrastructure projects across Australia."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs            : true # true, false (default)
-words_per_minute         : 200
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-reCaptcha:
-  siteKey                :
-  secret                 :
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
-
-# SEO Related
-google_site_verification : "your-google-verification-code-here"
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
-
-# Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+google_site_verification: "your-google-verification-code-here"
+bing_site_verification: "your-bing-verification-code-here"
+yandex_site_verification: ""
+naver_site_verification: ""
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider: "google"
   google:
-    tracking_id          : "G-G7EJXT9KGR"
+    tracking_id: "G-G7EJXT9KGR"
 
-
-# Site Author
+# Author Info
 author:
-  name             : "Lindsay Millard"
-  avatar           : "/images/0.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Chartered Water Resources Engineer & Data Scientist specializing in hydrological modeling and environmental data analysis"
-  location         : "Brisbane, Australia"
-  email            : "lindsay.milard79@gmail.com"
-  uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "lmillard79"
-  gitlab           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "lindsaymillard" #(the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  name: "Lindsay Millard"
+  avatar: "/images/PenPic_WRM.png"
+  bio: "Chartered Water Resources Engineer & Data Scientist specialising in hydrological modeling and environmental data analysis"
+  location: "Brisbane, Australia"
+  email: "lindsay.milard79@gmail.com"
+  github: "lmillard79"
+  linkedin: "lindsaymillard"
 
+# Social Profiles
+social:
+  type: "Person"
+  name: "Lindsay Millard"
+  links:
+    - "https://github.com/lmillard79"
+    - "https://www.linkedin.com/in/lindsaymillard"
 
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+# Pagination & Permalinks
+paginate: 5
+paginate_path: /page:num/
+permalink: /:categories/:title/
 
-
-# Conversion
+# Markdown & Syntax
 markdown: kramdown
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
-
-# Sass/SCSS
+# Sass
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-seo-tag
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-seo-tag
-
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
-
-# Defaults
+# Layout Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -252,14 +77,52 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
-
-# _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Search
+search: true
+search_full_content: true
+
+# Breadcrumbs
+breadcrumbs: true
+
+# Performance & Clean Build
+exclude:
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-assets-cache
+  - Gemfile
+  - Gemfile.lock
+  - README
+  - /docs
+  - /test
+
+keep_files:
+  - .git
+  - .svn
+
+encoding: "utf-8"
+incremental: false
