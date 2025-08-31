@@ -14,8 +14,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jemoji
-  - jekyll-seo-tag
-  - jekyll-compress-html  
+  - jekyll-seo-tag  
 
 google_site_verification: "your-google-verification-code-here"
 bing_site_verification: "your-bing-verification-code-here"
@@ -94,12 +93,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
 
 # Search
 search: true
