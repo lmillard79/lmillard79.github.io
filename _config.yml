@@ -1,7 +1,7 @@
 # Site Identity
-title: "Lindsay Millard – Flood Modeling & Hydrological Analysis Expert"
+title: "Lindsay Millard – Excellence in Hydrologic Analysis"
 name: "Lindsay Millard"
-description: "Expert flood modeling and hydraulic analysis services. Specializing in TUFLOW, HEC-RAS, and flood risk assessment for infrastructure projects across Australia."
+description: "Expert flood modeling and hydraulic analysis services. Specialising in TUFLOW, HEC-RAS, and flood risk assessment for infrastructure projects across Australia."
 locale: "en-US"
 url: "https://lmillard79.github.io"
 baseurl: ""
@@ -34,7 +34,7 @@ author:
   avatar: "/images/PenPic_WRM.png"
   bio: "Chartered Water Resources Engineer & Data Scientist specialising in hydrological modeling and environmental data analysis"
   location: "Brisbane, Australia"
-  email: "lindsay.milard79@gmail.com"
+  email: "lindsay.milard@outlook.com.au"
   github: "lmillard79"
   linkedin: "lindsaymillard"
 

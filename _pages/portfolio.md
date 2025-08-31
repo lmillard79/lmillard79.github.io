@@ -297,5 +297,23 @@ Application of statistical methods, machine learning, and data visualization tec
 - Technical report writing
 - Regulatory compliance
 
-[Download CV](#){: .btn .btn--success}
-[Contact for Consultation](mailto:lindsay.milard79@gmail.com){: .btn .btn--primary}
+[Download CV](/docs/Lindsay%20Millard_6%20pager.pdf){: .btn .btn--success}
+[Contact for Consultation](mailto:lindsay.milard@outlook.com.au){: .btn .btn--primary}
+
+## Research Papers & Presentations
+
+### 2025
+- [Floodplain Management Association 2025: Continuous Simulation for Flood Frequency Analysis](/docs/Millard_FMA2025_11D_ContSimFFA.pdf){: .btn .btn--info .btn--small}
+- [Life of Mine 2025: Hourly Rainfall from Daily Data](/docs/HourlyRainfallfromDaily_WRM_LoM_paper183.pdf){: .btn .btn--info .btn--small}
+- [HWRS 2025: Climate Data for the Next Century](/docs/FullPaper_Millard_ClimateDataCentury_HWRS2025.pdf){: .btn .btn--info .btn--small}
+- [HWRS 2025: URBS Continuous Simulation Modeling](/docs/FullPaper_Cullen_URBS_CSM_HWRS2025.pdf){: .btn .btn--info .btn--small}
+
+### 2021
+- [ANCOLD 2021: Draining Down the Risk](/docs/ANCOLD_2021_paper128_DrainingDowntheRisk_combination_rev1_01_submitted_27Sep2021.docx){: .btn .btn--info .btn--small}
+
+### 2020-2019
+- [ANCOLD 2020: A Tale of Two Sites - Fish Passage](/docs/ANCOLD%20%23107_TaleofTwoSites_FishPassage_combination_rev1_PRINT.pdf){: .btn .btn--info .btn--small}
+- [ANCOLD 2019: One Breach or More](/docs/ANCOLD%202019%20-%20One%20breach%20or%20more_v03.pdf){: .btn .btn--info .btn--small}
+
+### 2013
+- [E&T Forum 2013: Scour Evaluation Presentation](/docs/ET%20Forum%20L%20Millard%20Scour%20Evaluation%20Presentation%20(Final).pdf){: .btn .btn--info .btn--small}

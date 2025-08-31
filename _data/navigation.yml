@@ -2,14 +2,14 @@
 main:
   - title: "Home"
     url: /
+  - title: "Resources"
+    url: /links/
   - title: "About"
     url: /about/
   - title: "Portfolio"
     url: /portfolio/
   - title: "Blog"
     url: /datascience/
-  - title: "Resources"
-    url: /links/
 
 sidebar-sample:
   - title: 'Data Science'
