@@ -6,11 +6,11 @@ locale: "en-US"
 url: "https://lmillard79.github.io"
 baseurl: ""
 repository: "lmillard79/lmillard79.github.io"
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "default"
+remote_theme: pages-themes/cayman@v0.2.0
 
 # SEO
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
@@ -45,6 +45,12 @@ social:
   links:
     - "https://github.com/lmillard79"
     - "https://www.linkedin.com/in/lindsaymillard"
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
 
 # Pagination & Permalinks
 paginate: 5
