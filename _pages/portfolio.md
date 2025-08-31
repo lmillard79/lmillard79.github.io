@@ -201,6 +201,8 @@ This web application presents all of the floods that have been modeled in Austra
 ### Open Source Tools & Extensions
 **Contributions to the hydrological modeling community**
 
+![Personal Profile](/images/PenPic_WRM.png){: .align-center}
+
 Development of open-source tools and extensions to improve productivity and collaboration in the hydrological modeling community.
 
 <div class="feature__wrapper">
