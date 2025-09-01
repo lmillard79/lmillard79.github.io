@@ -1,5 +1,5 @@
-<!-- Custom CSS -->
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<!-- Main CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <!-- Google Analytics -->
 {% if site.google_analytics %}
@@ -11,3 +11,6 @@
     gtag('config', '{{ site.google_analytics }}');
   </script>
 {% endif %}
+
+<!-- Main JavaScript -->
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>

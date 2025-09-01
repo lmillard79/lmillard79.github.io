@@ -1,28 +1,134 @@
 ---
 layout: default
+title: "Lindsay Millard"
+description: "Chartered Water Resources Engineer & Data Scientist"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /images/pano1.jpg
+  actions:
+    - label: "View Portfolio"
+      url: "/portfolio/"
+    - label: "Contact Me"
+      url: "mailto:lindsay.milard@outlook.com.au"
+
+# Feature rows for the main content
+feature_row:
+  - image_path: /images/pano1.jpg
+    alt: "Data Science"
+    title: "Data Science & Analytics"
+    excerpt: "Leveraging Python, R, and advanced statistical methods to solve complex hydrological challenges. Specializing in Bayesian inference, extreme value analysis, and uncertainty quantification."
+    url: /datascience/
+    btn_label: "View Projects"
+  - image_path: /images/laby.jpg
+    alt: "Hydrological Modeling"
+    title: "Hydrological Modeling"
+    excerpt: "Expert in continuous simulation (GoldSim), flood modeling (TUFLOW, MIKE FLOOD), and conceptual modeling (RORB, URBS). Integrating legacy models with modern forecasting systems."
+    url: /Hydrology/
+    btn_label: "Learn More"
+  - image_path: /images/beach.jpg
+    alt: "Project Management"
+    title: "Project Delivery"
+    excerpt: "20+ years delivering water resources projects across transport, mining, and urban development sectors. Chartered Professional Engineer with strong client relationships."
+    url: /about/
+    btn_label: "Professional Bio"
+
+feature_row2:
+  - image_path: /images/SinglePlotArea_vs_PeakFlow_analysis.png
+    alt: "Technical Cheat Sheets"
+    title: "Technical Resources"
+    excerpt: "Collection of cheat sheets and reference materials for Python, R, SQL, and other tools used in water resources engineering and data analysis."
+    url: /cheatsheets/
+    btn_label: "Browse Resources"
+  - image_path: /images/laby1.jpg
+    alt: "Breach Modeling"
+    title: "Breach Modeling Expertise"
+    excerpt: "Specialized knowledge in dam breach modeling and flood wave propagation analysis for emergency planning and risk assessment."
+    url: /Breach/
+    btn_label: "Learn More"
+  - image_path: /images/PostProcess/Picture3.png
+    alt: "Post-processing"
+    title: "Advanced Post-processing"
+    excerpt: "Custom tools and techniques for analyzing and visualizing hydraulic model outputs to extract meaningful insights and support decision-making."
+    url: /Post-processing/
+    btn_label: "View Examples"
 ---
 
-<header class="page-header" role="banner">
-  <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-  <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-  {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-  {% endif %}
-  {% if site.show_downloads %}
-    <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-    <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-  {% endif %}
+
+<main class="main-content">
+  <div class="wrapper">
+    <section class="intro">
+      <h1>Expert Flood Modeling & Hydraulic Analysis</h1>
+      <p>I'm Lindsay Millard, a Chartered Water Resources Engineer & Data Scientist with over 20 years of experience in flood modeling, hydrological analysis, and water resources management across Australia.</p>
+    </section>
+
+    {% if page.feature_row %}
+      <section>
+        <h2>Core Services</h2>
+        <div class="feature-row">
+          {% for feature in page.feature_row %}
+            <div class="feature-item">
+              <img src="{{ feature.image_path }}" alt="{{ feature.alt }}">
+              <h3>{{ feature.title }}</h3>
+              <p>{{ feature.excerpt }}</p>
+              <a href="{{ feature.url }}" class="btn">{{ feature.btn_label }}</a>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+    
+    {% if page.feature_row2 %}
+      <section>
+        <h2>Technical Expertise</h2>
+        <div class="feature-row">
+          {% for feature in page.feature_row2 %}
+            <div class="feature-item">
+              <img src="{{ feature.image_path }}" alt="{{ feature.alt }}">
+              <h3>{{ feature.title }}</h3>
+              <p>{{ feature.excerpt }}</p>
+              <a href="{{ feature.url }}" class="btn">{{ feature.btn_label }}</a>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  </div>
+</main>
+
+<header class="page-header" role="banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ page.header.overlay_image | default: site.hero_image }}');">
+  <div class="wrapper">
+    <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+    <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+    
+    {% if page.header.actions %}
+      <div class="header-buttons">
+        {% for action in page.header.actions %}
+          <a href="{{ action.url }}" class="btn">{{ action.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
 </header>
 
 <main id="content" class="main-content" role="main">
-  <!-- Feature Rows -->
-  {% if page.feature_row %}
-    {% include feature_row %}
-  {% endif %}
-  
-  {% if page.feature_row2 %}
-    {% include feature_row id="feature_row2" %}
-  {% endif %}
+  <div class="wrapper">
+    <div class="intro">
+      <h1>Expert Flood Modeling & Hydraulic Analysis</h1>
+      <p>I'm Lindsay Millard, a Chartered Water Resources Engineer & Data Scientist with over 20 years of experience in flood modeling, hydrological analysis, and water resources management across Australia.</p>
+    </div>
+
+    <!-- Feature Rows -->
+    {% if page.feature_row %}
+      <h2>Core Services</h2>
+      {% include feature_row %}
+    {% endif %}
+    
+    {% if page.feature_row2 %}
+      <h2>Technical Expertise</h2>
+      {% include feature_row id="feature_row2" %}
+    {% endif %}
+  </div>
   
   <!-- Blog posts section -->
   {% if site.paginate %}

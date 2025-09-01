@@ -8,12 +8,30 @@ show_downloads: false
 logo: /images/logo.png  # Add your logo path here if you have one
 locale: "en-AU"
 url: "https://lmillard79.github.io"
-baseurl: ""
+baseurl: ""  # Must be empty for user/organization sites
 repository: "lmillard79/lmillard79.github.io"
 
 # Theme settings
 remote_theme: pages-themes/cayman@v0.2.0
 theme: jekyll-theme-cayman
+
+# Assets
+sass:
+  style: compressed
+  sass_dir: assets/css
+  load_paths:
+    - node_modules
+
+# Base URL for assets
+baseurl: ""  # Must be empty for user sites
+url: "https://lmillard79.github.io"  # Your GitHub Pages URL
+
+# Assets
+sass:
+  style: compressed
+  sass_dir: assets/css
+  load_paths:
+    - node_modules
 
 # Theme color scheme
 theme_color: "#159957"
