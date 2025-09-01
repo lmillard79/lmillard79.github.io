@@ -1,33 +1,121 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-/* Custom styles to fix layout issues */
+/* Main content area */
 .main-content {
-  max-width: 90% !important;
-  margin: 0 auto !important;
-  padding: 2rem 2rem !important;
+  max-width: 64rem;
+  padding: 2rem 6rem;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
-@media screen and (min-width: 64em) {
+/* Responsive adjustments */
+@media screen and (max-width: 42em) {
   .main-content {
-    max-width: 80% !important;
-    padding: 2rem 3rem !important;
+    padding: 2rem 1rem;
+    font-size: 1rem;
   }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .main-content {
-    max-width: 85% !important;
-    padding: 2rem 2rem !important;
-  }
+/* Custom styles for your content */
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
 }
 
-/* Improve typography and spacing */
+.btn:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+/* Project list */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography improvements */
 .main-content h1,
 .main-content h2,
-.main-content h3,
+.main-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.main-content h1 {
+  font-size: 2em;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+.main-content h2 {
+  font-size: 1.5em;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+.main-content h3 {
+  font-size: 1.25em;
+}
+
+/* Improve code blocks */
+.highlight {
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+/* Improve tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 16px;
+  display: block;
+  overflow-x: auto;
+}
+
+td, th {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px;
+}
+
+th {
+  font-weight: 600;
+  background-color: #f6f8fa;
+}
+
+tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
 .main-content h4,
 .main-content h5,
 .main-content h6 {

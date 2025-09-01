@@ -1,25 +1,96 @@
-# Site Identity
+# Site Settings
 title: "Lindsay Millard – Excellence in Hydrologic Analysis"
-name: "Lindsay Millard"
-description: "Expert flood modeling and hydraulic analysis services. Specialising in TUFLOW, HEC-RAS, and flood risk assessment for infrastructure projects across Australia."
-locale: "en-US"
+description: "Flood modelling and hydraulic analysis services. Specialising in TUFLOW, HEC-RAS, and flood risk assessment for infrastructure projects across Australia."
+locale: "en-AU"
 url: "https://lmillard79.github.io"
 baseurl: ""
 repository: "lmillard79/lmillard79.github.io"
 remote_theme: pages-themes/cayman@v0.2.0
+email: "lindsay.millard@example.com"  # Update with your email
 
-# SEO
+# GitHub Pages
+show_downloads: false
+github:
+  is_project_page: false
+  is_user_page: true
+  owner: lmillard79
+  repo: lmillard79.github.io
+  show_downloads: false
+
+# Navigation
+nav:
+  - name: "Home"
+    url: "/"
+  - name: "About"
+    url: "/about/"
+  - name: "Projects"
+    url: "/projects/"
+  - name: "Blog"
+    url: "/blog/"
+  - name: "Resources"
+    url: "/resources/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      show_sidebar: true
+
+# Plugins
 plugins:
   - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-feed
-  - jemoji
-  - jekyll-seo-tag  
+  - jekyll-sitemap
 
-google_site_verification: "your-google-verification-code-here"
-bing_site_verification: "your-bing-verification-code-here"
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - Rakefile
+  - archive/
+  - docs/
+  - vendor/
+
+# SEO & Social
+seo:
+  name: "Lindsay Millard"
+  type: Person
+  links:
+    - "https://github.com/lmillard79"
+    - "https://www.linkedin.com/in/lindsaymillard"
+
+# Social Media
+social:
+  github: lmillard79
+  linkedin: lindsaymillard
+  twitter: lmillard79  # Update or remove if not used
+
+# Analytics
+google_analytics: "G-G7EJXT9KGR"  # Add your Google Analytics ID
+
+# Site verification
+google_site_verification: ""
+bing_site_verification: ""
 yandex_site_verification: ""
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Sitemap
+sitemap:
+  priority: 0.7
+  lastmod: 2025-09-01
+  changefreq: 'monthly'
+  exclude: ['/archive/']
 naver_site_verification: ""
 
 # Analytics
