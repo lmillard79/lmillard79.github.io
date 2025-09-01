@@ -15,6 +15,9 @@ repository: "lmillard79/lmillard79.github.io"
 remote_theme: pages-themes/cayman@v0.2.0
 theme: jekyll-theme-cayman
 
+# Theme color scheme
+theme_color: "#159957"
+
 # Pagination
 paginate: 5  # Number of posts per page
 paginate_path: /blog/page:path/
@@ -37,6 +40,23 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-paginate
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .github
+  - README.md
+
+# Enable only necessary plugins
+whitelist:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-paginate
 
 # Site author
 author:
@@ -47,6 +67,10 @@ author:
 # GitHub Pages
 show_downloads: false
 github:
+  repository_url: https://github.com/lmillard79/lmillard79.github.io
+  is_project_page: true
+  owner_name: lmillard79
+  repository_name: lmillard79.github.io
   is_project_page: false
   is_user_page: true
   owner: lmillard79
