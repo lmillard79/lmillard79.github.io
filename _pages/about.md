@@ -43,11 +43,11 @@ With extensive experience across transport infrastructure, mining, civil infrast
 
 ## Project Management Approach
 
-I combine technical expertise with strong project management skills to deliver successful outcomes. My approach emphasizes clear communication, stakeholder engagement, and innovative solutions tailored to each project's unique requirements.
+I combine technical expertise with strong project management skills to deliver successful outcomes. My approach emphasises clear communication, stakeholder engagement, and innovative solutions tailored to each project's unique requirements.
 
 ## Continuous Professional Development
 
-I maintain active involvement in the water resources engineering community through professional organizations, continuing education, and knowledge sharing. This ensures my skills remain current with evolving technologies and industry best practices.
+I maintain active involvement in the water resources engineering community through professional organisations, continuing education, and knowledge sharing. This ensures my skills remain current with evolving technologies and industry best practices.
 
 [View My Technical Blog](/datascience/){: .btn .btn--info}
 [Download My CV](#){: .btn .btn--primary}
