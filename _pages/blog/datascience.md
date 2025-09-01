@@ -56,13 +56,3 @@ header:
     </ul>
   </div>
 </div>
-      {% for tag in post.tags %}
-        <span class="tag">{{ tag }}</span>
-      {% endfor %}
-    {% endif %}
-  </p>
-  {% if post.excerpt %}
-    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-  {% endif %}
-  <hr>
-{% endfor %}
