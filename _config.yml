@@ -1,6 +1,11 @@
 # Site Settings
 title: "Lindsay Millard – Excellence in Hydrologic Analysis"
 description: "Flood modelling and hydraulic analysis services. Specialising in TUFLOW, HEC-RAS, and flood risk assessment for infrastructure projects across Australia."
+
+# Site settings
+theme_color: "#159957"  # Default theme color, you can change this
+show_downloads: false
+logo: /images/logo.png  # Add your logo path here if you have one
 locale: "en-AU"
 url: "https://lmillard79.github.io"
 baseurl: ""
