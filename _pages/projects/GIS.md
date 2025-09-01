@@ -1,11 +1,11 @@
 ---
-title: "GIS & Spatial Analysis"
-permalink: /gis/
-layout: single
-header:
-  image: "/images/pano1.jpg"
-  caption: "Geographic Information Systems and spatial data analysis"
 author_profile: true
+header:
+  caption: Geographic Information Systems and spatial data analysis
+  image: /images/pano1.jpg
+layout: single
+permalink: /GIS/
+title: GIS & Spatial Analysis
 ---
 
 ## Vectors
@@ -21,5 +21,3 @@ author_profile: true
 ## ArcGIS
 
 ### Scripts
-
-

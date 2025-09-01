@@ -1,11 +1,11 @@
 ---
-title: "Hydraulic Modelling"
-permalink: /hydraulic/
-layout: single
-header:
-  image: "/images/pano1.jpg"
-  caption: "Advanced hydraulic modelling and analysis"
 author_profile: true
+header:
+  caption: Advanced hydraulic modelling and analysis
+  image: /images/pano1.jpg
+layout: single
+permalink: /Hydraulic/
+title: Hydraulic Modelling
 ---
 
 ## One Dimensional Models
@@ -25,9 +25,3 @@ author_profile: true
 ### HEC RAS 5.0.6
 
 ### Coupled models
-
-
-
-
-
-

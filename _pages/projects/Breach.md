@@ -1,13 +1,12 @@
 ---
-title: "Breach Analysis"
-permalink: /breach/
-layout: single
-header:
-  image: "/images/pano1.jpg"
-  caption: "Advanced breach modelling and analysis"
 author_profile: true
+header:
+  caption: Advanced breach modelling and analysis
+  image: /images/pano1.jpg
+layout: single
+permalink: /breach/
+title: Breach Analysis
 ---
-
 
 ## GoldSIM
 
@@ -20,5 +19,3 @@ author_profile: true
 ## Empirical
 
 ### Scripts
-
-

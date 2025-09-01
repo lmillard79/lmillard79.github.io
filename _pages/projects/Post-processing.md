@@ -1,13 +1,12 @@
 ---
-title: "Post-processing & Analysis"
-permalink: /post-processing/
-layout: single
-header:
-  image: "/images/pano1.jpg"
-  caption: "Advanced data processing and visualization"
 author_profile: true
+header:
+  caption: Advanced data processing and visualization
+  image: /images/pano1.jpg
+layout: single
+permalink: /post-processing/
+title: Post-processing & Analysis
 ---
-
 
 ## EXCEL
 
@@ -18,5 +17,3 @@ author_profile: true
 ## CMD
 
 ## Nec
-
-

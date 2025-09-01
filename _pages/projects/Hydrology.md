@@ -1,6 +1,6 @@
 ---
 title: "Hydrological Modelling"
-permalink: /hydrology/
+permalink: /Hydrology/
 layout: single
 header:
   image: "/images/pano1.jpg"

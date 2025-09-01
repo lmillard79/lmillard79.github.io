@@ -16,6 +16,34 @@ As a **Chartered Engineer** (Engineers Australia and Institution of Civil Engine
 
 ## Core Competencies
 
+### Hydraulic & Hydrologic Modelling
+- 1D, 2D, 3D and rain-on-grid hydraulic modelling
+- Hydrological assessments using ARR guidelines
+- Catchment and land use change impact assessments
+- Palaeo flood hydrology and dam safety evaluations
+
+### Flood Risk & Planning
+- Floodplain mapping and risk assessments
+- Development application support and planning referrals
+- Managed retreat strategy development
+- Climate change vulnerability and adaptation assessments
+
+### Forecasting & Emergency Management
+- Flood forecasting services and warning systems
+- Operational flood intelligence and incident control support
+- Evacuation planning and flood response action plans
+
+### Infrastructure & Design
+- Drainage and flood mitigation infrastructure design
+- Functional design and construction advice
+- Bridge and scour assessments
+
+### Environmental & Community Engagement
+- Surface water management strategies
+- Community consultation and education
+- Expert witness and legal services
+
+
 ### Technical Expertise
 
 **Hydrological & Hydraulic modelling:**
@@ -44,6 +72,8 @@ With extensive experience across transport infrastructure, mining, civil infrast
 ## Project Management Approach
 
 I combine technical expertise with strong project management skills to deliver successful outcomes. My approach emphasizes clear communication, stakeholder engagement, and innovative solutions tailored to each project's unique requirements.
+
+
 
 ## Continuous Professional Development
 
