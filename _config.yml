@@ -5,14 +5,23 @@ locale: "en-AU"
 url: "https://lmillard79.github.io"
 baseurl: ""
 repository: "lmillard79/lmillard79.github.io"
-remote_theme: pages-themes/cayman@v0.2.0
-email: "lindsay.millard@outlook.com.au"  # Updated with your email
 
+# Theme settings
+remote_theme: pages-themes/cayman@v0.2.0
 theme: jekyll-theme-cayman
+
+# Build settings
+markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
+
+# Site author
+author:
+  name: "Lindsay Millard"
+  email: "lindsay.millard@outlook.com.au"
+  description: "Chartered Water Resources Engineer & Data Scientist"
 
 # GitHub Pages
 show_downloads: false
