@@ -1,13 +1,12 @@
 ---
-permalink: /cheatsheets/CS_wrangle/
-title: Data Wrangling tips
-author_profile: False
-
-sidebar:
-  title: "Top Tips"
-  nav: sidebar-sample
+title: "Data Wrangling Cheat Sheet"
+permalink: /resources/data-wrangling/
+layout: single
+header:
+  image: "/images/pano1.jpg"
+  caption: "Data manipulation and cleaning techniques"
+author_profile: true
 ---
-
 ### Mainly for my reference 
 
 Loop through URBS results

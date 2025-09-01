@@ -1,10 +1,15 @@
 ---
-title: "Bayesian Inference Example - using python"
+title: "Bayesian Inference Example - Using Python"
 date: 2019-05-12
-tags: [Bayesian, AR&R 2016, pyMC3]
-mathjax: "true"
+permalink: /blog/bayesian-coin-toss/
+layout: single
+header:
+  image: "/images/pano1.jpg"
+  caption: "A practical guide to Bayesian inference with Python"
+author_profile: true
+tags: ['Bayesian', 'Python', 'Statistics']
+categories: ['Data Science']
 ---
-
 ## Bayesian Coin Toss example code 
 
 To improve my understanding of Bayesian Inference I followed the example available at:

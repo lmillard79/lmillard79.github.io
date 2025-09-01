@@ -1,13 +1,15 @@
 ---
-title: "First Post to Github Pages"
+title: "First Blog Post"
 date: 2019-05-12
-tags: [data science, cheat sheet, markdown]
+permalink: /blog/first-post/
+layout: single
 header:
-  image: "/images/lake.jpg"
-excerpt: "Cheat Sheet, markdown, Data science"
-mathjax: "true"
+  image: "/images/pano1.jpg"
+  caption: "Welcome to my technical blog"
+author_profile: true
+tags: ['Introduction']
+categories: ['General']
 ---
-
 ## Markdown Style Guide
 
 [Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
@@ -93,5 +95,3 @@ Here's an image:
 
 Here's another image using Kramdown:
 ![alt]({{ site.url }}{{ site.baseurl }}/images/laby.jpg)
-
-     

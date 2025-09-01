@@ -1,11 +1,12 @@
 ---
-title: "Data Science Blog & Projects"
-permalink: /datascience/
+title: "Data Science Resources"
+permalink: /resources/data-science/
+layout: single
 header:
   image: "/images/pano1.jpg"
-  caption: "Data-Driven Solutions for Water Resources Challenges"
+  caption: "Tools and resources for data science"
+author_profile: true
 ---
-
 # Data Science & Hydrological Projects
 
 Explore my work at the intersection of hydrology, environmental science, and data analysis. These projects demonstrate how modern data science techniques can be applied to solve complex water resources engineering problems.

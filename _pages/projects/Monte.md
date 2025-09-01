@@ -1,15 +1,13 @@
 ---
-title: "Bayesian Inference - Monte Carlo"
-permalink: /Monte/
+title: "Monte Carlo Analysis"
+permalink: /monte-carlo/
+layout: single
 header:
   image: "/images/pano1.jpg"
-
-author_profile: False
-
-sidebar:
-  title: "Top Tips"
-  nav: sidebar-sample
+  caption: "Probabilistic analysis and risk assessment"
+author_profile: true
 ---
+
 
 <https://ericmjl.github.io/bayesian-deep-learning-demystified/#/IntroductionSlide>
 

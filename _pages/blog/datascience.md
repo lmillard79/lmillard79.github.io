@@ -1,19 +1,44 @@
 ---
-layout: archive
-permalink: /datascience/blog/
-title: "Data Science posts by Tags"
-author_profile: True
-header: 
-  image: "images/intake.jpg"  ## reduce the resolution
+layout: cayman
+title: Data Science Blog
+permalink: /datascience/
 ---
 
-{% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
+# Data Science Blog
 
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
+## Categories
+
+{% for category in site.categories %}
+  <h2>{{ category[0] | capitalize }}</h2>
+  <ul>
+    {% for post in category[1] %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+## All Posts
+
+{% for post in site.posts %}
+  <h3>
+    <a href="{{ post.url | relative_url }}">
+      {{ post.title }}
+    </a>
+  </h3>
+  <p>
+    <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+    {% if post.tags.size > 0 %}
+      <br>
+      {% for tag in post.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    {% endif %}
+  </p>
+  {% if post.excerpt %}
+    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+  {% endif %}
+  <hr>
 {% endfor %}

@@ -1,8 +1,12 @@
 ---
-title: Debug Test Page
-permalink: /test-debug/
+title: "Testing & Debugging"
+permalink: /resources/testing-debugging/
+layout: single
+header:
+  image: "/images/pano1.jpg"
+  caption: "Best practices for testing and debugging"
+author_profile: true
 ---
-
 # Debug Test Page
 
 This is a test page to verify Jekyll permalink functionality with the Cayman theme.

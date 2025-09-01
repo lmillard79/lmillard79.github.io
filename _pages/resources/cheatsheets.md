@@ -1,13 +1,12 @@
 ---
-permalink: /cheatsheets/
-title: Various Cheat Sheets by Others
-author_profile: False
-
-sidebar:
-  title: "Top Tips"
-  nav: sidebar-sample
+title: "Technical Cheat Sheets"
+permalink: /resources/cheat-sheets/
+layout: single
+header:
+  image: "/images/pano1.jpg"
+  caption: "Collection of technical references"
+author_profile: true
 ---
-
 ## Core Information to get started 
 ### All work by others, collected from around the web:
 

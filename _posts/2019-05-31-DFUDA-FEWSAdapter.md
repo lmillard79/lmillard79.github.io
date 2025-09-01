@@ -1,13 +1,15 @@
 ---
-title: "Delft-FEWS User Day Melbourne - Model adapter using Python"
+title: "Delft-FEWS Model Adapter Development"
 date: 2019-05-31
-tags: [FEWS, Delft, Python, hydrology]
+permalink: /blog/delft-fews-adapter/
+layout: single
 header:
-  image: "/images/lake.jpg"  #something smaller
-excerpt: "FEWS, Python, Data science"
-mathjax: "true"
+  image: "/images/pano1.jpg"
+  caption: "Creating custom model adapters for Delft-FEWS"
+author_profile: true
+tags: ['Delft-FEWS', 'Hydrology', 'Python']
+categories: ['Hydrology', 'Software Development']
 ---
-
 # Delft FEWS Proof of Concept Model adapter
 
 Often we have legacy models which we'd like to use with Delft-FEWS but an adapter does exist or the current adapter is out of date with the latest model release.

@@ -1,14 +1,13 @@
 ---
-title: "Geographic Information Systems"
-permalink: /GIS/
+title: "GIS & Spatial Analysis"
+permalink: /gis/
+layout: single
 header:
   image: "/images/pano1.jpg"
-author_profile: False
-
-sidebar:
-  title: "Top Tips"
-  nav: sidebar-sample
+  caption: "Geographic Information Systems and spatial data analysis"
+author_profile: true
 ---
+
 ## Vectors
 
 ## Rasters

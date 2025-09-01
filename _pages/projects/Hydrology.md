@@ -1,11 +1,13 @@
 ---
-title: "Hydrological Modeling"
-permalink: /Hydrology/
+title: "Hydrological Modelling"
+permalink: /hydrology/
+layout: single
 header:
   image: "/images/pano1.jpg"
-  caption: "Advanced Hydrological Modeling Techniques"
-author_profile: false
+  caption: "Advanced hydrological analysis and modelling"
+author_profile: true
 ---
+
 
 ## Hydrological Modeling Expertise
 

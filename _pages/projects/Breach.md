@@ -1,15 +1,13 @@
 ---
-title: "Breach"
-permalink: /Breach/
+title: "Breach Analysis"
+permalink: /breach/
+layout: single
 header:
   image: "/images/pano1.jpg"
-
-author_profile: False
-
-sidebar:
-  title: "Top Tips"
-  nav: sidebar-sample
+  caption: "Advanced breach modelling and analysis"
+author_profile: true
 ---
+
 
 ## GoldSIM
 

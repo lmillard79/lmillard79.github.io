@@ -1,11 +1,11 @@
 ---
-permalink: /cheatsheets/CS_Markdown/
-title: Markdown Syntax used in this Blog
-author_profile: False
-
-sidebar:
-  title: "Top Tips"
-  nav: sidebar-sample
+title: "Markdown Cheat Sheet"
+permalink: /resources/markdown-cheat-sheet/
+layout: single
+header:
+  image: "/images/pano1.jpg"
+  caption: "Quick reference for Markdown syntax"
+author_profile: true
 ---
 [How to build a Jekyll website](https://mmistakes.github.io/minimal-mistakes/layout-sidebar-nav-list/)
 

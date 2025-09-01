@@ -1,13 +1,15 @@
 ---
-title: "Peak over Threshold Example - Using python"
+title: "Peak Over Threshold Analysis"
 date: 2019-05-12
-tags: [POT, AR&R 2016, hydrology]
+permalink: /blog/peak-over-threshold/
+layout: single
 header:
-  image: "/images/lake.jpg"  #something smaller
-excerpt: "POT, FFA, Data science"
-mathjax: "true"
+  image: "/images/pano1.jpg"
+  caption: "Implementing POT analysis in Python"
+author_profile: true
+tags: ['Hydrology', 'Statistics', 'Python']
+categories: ['Hydrology', 'Data Analysis']
 ---
-
 # Peak over Threshold
 
 I had to interpret AR&R 2016 Guidelines on Peak over Threshold for a project back in March.

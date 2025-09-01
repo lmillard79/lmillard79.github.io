@@ -1,12 +1,12 @@
 ---
 title: "Useful Links"
-permalink: /links/
+permalink: /resources/links/
+layout: single
 header:
-  image: "/images/SinglePlotArea_vs_PeakFlow_analysis.png"
-
-
+  image: "/images/pano1.jpg"
+  caption: "Collection of useful resources and references"
+author_profile: true
 ---
-
 <div style="text-align: center; margin: 20px 0;">
   <h3 style="color: #007cba;">Open Source Contributions</h3>
   <p style="font-size: 1.1em; margin-bottom: 15px;">Check out my open-source tools that enhance productivity in hydrological modeling:</p>

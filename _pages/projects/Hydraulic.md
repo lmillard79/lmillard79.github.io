@@ -1,15 +1,13 @@
 ---
-title: "Hydraulic"
-permalink: /Hydraulic/
+title: "Hydraulic Modelling"
+permalink: /hydraulic/
+layout: single
 header:
   image: "/images/pano1.jpg"
-
-author_profile: False
-
-sidebar:
-  title: "Top Tips"
-  nav: sidebar-sample
+  caption: "Advanced hydraulic modelling and analysis"
+author_profile: true
 ---
+
 ## One Dimensional Models
 
 ### HEC RAS

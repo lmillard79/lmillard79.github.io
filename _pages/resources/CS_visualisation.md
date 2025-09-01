@@ -1,13 +1,12 @@
 ---
-permalink: /cheatsheets/CS_visualisation/
-title: Visualisation of Data
-author_profile: False
-
-sidebar:
-  title: "Top Tips"
-  nav: sidebar-sample
+title: "Data Visualization Guide"
+permalink: /resources/data-visualization/
+layout: single
+header:
+  image: "/images/pano1.jpg"
+  caption: "Effective data visualization techniques"
+author_profile: true
 ---
-
 ## Tableau
 
 ## Python

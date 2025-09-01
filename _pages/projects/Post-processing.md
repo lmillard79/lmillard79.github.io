@@ -1,15 +1,13 @@
 ---
-title: "Post Processing data"
-permalink: /Post-processing/
+title: "Post-processing & Analysis"
+permalink: /post-processing/
+layout: single
 header:
   image: "/images/pano1.jpg"
-
-author_profile: False
-
-sidebar:
-  title: "Top Tips"
-  nav: sidebar-sample
+  caption: "Advanced data processing and visualization"
+author_profile: true
 ---
+
 
 ## EXCEL
 
