@@ -6,7 +6,7 @@
 
 This is the repository for my professional portfolio website showcasing my expertise in hydrology, water resources engineering, and data science.
 
-## 🚀 Features
+## Features
 
 - **Modern & Responsive Design**: Built with Jekyll and the Cayman theme for optimal viewing on all devices
 - **Fast Performance**: Optimized for quick loading and smooth navigation
@@ -14,7 +14,7 @@ This is the repository for my professional portfolio website showcasing my exper
 - **Blog Ready**: Easy-to-use blog system for sharing technical articles and insights
 - **Project Showcase**: Clean, organized display of professional projects and case studies
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 .
@@ -29,14 +29,14 @@ This is the repository for my professional portfolio website showcasing my exper
 └── _config.yml     # Site configuration
 ```
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Static Site Generator**: [Jekyll](https://jekyllrb.com/)
 - **Theme**: [Cayman](https://pages-themes.github.io/cayman/)
 - **Hosting**: [GitHub Pages](https://pages.github.com/)
 - **CI/CD**: GitHub Actions
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -46,29 +46,34 @@ This is the repository for my professional portfolio website showcasing my exper
 
 ### Local Development
 
-1. Clone the repository:
+1. **Install Prerequisites**
+   - [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (version 2.7 or higher)
+   - [Bundler](https://bundler.io/): `gem install bundler`
+
+2. **Clone the repository**
    ```bash
    git clone https://github.com/lmillard79/lmillard79.github.io.git
    cd lmillard79.github.io
    ```
 
-2. Install dependencies:
+3. **Install dependencies**
    ```bash
    bundle install
    ```
 
-3. Start the development server:
+4. **Run the site locally**
    ```bash
    bundle exec jekyll serve
    ```
+   The site will be available at `http://localhost:4000`
 
-4. Open your browser to `http://localhost:4000`
+## Deployment
 
-## 🚀 Deployment
+This site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
 
-This site is configured to be automatically deployed to GitHub Pages. Simply push your changes to the `main` branch, and GitHub Pages will automatically build and deploy the site.
+## Theme
 
-```bash
+This site uses the [Cayman theme](https://github.com/pages-themes/cayman) for GitHub Pages.
 git add .
 git commit -m "Update site content and structure"
 git push origin main
@@ -86,7 +91,7 @@ bundle exec jekyll build
 
 The built site will be available in the `_site` directory.
 
-## 📝 Adding New Content
+## Adding New Content
 
 ### Create a New Blog Post
 

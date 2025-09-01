@@ -1,14 +1,36 @@
-*.gem
-*.sublime-project
-*.sublime-workspace
-.bundle
-.DS_Store
+# Jekyll generated files
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
-codekit-config.json
-example/_site
+.jekyll-cache/
+__pycache__/
+
+# Dependencies
+vendor/
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Ruby/Bundler
+.bundle/
 Gemfile.lock
-node_modules
-npm-debug.log*
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Local development
+.jekyll-cache/
+.sass-cache/

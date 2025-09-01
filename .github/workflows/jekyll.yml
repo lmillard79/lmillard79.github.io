@@ -1,18 +1,9 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Update Links and then Deploy Jekyll site to Pages
+name: Deploy Jekyll site to Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: 
-      - "main"
-
-
+    branches: ["main"]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -23,56 +14,31 @@ permissions:
   id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
-        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          # bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          # cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Install dependencies
-        run: bundle install
+          ruby-version: '2.7'  # Compatible with GitHub Pages
+          bundler-cache: true
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v3
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
         run: |
-          echo "=== Jekyll Build Debug Info ==="
-          echo "Base path: ${{ steps.pages.outputs.base_path }}"
-          echo "Current directory: $(pwd)"
-          echo "=== Config file contents ==="
-          cat _config.yml
-          echo "=== About page front matter ==="
-          head -10 _pages/about.md
-          echo "=== Portfolio page front matter ==="
-          head -10 _pages/portfolio.md
-          echo "=== Starting Jekyll build with verbose output ==="
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose --trace
-          echo "=== Build completed, checking generated site structure ==="
-          find _site -name "*.html" | head -20
-          echo "=== Checking if about page was generated ==="
-          ls -la _site/about/ || echo "about directory not found"
-          echo "=== Checking if portfolio page was generated ==="
-          ls -la _site/portfolio/ || echo "portfolio directory not found"
-        env:
-          JEKYLL_ENV: production
+          gem install jekyll
+          jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --trace
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -82,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v2

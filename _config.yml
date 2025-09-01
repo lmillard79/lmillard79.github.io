@@ -6,7 +6,13 @@ url: "https://lmillard79.github.io"
 baseurl: ""
 repository: "lmillard79/lmillard79.github.io"
 remote_theme: pages-themes/cayman@v0.2.0
-email: "lindsay.millard@example.com"  # Update with your email
+email: "lindsay.millard@outlook.com.au"  # Updated with your email
+
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # GitHub Pages
 show_downloads: false
