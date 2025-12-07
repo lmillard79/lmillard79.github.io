@@ -1,0 +1,231 @@
+---
+---
+
+/* Main content area */
+.main-content {
+  max-width: 64rem;
+  padding: 2rem 6rem;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+/* Navigation */
+nav {
+  margin: 1.5rem 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #1e6bb8;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Post styles */
+article {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+article:last-child {
+  border-bottom: none;
+}
+
+/* Tag styles */
+.tag {
+  display: inline-block;
+  background-color: #f5f5f5;
+  color: #555;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tag:hover {
+  background-color: #eaeaea;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 42em) {
+  .main-content {
+    padding: 1.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
+
+/* Custom styles for your content */
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+/* Project list */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography improvements */
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.main-content h1 {
+  font-size: 2em;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+.main-content h2 {
+  font-size: 1.5em;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+.main-content h3 {
+  font-size: 1.25em;
+}
+
+/* Improve code blocks */
+.highlight {
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+/* Improve tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 16px;
+  display: block;
+  overflow-x: auto;
+}
+
+td, th {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px;
+}
+
+th {
+  font-weight: 600;
+  background-color: #f6f8fa;
+}
+
+tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.main-content p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+/* Fix feature wrapper layout if using feature rows */
+.feature__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.feature__item {
+  flex: 1;
+  min-width: 300px;
+  margin-bottom: 1rem;
+}
+
+/* Improve button spacing */
+.btn {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+/* Fix image alignment */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/* Improve list styling */
+ul, ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}

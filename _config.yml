@@ -1,139 +1,55 @@
 # Site Settings
-title: "Lindsay Millard – Excellence in Hydrologic Analysis"
-description: "Flood modelling and hydraulic analysis services. Specialising in TUFLOW, HEC-RAS, and flood risk assessment for infrastructure projects across Australia."
-
-# Site settings
-theme_color: "#159957"  # Default theme color, you can change this
-show_downloads: false
-logo: /images/logo.png  # Add your logo path here if you have one
-locale: "en-AU"
+title: "Lindsay Millard"
+description: "Chartered Water Resources Engineer & Data Scientist specializing in flood modeling, hydrological analysis, and environmental data science."
 url: "https://lmillard79.github.io"
-baseurl: ""  # Must be empty for user/organization sites
 repository: "lmillard79/lmillard79.github.io"
+locale: "en-AU"
 
-# Theme settings
-remote_theme: pages-themes/cayman@v0.2.0
-theme: jekyll-theme-cayman
-
-# Assets
-sass:
-  style: compressed
-  sass_dir: assets/css
-  load_paths:
-    - node_modules
-
-# Base URL for assets
-baseurl: ""  # Must be empty for user sites
-url: "https://lmillard79.github.io"  # Your GitHub Pages URL
-
-# Assets
-sass:
-  style: compressed
-  sass_dir: assets/css
-  load_paths:
-    - node_modules
-
-# Theme color scheme
-theme_color: "#159957"
-
-# Pagination
-paginate: 5  # Number of posts per page
-paginate_path: /blog/page:path/
-
-# Exclude from processing
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to the
-# internal default list. The default setup is meant to be a good universal
-# starting point.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .github
-
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-remote-theme
-  - jekyll-paginate
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .github
-  - README.md
-
-# Enable only necessary plugins
-whitelist:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-remote-theme
-  - jekyll-paginate
-
-# Site author
+# Author Info
 author:
   name: "Lindsay Millard"
-  email: "lindsay.millard@outlook.com.au"
-  description: "Chartered Water Resources Engineer & Data Scientist"
+  avatar: "/images/PenPic_WRM.png"
+  bio: "Chartered Water Resources Engineer & Data Scientist"
+  location: "Brisbane, Australia"
+  email: "lindsay.milard@outlook.com.au"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/lmillard79"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/lindsaymillard"
 
-# GitHub Pages
-show_downloads: false
-github:
-  repository_url: https://github.com/lmillard79/lmillard79.github.io
-  is_project_page: true
-  owner_name: lmillard79
-  repository_name: lmillard79.github.io
-  is_project_page: false
-  is_user_page: true
-  owner: lmillard79
-  repo: lmillard79.github.io
-  show_downloads: false
-
-# Navigation
-nav:
-  - name: "Home"
-    url: "/"
-  - name: "About"
-    url: "/about/"
-  - name: "Projects"
-    url: "/projects/"
-  - name: "Blog"
-    url: "/blog/"
-  - name: "Resources"
-    url: "/resources/"
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "cayman"
-      show_sidebar: false
+# Theme Settings
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "dark" # Starting with dark base for premium feel
 
 # Plugins
 plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-paginate
 
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - Rakefile
-  - archive/
-  - docs/
-  - vendor/
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+paginate_path: /blog/page:num/
 
-# SEO & Social
+# Navigation
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Services"
+    url: "/services/"
+  - title: "Blog"
+    url: "/blog/"
+
+# SEO
 seo:
   name: "Lindsay Millard"
   type: Person
@@ -141,100 +57,29 @@ seo:
     - "https://github.com/lmillard79"
     - "https://www.linkedin.com/in/lindsaymillard"
 
-# Social Media
-social:
-  github: lmillard79
-  linkedin: lindsaymillard
-  twitter: lmillard79  # Update or remove if not used
-
-# Analytics
-google_analytics: "G-G7EJXT9KGR"  # Add your Google Analytics ID
-
-# Site verification
-google_site_verification: ""
-bing_site_verification: ""
-yandex_site_verification: ""
-
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-
-# Sitemap
-sitemap:
-  priority: 0.7
-  lastmod: 2025-09-01
-  changefreq: 'monthly'
-  exclude: ['/archive/']
-naver_site_verification: ""
-
 # Analytics
 analytics:
   provider: "google"
   google:
     tracking_id: "G-G7EJXT9KGR"
 
-# Author Info
-author:
-  name: "Lindsay Millard"
-  avatar: "/images/PenPic_WRM.png"
-  bio: "Chartered Water Resources Engineer & Data Scientist specialising in hydrological modeling and environmental data analysis"
-  location: "Brisbane, Australia"
-  email: "lindsay.milard@outlook.com.au"
-  github: "lmillard79"
-  linkedin: "lindsaymillard"
+# Exclude from checks/builds
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .github
+  - README.md
+  - Rakefile
 
-# Social Profiles
-social:
-  type: "Person"
-  name: "Lindsay Millard"
-  links:
-    - "https://github.com/lmillard79"
-    - "https://www.linkedin.com/in/lindsaymillard"
-
-# Collections
-collections:
-  pages:
-    output: true
-    permalink: /:name/
-
-# Pagination & Permalinks
-paginate: 5
-paginate_path: /page:num/
-
-# Markdown & Syntax
-markdown: kramdown
-highlighter: rouge
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-
-# Custom CSS
-include:
-  - /assets/css/custom.css
-
-include:
-  - /assets/css/style.scss
-
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Layout Defaults
+# Defaults
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
-      layout: single
+      layout: "single"
       author_profile: true
       read_time: true
       comments: true
@@ -242,46 +87,7 @@ defaults:
       related: true
   - scope:
       path: ""
-      type: pages
+      type: "pages"
     values:
-      layout: single
+      layout: "single"
       author_profile: true
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# Search
-search: true
-search_full_content: true
-
-# Breadcrumbs
-breadcrumbs: true
-
-# Performance & Clean Build
-exclude:
-  - node_modules
-  - vendor
-  - .sass-cache
-  - .jekyll-assets-cache
-  - Gemfile
-  - Gemfile.lock
-  - README
-  - /docs
-  - /test
-
-# Debug settings
-verbose: true
-liquid:
-  error_mode: strict
-
-keep_files:
-  - .git
-  - .svn
-
-encoding: "utf-8"
-incremental: false

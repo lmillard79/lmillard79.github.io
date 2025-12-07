@@ -1,64 +1,61 @@
 ---
-title: "Professional Portfolio"
+title: "Project Portfolio"
+layout: archive
 permalink: /portfolio/
-layout: single
 author_profile: true
 header:
-  image: "/images/pano1.jpg"
-  caption: "Selected Projects and Case Studies"
+  overlay_color: "#0f172a"
+  overlay_filter: 0.7
+  overlay_image: /images/beach.jpg
+  caption: "Engineering & Data Science in Action"
 ---
 
-## Project Portfolio
+<div class="intro text-center" style="margin-bottom: 3rem;">
+  <p>A selection of case studies demonstrating technical excellence in flood modelling, software development, and complex data analysis.</p>
+</div>
 
-### Hydrological Modelling Projects
-- **Flood Risk Assessment** - Comprehensive flood modelling for major infrastructure projects using TUFLOW and HEC-RAS
-- **Dam Break Analysis** - Advanced breach modelling and flood wave propagation studies
-- **Urban Drainage Design** - Integrated water sensitive urban design solutions
+<!-- This loop will automatically find any post with the category 'portfolio' -->
+<div class="feature__wrapper">
+  {% assign projects = site.categories.portfolio %}
+  {% if projects.size > 0 %}
+    {% for post in projects %}
+      <div class="feature__item">
+        <div class="feature__item-teaser">
+          {% if post.header.image %}
+            <img src="{{ post.header.image }}" alt="{{ post.title }}">
+          {% else %}
+            <img src="{{ post.header.overlay_image | default: '/images/pano1.jpg' }}" alt="{{ post.title }}">
+          {% endif %}
+        </div>
+        <h3 class="archive__item-title">{{ post.title }}</h3>
+        <p class="archive__item-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+        <a href="{{ post.url }}" class="btn--primary">View Case Study</a>
+      </div>
+    {% endfor %}
+  {% else %}
+    <div class="notice--warning">
+      <p>No project showcases found yet. Add posts with <code>category: portfolio</code> to populate this gallery.</p>
+    </div>
+  {% endif %}
+</div>
 
-### Data Science Applications
-- **Machine Learning for Flood Prediction** - Developed predictive models using Python and R
-- **Hydrological Time Series Analysis** - Advanced statistical analysis of flow and rainfall data
-- **Data Visualization** - Interactive dashboards and visualizations for complex hydrological data
+<h2 style="margin-top: 4rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">Technical Capabilities</h2>
 
-### GIS and Spatial Analysis
-- **Catchment Delineation** - High-resolution terrain analysis for hydrological modelling
-- **Flood Mapping** - Production of detailed flood extent and depth maps
-- **Spatial Decision Support** - GIS-based tools for water resource planning
-
-## Technical Skills
-
-### Software Proficiencies
-- **Hydrological Modelling**: TUFLOW, MIKE FLOOD, GoldSim, HEC-RAS, RORB, URBS
-- **Programming**: Python, R, SQL
-- **GIS**: QGIS, ArcGIS, GDAL
-- **Data Analysis**: Pandas, NumPy, SciPy, R tidyverse
-
-### Methodologies
-- Continuous and event-based hydrological modelling
-- Uncertainty and sensitivity analysis
-- Risk assessment and management
-- Climate change impact assessment
-
-## Professional Experience
-
-### Senior Water Resources Engineer | Current Position
-- Lead hydrologist for major infrastructure projects
-- Development of innovative modelling approaches
-- Technical review and quality assurance
-
-### Previous Roles
-- **Hydrologist** - Specialized in flood modelling and risk assessment
-- **Water Resources Engineer** - Focused on water resource planning and management
-- **Research Assistant** - Academic research in hydrological modelling
-
-## Education
-- **MSc in Water Resources Engineering** - [University Name]
-- **BEng in Civil Engineering** - [University Name]
-- **Professional Certifications**: Chartered Engineer (CPEng), RPEQ
-
-## Selected Publications & Presentations
-- [Title of Publication/Presentation] - [Conference/Journal] - [Year]
-- [Title of Publication/Presentation] - [Conference/Journal] - [Year]
-
-## Get In Touch
-Interested in working together? [Contact me](/about/) to discuss your project requirements.
+<div class="grid__wrapper">
+    <div class="grid__item">
+        <h3><i class="fas fa-laptop-code"></i> Hydraulic Modelling</h3>
+        <ul>
+            <li><strong>TUFLOW:</strong> Classic & HPC, GPU acceleration, Advection-Dispersion</li>
+            <li><strong>HEC-RAS:</strong> 1D/2D unsteady flow, dam breach</li>
+            <li><strong>InfoWorks ICM:</strong> Integrated urban drainage</li>
+        </ul>
+    </div>
+    <div class="grid__item">
+        <h3><i class="fas fa-chart-line"></i> Data Science</h3>
+        <ul>
+            <li><strong>Python:</strong> Pandas, NumPy, Scikit-learn, GeoPandas</li>
+            <li><strong>R:</strong> Tidyverse, ggplot2, Shiny</li>
+            <li><strong>Statistics:</strong> Bayesian Inference, Extreme Value Analysis (EVA)</li>
+        </ul>
+    </div>
+</div>

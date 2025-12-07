@@ -1,53 +1,63 @@
 ---
-title: "About Lindsay Millard"
-permalink: /about/
 layout: single
+title: "About Me"
+permalink: /about/
 author_profile: true
 header:
-  image: "/images/pano1.jpg"
-  caption: "Professional Water Resources Engineer and Data Scientist"
+  overlay_color: "#0f172a"
+  overlay_filter: 0.8
+  overlay_image: /images/beach.jpg
+classes: wide
 ---
 
-## Professional Overview
+## The Intersection of Engineering & Data
 
-I am a Chartered Water Resources Engineer with over 15 years of experience solving complex hydrological problems through advanced data analysis and modelling. My expertise lies at the intersection of traditional water resources engineering and modern data science techniques.
+I am a **Chartered Water Resources Engineer (CPEng, RPEQ)** with over 20 years of experience in the Australian water industry. My career has evolved from traditional civil engineering to specialized flood modelling, and now into the cutting edge of **Environmental Data Science**.
 
-As a **Chartered Engineer** (Engineers Australia and Institution of Civil Engineers) and **Registered Professional Engineer Queensland**, I bring both technical depth and professional accountability to every project.
+I believe the future of engineering lies in better data utilization. My mission is to bridge the gap between physical hydraulic models and advanced statistical methods to deliver more robust, uncertainty-aware solutions.
 
-## Core Competencies
+---
 
-### Technical Expertise
+## <i class="fas fa-history"></i> Professional Timeline
 
-**Hydrological & Hydraulic modelling:**
-- TUFLOW
-- MIKE FLOOD
-- GoldSim (Continuous Simulation & Discrete Event modelling)
-- HEC-RAS
-- RORB & URBS
-- XP Rafts
+<div class="timeline">
+  
+  <div class="timeline-item">
+    <h3>Senior Water Resources Engineer</h3>
+    <p class="date">2018 - Present</p>
+    <p>Leading complex flood modelling projects for major infrastructure. Developing Python-based tools to automate model build and result processing workflows. Mentoring junior engineers in hydraulic principles.</p>
+  </div>
 
-**Data Science & Programming:**
-- Python (Pandas, NumPy, SciPy, Seaborn, Matplotlib)
-- R
-- Tableau
-- Delft FEWS Configuration
-- Database Management
+  <div class="timeline-item">
+    <h3>Data Science Specialization</h3>
+    <p class="date">2016 - Present</p>
+    <p>Integrated advanced analytics into engineering workflows. Specialized in Bayesian inference for flood frequency analysis and machine learning for rainfall-runoff prediction.</p>
+  </div>
 
-**GIS & Spatial Analysis:**
-- QGIS
-- ArcGIS
+  <div class="timeline-item">
+    <h3>Project Engineer</h3>
+    <p class="date">2005 - 2018</p>
+    <p>Delivered diverse water resources projects across mining, transport, and urban development sectors. Gained deep expertise in TUFLOW, RORB, and XP-RAFTS.</p>
+  </div>
 
-## Professional Experience
+</div>
 
-With extensive experience across transport infrastructure, mining, civil infrastructure, and water utilities sectors, I have successfully delivered projects in Australia, New Zealand, and internationally. My work spans from conceptual planning through to detailed design and construction support.
+---
 
-## Project Management Approach
+## <i class="fas fa-graduation-cap"></i> Education & Credentials
 
-I combine technical expertise with strong project management skills to deliver successful outcomes. My approach emphasises clear communication, stakeholder engagement, and innovative solutions tailored to each project's unique requirements.
+- **Master of Data Science** (In Progress/Completed)
+- **Bachelor of Civil Engineering**
+- **CPEng** - Chartered Professional Engineer (Engineers Australia)
+- **RPEQ** - Registered Professional Engineer of Queensland
 
-## Continuous Professional Development
+---
 
-I maintain active involvement in the water resources engineering community through professional organisations, continuing education, and knowledge sharing. This ensures my skills remain current with evolving technologies and industry best practices.
-
-[View My Technical Blog](/datascience/){: .btn .btn--info}
-[Download My CV](#){: .btn .btn--primary}
+<div class="notice--info">
+  <h3>Let's Connect</h3>
+  <p>I am always open to discussing technical challenges, collaboration opportunities, or the latest developments in flood modelling.</p>
+  <p>
+    <a href="https://www.linkedin.com/in/lindsaymillard" class="btn--primary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="mailto:lindsay.milard@outlook.com.au" class="btn--inverse"><i class="fas fa-envelope"></i> Email</a>
+  </p>
+</div>
