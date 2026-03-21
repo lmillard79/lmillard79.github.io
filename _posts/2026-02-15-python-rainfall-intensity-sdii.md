@@ -3,7 +3,7 @@ title: "Visualising 130 Years of Australian Rainfall Intensity Change in Python"
 date: 2026-02-15
 categories: [insights]
 tags: [python, hydrology, climate-change]
-excerpt: "I replicated Ed Hawkins' climate stripes style using the Simple Daily Intensity Index and the SILO Patched Point Dataset to show how rainfall intensity is shifting in Brisbane, Sydney, and regional Australia."
+excerpt: "I replicated Ed Hawkins' climate stripes style using the Simple Daily Intensity Index and the SILO Patched Point Dataset to show how rainfall intensity is shifting across Australian cities — results range from -3.9% in Bundaberg to +21.0% in Toowoomba."
 header:
   overlay_color: "#0f172a"
   overlay_filter: 0.7
@@ -13,7 +13,7 @@ read_time: true
 
 Professor Ed Hawkins (University of Reading) created the [Climate Stripes](https://showyourstripes.info/) — one of the most effective climate communication tools ever made. His tagline captures the rainfall story precisely: *"When it rains, it now rains more."*
 
-I wanted to test whether that signal was visible in Australian data, and whether I could replicate the visual style using local station records. Here's the methodology.
+I wanted to test whether that signal was visible in Australian data, and whether I could replicate the visual style using local station records. Here's the methodology and what I found.
 
 ## The Metric: Simple Daily Intensity Index (SDII)
 
@@ -31,57 +31,53 @@ The critical detail: **only days with >1mm count as "wet days."** This removes d
 
 You can't detect a century-long trend with gaps in the record. I used the **SILO Patched Point Dataset** from the Queensland Government's [Long Paddock project](https://www.longpaddock.qld.gov.au/silo/).
 
-SILO creates a continuous daily rainfall record from 1889 to the present day by scientifically merging historical Post Office records with modern automatic weather station data. It's one of the most underutilised resources in Australian hydrology.
+SILO creates a continuous daily rainfall record from 1889 to the present day by merging historical Post Office records with modern automatic weather station data. It's one of the most underutilised resources in Australian hydrology.
 
 ## The Visualisation: Anomaly, Not Raw Values
 
-Rather than plotting raw SDII values — which vary enormously by location — the plot shows the **anomaly against the 1961–1990 standard climate baseline:**
+Rather than plotting raw SDII values — which vary enormously by location — the plots show the **anomaly against the 1961–1990 standard climate baseline:**
 
-- **Blue bars** = years where rainfall was more intense than the 1961–1990 average
+- **Blue bars** = years where rainfall was more intense than average
 - **Orange bars** = years where rainfall was less intense
-- **Colour saturation** scales with the magnitude — deep navy = exceptionally intense wet year
+- **Colour saturation** scales with magnitude — deep navy = exceptionally intense wet year
 
 This approach cuts through ENSO noise and isolates the underlying decadal signal in storm intensity.
 
+## Results: Four Australian Locations
+
+<figure>
+  <img src="/images/2026-02_bundaberg_sdii-rainfall-intensity-1889-2024.png" alt="Bundaberg SDII rainfall intensity anomaly 1889-2024">
+  <figcaption>Bundaberg — Annual rainfall intensity anomaly (SDII), 1889–2024. Overall change: <strong>-3.9%</strong> since 1889. Notable: the intensity signal here is noisier, partly reflecting Bundaberg's position at the southern edge of the monsoon influence zone. Data: SILO Patched Point Dataset. Analysis: Lindsay Millard.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/2026-02_townsville_sdii-rainfall-intensity-1889-2024.png" alt="Townsville SDII rainfall intensity anomaly 1889-2024">
+  <figcaption>Townsville — Overall change: <strong>+16.5%</strong> since 1889. The monsoonal signature is clear — high inter-annual variability but a discernible upward trend in intensity particularly from the 1990s onward. Data: SILO Patched Point Dataset. Analysis: Lindsay Millard.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/2026-02_sydney_sdii-rainfall-intensity-1889-2024.png" alt="Sydney SDII rainfall intensity anomaly 1889-2024">
+  <figcaption>Sydney — Overall change: <strong>+11.8%</strong> since 1889. A clear positive trend in intensity is visible from approximately 1980, consistent with the broader east coast intensification signal. Data: SILO Patched Point Dataset. Analysis: Lindsay Millard.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/2026-02_toowoomba_sdii-rainfall-intensity-1889-2024.png" alt="Toowoomba SDII rainfall intensity anomaly 1889-2024">
+  <figcaption>Toowoomba — Overall change: <strong>+21.0%</strong> since 1889 — the highest of the four locations. The Toowoomba result is significant given the city's exposure to intense convective rainfall, and is consistent with the 2011 flash flood event sitting well above historical intensity benchmarks. Data: SILO Patched Point Dataset. Analysis: Lindsay Millard.</figcaption>
+</figure>
+
+## What the Pattern Shows
+
+The results are not uniform — and that's the point. Bundaberg's -3.9% sits alongside Toowoomba's +21.0%. This is consistent with Nicholas Deeks' recent regional analysis showing national-average scaling coefficients (7.2% per °C) that mask enormous regional variation — from 21.3% per °C in the Monsoonal North to 1.4% in winter-dominant southern regions.
+
+The southeast Queensland and coastal NSW stations are showing the strongest intensification signal. For infrastructure design in these regions, the assumption that historical IFD curves remain valid is increasingly difficult to defend.
+
 ## The Code
 
-The Python script pulls live SILO data via API for any Australian station and generates the plot automatically. The key libraries are `pandas`, `matplotlib`, and `requests`.
+The Python script pulls live SILO data via API for any Australian station and generates the plot automatically. Key libraries: `pandas`, `matplotlib`, `requests`.
 
-```python
-import requests
-import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
-import numpy as np
-
-def get_silo_data(station_id, start_year=1889):
-    """Pull daily rainfall from SILO Patched Point Dataset."""
-    url = f"https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php"
-    params = {
-        "station": station_id,
-        "start": f"{start_year}0101",
-        "finish": "20261231",
-        "format": "csv",
-        "username": "your_email@example.com",  # register free at longpaddock.qld.gov.au
-        "password": "apirequest"
-    }
-    # Parse daily rainfall, calculate SDII, compute anomaly vs 1961-1990 baseline
-    ...
-
-def plot_intensity_stripes(sdii_anomaly, station_name):
-    """Render climate-stripes style bar chart of SDII anomaly."""
-    ...
-```
-
-The full script is available as a GitHub gist — drop a comment on the [LinkedIn post](https://www.linkedin.com/in/lindsaymillard/) or [email me](mailto:lindsay.milard@outlook.com.au) and I'll share it. If you'd like to see your town's data, let me know in the comments.
-
-## What the Data Shows
-
-Across Brisbane, Sydney, Bundaberg and several regional locations, the signal is consistent: **the intensity of rainfall on wet days has increased**, particularly from the 1990s onward, even in years where total annual rainfall was average or below average.
-
-This has direct implications for urban stormwater design and IFD curve validity — a topic worth a separate post.
+Drop a comment on the [LinkedIn post](https://www.linkedin.com/in/lindsaymillard/) or [email me](mailto:lindsay.milard@outlook.com.au) and I'll share the code for your location.
 
 ---
 
-*Inspired by Professor Ed Hawkins' [Climate Stripes](https://showyourstripes.info/) and the work of the Climate Lab Book.*
+*Inspired by Professor Ed Hawkins' [Climate Stripes](https://showyourstripes.info/). Data: SILO Patched Point Dataset, Queensland Government Long Paddock project.*
 *Originally shared on [LinkedIn](https://www.linkedin.com/in/lindsaymillard/) — 3,536 impressions.*
