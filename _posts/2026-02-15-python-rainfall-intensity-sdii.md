@@ -46,24 +46,16 @@ This approach cuts through ENSO noise and isolates the underlying decadal signal
 ## Results: Four Australian Locations
 
 <figure>
-  <img src="/images/2026-02_bundaberg_sdii-rainfall-intensity-1889-2024.png" alt="Bundaberg SDII rainfall intensity anomaly 1889-2024">
-  <figcaption>Bundaberg — Annual rainfall intensity anomaly (SDII), 1889–2024. Overall change: <strong>-3.9%</strong> since 1889. Notable: the intensity signal here is noisier, partly reflecting Bundaberg's position at the southern edge of the monsoon influence zone. Data: SILO Patched Point Dataset. Analysis: Lindsay Millard.</figcaption>
+  <img src="/images/2026-02_sdii-rainfall-intensity-chart-1.jpg" alt="SDII rainfall intensity anomaly chart — Australian location 1889-2024">
+  <figcaption>Annual rainfall intensity anomaly (SDII), 1889–2024. Blue bars = years more intense than the 1961–90 baseline; orange = less intense. Data: SILO Patched Point Dataset. Analysis: Lindsay Millard.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/2026-02_townsville_sdii-rainfall-intensity-1889-2024.png" alt="Townsville SDII rainfall intensity anomaly 1889-2024">
-  <figcaption>Townsville — Overall change: <strong>+16.5%</strong> since 1889. The monsoonal signature is clear — high inter-annual variability but a discernible upward trend in intensity particularly from the 1990s onward. Data: SILO Patched Point Dataset. Analysis: Lindsay Millard.</figcaption>
+  <img src="/images/2026-02_sdii-rainfall-intensity-chart-2.jpg" alt="SDII rainfall intensity anomaly chart — Australian location 1889-2024">
+  <figcaption>Annual rainfall intensity anomaly (SDII), 1889–2024 — second location. Data: SILO Patched Point Dataset. Analysis: Lindsay Millard.</figcaption>
 </figure>
 
-<figure>
-  <img src="/images/2026-02_sydney_sdii-rainfall-intensity-1889-2024.png" alt="Sydney SDII rainfall intensity anomaly 1889-2024">
-  <figcaption>Sydney — Overall change: <strong>+11.8%</strong> since 1889. A clear positive trend in intensity is visible from approximately 1980, consistent with the broader east coast intensification signal. Data: SILO Patched Point Dataset. Analysis: Lindsay Millard.</figcaption>
-</figure>
-
-<figure>
-  <img src="/images/2026-02_toowoomba_sdii-rainfall-intensity-1889-2024.png" alt="Toowoomba SDII rainfall intensity anomaly 1889-2024">
-  <figcaption>Toowoomba — Overall change: <strong>+21.0%</strong> since 1889 — the highest of the four locations. The Toowoomba result is significant given the city's exposure to intense convective rainfall, and is consistent with the 2011 flash flood event sitting well above historical intensity benchmarks. Data: SILO Patched Point Dataset. Analysis: Lindsay Millard.</figcaption>
-</figure>
+*The full set of four location charts (Bundaberg -3.9%, Townsville +16.5%, Sydney +11.8%, Toowoomba +21.0%) is available on the [original LinkedIn post](https://www.linkedin.com/in/lindsaymillard/).*
 
 ## What the Pattern Shows
 

@@ -20,6 +20,7 @@ The global temperature record has been rewritten three times in three years. Acc
 That last point is significant. La Niña conditions typically produce cooler global temperatures. The fact that 2025 still ranked third-hottest despite La Niña forcing suggests the background warming signal has now overwhelmed the natural variability that previously made La Niña years reliably cooler.
 
 <figure>
+  <img src="/images/2026-01_ecmwf-global-temperature-anomaly-distribution.jpg" alt="ECMWF/C3S global surface air temperature anomaly distribution 1940-2025">
   <figcaption><em>Distribution of daily global surface air temperature anomalies (°C) from 1940 to 2025, showing progressive rightward shift in the probability density functions. Notable annotations include the 1973-76 La Niña, 1991 Mt Pinatubo eruption, 1998 El Niño, and 2023-24 El Niño. Credit: Copernicus Climate Change Service / ECMWF. Used with attribution.</em></figcaption>
 </figure>
 
