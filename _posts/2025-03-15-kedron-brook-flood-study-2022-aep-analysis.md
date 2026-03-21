@@ -16,6 +16,7 @@ The 2024 Kedron Brook Flood Study (Brisbane City Council, Vol. 1) deserves more 
 The key chart is Figure 6.9 — the flood frequency curve for Enoggera Creek at Bancroft Park.
 
 <figure>
+  <img src="/images/2025-03_kedron-brook-flood-frequency-curve.jpg" alt="Flood Frequency Curve Enoggera Creek Bancroft Park — Kedron Brook Flood Study 2024">
   <figcaption><em>Figure 6.9: Flood Frequency Curve for Enoggera Creek at Bancroft Park (Kedron Brook Flood Study 2024, Vol. 1). Bayes_GP fit with 90% confidence limits. 2009, 2015, and 2022 flood events annotated. Table 6.5 shows Adopted FFA flows (m³/s) vs. sensitivity analysis excluding 2022. For information only — not Brisbane City Council policy. Source: Brisbane City Council.</em></figcaption>
 </figure>
 

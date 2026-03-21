@@ -3,7 +3,8 @@
     "allow": [
       "Skill(update-config)",
       "Bash(npx --version)",
-      "Bash(claude mcp:*)"
+      "Bash(claude mcp:*)",
+      "Bash(python3:*)"
     ]
   }
 }

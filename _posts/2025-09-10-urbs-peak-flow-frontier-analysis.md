@@ -20,7 +20,7 @@ At around 55,000 print locations, this is a substantial cross-section of Austral
 When you plot rainfall, catchment area and peak flow together across 16,437 calibrated URBS locations, does a physically meaningful envelope appear? And if so, does it correspond to known regional flood estimation relationships?
 
 <figure>
-  <img src="/images/2023_urbs_peak-flow-frontier-analysis-australia.png" alt="URBS peak flow frontier analysis — 16,437 Australian calibrated models">
+  <img src="/images/2023_urbs_peak-flow-frontier-analysis-australia.jpg" alt="URBS peak flow frontier analysis — 16,437 Australian calibrated models">
   <figcaption>Four-panel figure. <strong>Top left:</strong> Excess Rainfall vs Peak Flow scatter (16,437 URBS locations), coloured by total rainfall. <strong>Top right:</strong> Area vs Peak Flow log-log scatter — frontier ORT relationship 7×Area<sup>0.644</sup> overlaid. <strong>Bottom panels:</strong> Histograms of Peak Flow and Excess Rainfall distributions across the dataset. Source: Terry Malone URBS calibrated dataset. Analysis: WRM Water &amp; Environment — Lindsay Millard, 2023.</figcaption>
 </figure>
 

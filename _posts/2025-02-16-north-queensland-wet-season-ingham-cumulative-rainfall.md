@@ -14,7 +14,9 @@ read_time: true
 As the 2024/25 wet season came to a close in North Queensland, I ran a comparative analysis across historical SILO records to put the season's rainfall sequences in context. The question was simple: how does this year's accumulation compare to every previous water year on record?
 
 <figure>
-  <img src="/images/2025-02_ingham_cumulative-rainfall-water-year-comparison.png" alt="Cumulative rainfall water year comparison — Ingham, North Queensland 2024/25 vs historical">
+  <img src="/images/2025-02_ingham_cumulative-rainfall-water-year-comparison.jpg" alt="Cumulative rainfall water year comparison — Ingham, North Queensland 2024/25 vs historical">
+  <br>
+  <img src="/images/2025-02_ingham_cumulative-rainfall-percentile-fan.png" alt="Ingham cumulative rainfall percentile fan plot 2024/25">
   <figcaption><strong>Top panel:</strong> Cumulative precipitation (mm) for the water year at Ingham Post Office (gauge 32024). Grey lines = all historical years; blue lines = highest ranked years (1893-94, 1973-74, 1999-2000); red = 2023/24 season; black = 2024/25 season. <strong>Bottom panel:</strong> Same data as percentile fan plot (5th–95th percentile shading), showing 2024/25 tracking near the seasonal maximum. Source: QLD Government SILO &amp; Bureau of Meteorology, data as at 15 February 2025 0900H. Analysis: Lindsay Millard.</figcaption>
 </figure>
 
