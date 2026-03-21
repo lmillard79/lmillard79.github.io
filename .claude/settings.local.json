@@ -4,7 +4,20 @@
       "Skill(update-config)",
       "Bash(npx --version)",
       "Bash(claude mcp:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(mv linkedin_2019-05_unknown.jpg 2019-05_tuflow-delft-fews-native-integration.jpg)",
+      "Bash(mv linkedin_2019-11_unknown.jpg 2019-11_roman-emperors-rainfall-assassinations.jpg)",
+      "Bash(mv linkedin_2024-01_unknown.jpg 2024-01_wivenhoe-flood-mitigation-catchment-scatter.jpg)",
+      "Bash(mv linkedin_2024-11_unknown.jpg 2024-11_gabba-brisbane-wet-days-heatmap.jpg)",
+      "Bash(mv linkedin_2025-01_unknown.jpg 2025-01_aldersley-brisbane-weekly-rainfall-joyplot.jpg)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(gh api:*)",
+      "Bash(git push:*)",
+      "Bash(cp /e/GitHub/pyextremes/images/2026-03_pyextremes-ffa-return-period.png /e/GitHub/lmillard79.github.io/images/)",
+      "Bash(cp /e/GitHub/pyextremes/images/2026-03_pyextremes-mcmc-diagnostics.png /e/GitHub/lmillard79.github.io/images/)"
     ]
   }
 }
