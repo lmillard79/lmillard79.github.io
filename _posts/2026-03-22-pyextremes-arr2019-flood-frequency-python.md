@@ -48,6 +48,11 @@ model.fit_model(
 
 L-moment fitting is computationally stable and less sensitive to extreme outliers than MLE, which matters when fitting to a 30–50 year gauge record that may include one or two anomalously large events.
 
+<figure>
+  <img src="/images/2026-03_pyextremes-ffa-return-period.png" alt="Flood Frequency Analysis return period curve — Hunter River at Singleton, ARR 2019 LP3 fit">
+  <figcaption>Flood Frequency Analysis: Hunter River at Singleton — ARR 2019 LP3 fit with 95% confidence interval (blue shading). Return period (years) vs discharge (m³/s). Generated using the pyextremes ARR2019_Book3 fork. Analysis: Lindsay Millard.</figcaption>
+</figure>
+
 ## 2. Multiple Grubbs-Beck Test — PILF Identification
 
 Low outliers in a flood record are not just small floods. They represent events from a different population — low-antecedent-moisture or partial-duration threshold events — that can dominate statistical fit and produce parameters that underestimate the upper tail. The **Multiple Grubbs-Beck Test (MGBT)** identifies these Potentially Influential Low Floods and removes them from the fitting dataset.
@@ -103,6 +108,17 @@ model.fit_model(
 ```
 
 For a gauge record where one or two very large events are pulling the L-moment estimates, fitting at h=1 or h=2 will produce materially different (and often more defensible) upper-tail estimates. This matters for 1% AEP and rarer design floods — the events that drive major infrastructure design.
+
+## Bayesian Parameter Estimation
+
+Beyond L-moments and LH-moments, `pyextremes` inherits the upstream library's MCMC-based Bayesian fitting via `emcee`. For LP3 this produces full posterior distributions over the three parameters (shape 'skew', location μ, scale σ) rather than point estimates — which is directly useful for uncertainty quantification at rare return periods.
+
+<figure>
+  <img src="/images/2026-03_pyextremes-mcmc-diagnostics.png" alt="MCMC convergence and LP3 parameter posterior distributions — pyextremes ARR2019">
+  <figcaption>MCMC convergence diagnostics and LP3 parameter posterior distributions. Left panels: chain traces for shape 'skew', location μ, and scale σ — chains are well-mixed and stationary. Right panels: marginal and joint posterior distributions. The skew parameter is tightly constrained; the location and scale show the expected correlation structure. Generated using pyextremes ARR2019_Book3 + emcee. Analysis: Lindsay Millard.</figcaption>
+</figure>
+
+The chain traces (left) show good mixing and stationarity — a necessary condition before reading anything from the posteriors. The joint distributions (right) show the parameter correlation structure: for LP3, location and scale are correlated, while skew is relatively well-constrained. These diagnostics should be checked before accepting any MCMC-derived confidence intervals on the return-period curve.
 
 ## ARR 2019 Alignment
 
