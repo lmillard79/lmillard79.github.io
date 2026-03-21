@@ -50,7 +50,7 @@ L-moment fitting is computationally stable and less sensitive to extreme outlier
 
 <figure>
   <img src="/images/2026-03_pyextremes-ffa-return-period.png" alt="Flood Frequency Analysis return period curve — Hunter River at Singleton, ARR 2019 LP3 fit">
-  <figcaption>Flood Frequency Analysis: Hunter River at Singleton — ARR 2019 LP3 fit with 95% confidence interval (blue shading). Return period (years) vs discharge (m³/s). Generated using the pyextremes ARR2019_Book3 fork. Analysis: Lindsay Millard.</figcaption>
+  <figcaption>ARR 2019 Flood Frequency Analysis: Singleton (Hunter River). LP3 Bayesian fit (MAP, red line) with 90% credibility interval (blue shading). Observed annual maxima plotted on Cunnane plotting positions. Dual x-axis: return period (years) and Annual Exceedance Probability (AEP). Generated using the pyextremes ARR2019_Book3 fork. Analysis: Lindsay Millard.</figcaption>
 </figure>
 
 ## 2. Multiple Grubbs-Beck Test — PILF Identification
