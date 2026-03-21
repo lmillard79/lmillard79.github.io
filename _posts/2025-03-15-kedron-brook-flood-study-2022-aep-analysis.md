@@ -2,7 +2,7 @@
 title: "Reading the 2024 Kedron Brook Flood Study: What the Data Says About 2022 Flood AEPs"
 date: 2025-03-15
 categories: [insights]
-tags: [flood-modelling, hydrology, flood-modelling]
+tags: [flood-modelling, hydrology, urban-hydrology]
 excerpt: "The 2024 Kedron Brook Flood Study (Brisbane City Council) provides a rare opportunity to see a rigorous Bayesian flood frequency analysis applied to a well-instrumented urban catchment. The 2022 flood events at Enoggera Creek — often described as 'unprecedented' — are, statistically speaking, rare but not extreme."
 header:
   overlay_color: "#0f172a"
