@@ -7,12 +7,12 @@ header:
   overlay_color: "#0f172a"
   overlay_filter: 0.7
   overlay_image: /images/pano1.jpg
-  caption: "Specialized Engineering & Data Solutions"
+  caption: "Specialist Engineering & Water Resources Consulting"
 classes: wide
 ---
 
 <div class="intro text-center" style="max-width: 800px; margin: 0 auto 3rem auto; font-size: 1.2rem; color: #cbd5e1;">
-  <p>I deliver high-end specialist consulting services at the intersection of <strong>Hydraulic Engineering</strong> and <strong>Data Science</strong>. Bridging the gap between traditional modelling and modern analytics.</p>
+  <p>I deliver high-end specialist consulting at the intersection of <strong>flood risk engineering</strong> and <strong>water resource management</strong> — with 20+ years of experience enabling major infrastructure projects to proceed safely and confidently.</p>
 </div>
 
 ## <i class="fas fa-water"></i> Core Capabilities
@@ -21,32 +21,33 @@ classes: wide
 
   <div class="feature__item">
     <div class="feature__item-teaser">
-      <img src="/images/laby.jpg" alt="Flood Modelling">
+      <img src="/images/laby.jpg" alt="Flood Studies">
     </div>
-    <h3 class="archive__item-title">Flood Modelling & Hydraulics</h3>
-    <p class="archive__item-excerpt">Advanced 1D/2D modelling using industry-standard tools. Specialized in complex floodplain analysis, bridge hydraulics, and urban drainage assessments.</p>
-    <p><strong>Tools:</strong> TUFLOW, HEC-RAS, InfoWorks ICM</p>
-    <a href="mailto:lindsay.milard@outlook.com.au?subject=Flood Modelling Inquiry" class="btn--primary">Enquire</a>
+    <h3 class="archive__item-title">Flood Studies & Mapping</h3>
+    <p class="archive__item-excerpt">Technical lead for complex flood mapping studies protecting thousands of properties. Advanced 1D/2D modelling including calibration to multiple historic flood events.</p>
+    <p><strong>Recent projects:</strong> Little Yarra River (80 km²), Logan/Albert Rivers (calibrated to 4 major events)</p>
+    <p><strong>Tools:</strong> TUFLOW, HEC-RAS, MIKE FLOOD</p>
+    <a href="mailto:lindsay.milard@outlook.com.au?subject=Flood Study Inquiry" class="btn btn--primary">Enquire</a>
   </div>
 
   <div class="feature__item">
     <div class="feature__item-teaser">
-      <img src="/images/pano1.jpg" alt="Data Science">
+      <img src="/images/pano1.jpg" alt="Water Resources">
     </div>
-    <h3 class="archive__item-title">Hydrological Data Science</h3>
-    <p class="archive__item-excerpt">Applying machine learning and Bayesian inference to hydrological datasets. Automating workflows and developing custom analysis tools.</p>
-    <p><strong>Stack:</strong> Python, R, SQL, Power BI</p>
-    <a href="mailto:lindsay.milard@outlook.com.au?subject=Data Science Inquiry" class="btn--primary">Enquire</a>
+    <h3 class="archive__item-title">Water Resources & Drought Management</h3>
+    <p class="archive__item-excerpt">Water balance assessments, drought risk forecasting, storage operation optimisation, and climate change impact assessment using CMIP6 data for councils and utilities.</p>
+    <p><strong>Tools:</strong> GoldSIM, URBS, Python</p>
+    <a href="mailto:lindsay.milard@outlook.com.au?subject=Water Resources Inquiry" class="btn btn--primary">Enquire</a>
   </div>
 
   <div class="feature__item">
     <div class="feature__item-teaser">
-      <img src="/images/laby1.jpg" alt="Risk Assessment">
+      <img src="/images/laby1.jpg" alt="Dam Safety">
     </div>
-    <h3 class="archive__item-title">Dam Breach & Risk</h3>
-    <p class="archive__item-excerpt">Specialized dam break analysis including sunny day and flood failure modes, consequence assessment, and emergency response planning.</p>
-    <p><strong>Focus:</strong> Risk Quantification, PAR, Consequence</p>
-    <a href="mailto:lindsay.milard@outlook.com.au?subject=Risk Assessment Inquiry" class="btn--primary">Enquire</a>
+    <h3 class="archive__item-title">Dam Safety & Breach Analysis</h3>
+    <p class="archive__item-excerpt">Lead hydrologist for consequence assessments of major Queensland dams. Monte Carlo breach simulation methodology for conditional probability of single or multiple embankment breaches, endorsed by Professor David Bowles (international dam safety expert).</p>
+    <p><strong>Focus:</strong> Risk Quantification, PAR, Consequence Assessment</p>
+    <a href="mailto:lindsay.milard@outlook.com.au?subject=Dam Safety Inquiry" class="btn btn--primary">Enquire</a>
   </div>
 
 </div>
@@ -54,39 +55,59 @@ classes: wide
 ## <i class="fas fa-concierge-bell"></i> Consulting Services
 
 <div class="grid__wrapper">
-  
+
   <div class="grid__item">
     <article class="archive__item">
-      <h3 class="archive__item-title">Planning & Approvals</h3>
-      <p>Site-specific flood risk assessments for development applications. Ensuring compliance with local council overlays and state planning policies (SPP). Peer review services for regulatory bodies.</p>
+      <h3 class="archive__item-title"><i class="fas fa-solar-panel"></i> Renewable Energy</h3>
+      <p>Project manager for 50+ surface water impact assessments for solar farms, wind farms, BESS facilities and transmission infrastructure across Queensland, NSW, and Victoria. End-to-end delivery from scoping to approval.</p>
     </article>
   </div>
 
   <div class="grid__item">
     <article class="archive__item">
-      <h3 class="archive__item-title">Infrastructure Design</h3>
-      <p>Hydraulic design of culverts, bridges, and diversion channels. Scour protection analysis and rock sizing. Water Sensitive Urban Design (WSUD) integration.</p>
+      <h3 class="archive__item-title"><i class="fas fa-road"></i> Transport Infrastructure</h3>
+      <p>Flood impact assessments and hydraulic design for roads and bridges. Developed the TMR Bridge Scour Manual (2013) — Queensland's first statewide scour guidance. Continuous simulation and road closure analysis for major highway networks.</p>
     </article>
   </div>
 
   <div class="grid__item">
     <article class="archive__item">
-      <h3 class="archive__item-title">Expert Review & Witness</h3>
-      <p>Providing independent technical review for complex modelling projects. Expert witness services for Planning and Environment Court appeals.</p>
+      <h3 class="archive__item-title"><i class="fas fa-search"></i> Expert Review & Witness</h3>
+      <p>Independent peer review of complex flood modelling studies. Expert witness services for Planning and Environment Court appeals. 50+ insurance assessments following the 2022 Brisbane flood events.</p>
     </article>
   </div>
-  
+
   <div class="grid__item">
     <article class="archive__item">
-      <h3 class="archive__item-title">Custom Tool Development</h3>
-      <p>Building bespoke Python/R scripts to automate repetitive post-processing tasks, visualize complex model results, or manage large environmental datasets.</p>
+      <h3 class="archive__item-title"><i class="fas fa-file-alt"></i> Planning & Approvals</h3>
+      <p>Site-specific flood risk assessments for development applications. Experienced navigating Queensland and interstate regulatory frameworks. Ensuring compliance with council overlays and state planning policies.</p>
+    </article>
+  </div>
+
+  <div class="grid__item">
+    <article class="archive__item">
+      <h3 class="archive__item-title"><i class="fas fa-broadcast-tower"></i> Real-Time Forecasting</h3>
+      <p>Flood forecasting system development and operational support using DELFT-FEWS. Six years embedded in Seqwater's Flood Operations Centre supporting dam operations on Brisbane's major water supply and flood mitigation storages.</p>
+    </article>
+  </div>
+
+  <div class="grid__item">
+    <article class="archive__item">
+      <h3 class="archive__item-title"><i class="fas fa-code"></i> Automation & Tooling</h3>
+      <p>Python scripting to automate repetitive post-processing, generate regulatory reporting tables, and manage large environmental datasets. Continuous simulation workflows and custom analysis tools.</p>
     </article>
   </div>
 
 </div>
 
+## <i class="fas fa-globe"></i> Where I Work
+
+Providing services across Australia, with experience from UK, UAE, and Saudi Arabia engagements.
+
 <div class="notice--info" style="margin-top: 3rem; text-align: center;">
   <h3>Ready to Start?</h3>
-  <p>Available for freelance consulting and contract roles.</p>
-  <a href="mailto:lindsay.milard@outlook.com.au" class="btn--inverse">Contact Me</a>
+  <p>Available for consulting engagements, specialist technical review, and contract roles.</p>
+  <a href="mailto:lindsay.milard@outlook.com.au" class="btn btn--inverse">Contact Me</a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/lindsaymillard" class="btn btn--primary" target="_blank" rel="noopener">LinkedIn Profile</a>
 </div>

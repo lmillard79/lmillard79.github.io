@@ -1,6 +1,6 @@
 # Site Settings
 title: "Lindsay Millard"
-description: "Chartered Water Resources Engineer & Data Scientist specializing in flood modeling, hydrological analysis, and environmental data science."
+description: "Principal Hydrologist & Chartered Engineer (RPEQ, CEng MICE, CPEng, FIEAust) specialising in flood risk mitigation, water storage modelling, dam safety, and extreme event analysis."
 url: "https://lmillard79.github.io"
 repository: "lmillard79/lmillard79.github.io"
 locale: "en-AU"
@@ -9,7 +9,7 @@ locale: "en-AU"
 author:
   name: "Lindsay Millard"
   avatar: "/images/PenPic_WRM.png"
-  bio: "Chartered Water Resources Engineer & Data Scientist"
+  bio: "Principal Hydrologist & Chartered Engineer. RPEQ · CEng MICE · CPEng · FIEAust. 20+ years across flood risk, dam safety, and water resources."
   location: "Brisbane, Australia"
   email: "lindsay.milard@outlook.com.au"
   links:
