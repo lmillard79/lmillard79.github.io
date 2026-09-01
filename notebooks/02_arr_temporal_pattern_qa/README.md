@@ -1,6 +1,6 @@
 # Notebook 02 — ARR Temporal Pattern QA
 
-> **Related article:** _Screening ARR 2019 Temporal Patterns for Embedded Burst Errors_ (coming soon)
+> **Related article:** [Screening ARR 2019 Temporal Patterns for Embedded Burst Errors](https://lmillard79.github.io/insights/2026/09/01/arr-temporal-pattern-embedded-burst-screening.html)
 
 ## What this notebook does
 
@@ -19,9 +19,7 @@ ARR 2019 recommends running an ensemble of 10 temporal patterns for design flood
 ```
 02_arr_temporal_pattern_qa/
 ├── README.md
-├── arr_temporal_pattern_qa.ipynb   # main notebook (to be created)
-└── data/
-    └── README.md                   # ARR Data Hub API instructions
+└── arr_temporal_pattern_qa.ipynb   # main notebook
 ```
 
 ## Dependencies
@@ -41,8 +39,8 @@ This notebook retrieves temporal patterns from the ARR Data Hub API. No API key 
 
 ## Status
 
-- [ ] Notebook written
-- [ ] API integration tested
-- [ ] Validated against Ladson (2021) flagged pattern list
-- [ ] Figures exported to /images/
-- [ ] Article published
+- [x] Notebook written -- screening function complete, unit-tested on synthetic patterns
+- [x] Figures exported to /images/
+- [x] Article published
+- [ ] **API integration** (`fetch_arr_temporal_patterns`, see the TODO cell at the end of the notebook) -- per the note above, no API key should be needed, but the exact endpoint/response schema still needs confirming and wiring up
+- [ ] Validated against Ladson (2021)'s own flagged pattern list, once real patterns are pulled in via the API

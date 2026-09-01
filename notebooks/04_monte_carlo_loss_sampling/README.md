@@ -1,6 +1,6 @@
 # Notebook 04 — Monte Carlo Loss Sampling for ARR 2019
 
-> **Related article:** _Sampling ARR 2019 Loss Distributions in Python — A URBS Pre-Processor_ (coming soon)
+> **Related article:** [Sampling ARR 2019 Loss Distributions in Python — A URBS Pre-Processor](https://lmillard79.github.io/insights/2026/04/25/monte-carlo-loss-sampling-arr2019-python.html)
 
 ## What this notebook does
 
@@ -15,9 +15,10 @@ ARR 2019 recommends Monte Carlo simulation treating initial loss as a random var
 ```
 04_monte_carlo_loss_sampling/
 ├── README.md
-├── monte_carlo_loss_sampling.ipynb # main notebook (to be created)
+├── monte_carlo_loss_sampling.ipynb # main notebook
 └── data/
-    └── README.md
+    ├── README.md
+    └── il_cl_samples_N{0100,0500,1000}.csv  # example export output
 ```
 
 ## Dependencies
@@ -48,8 +49,9 @@ Results are compared against the Ladson R implementation of the same ARR distrib
 
 ## Status
 
-- [ ] Notebook written
-- [ ] Validated against Ladson R reference
-- [ ] URBS CSV output format confirmed
-- [ ] Figures exported to /images/
-- [ ] Article published
+- [x] Notebook written
+- [x] Validated against Ladson R reference (IL mean 1.162 vs ~1.15, CL mean 1.241 vs ~1.24 -- within Monte Carlo noise at N=10,000)
+- [x] URBS CSV output format implemented (N=100/500/1000 example exports in data/)
+- [x] Figures exported to /images/
+- [x] Article published
+- [ ] LYR RORB application (Section 10 of the notebook) -- needs real project median IL/CL from the ARR Data Hub, out of scope for the article
