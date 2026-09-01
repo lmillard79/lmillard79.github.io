@@ -1,6 +1,6 @@
 # Notebook 01 — Baseflow Separation Using the Lyne-Hollick Filter
 
-> **Related article:** _Baseflow Separation Using the Lyne-Hollick Filter — A Python Implementation_ (coming soon)
+> **Related article:** [Baseflow Separation Using the Lyne-Hollick Filter — A Python Implementation](https://lmillard79.github.io/insights/2026/04/11/baseflow-separation-lyne-hollick-python.html)
 
 ## What this notebook does
 
@@ -19,9 +19,7 @@ Accurate baseflow separation is a prerequisite for URBS/RORB model calibration. 
 ```
 01_baseflow_lyne_hollick/
 ├── README.md
-├── baseflow_lyne_hollick.ipynb     # main notebook (to be created)
-└── data/
-    └── README.md                   # data source instructions
+└── baseflow_lyne_hollick.ipynb     # main notebook
 ```
 
 ## Dependencies
@@ -38,7 +36,7 @@ Results are validated against the Ladson R implementation. Expected outputs for 
 
 ## Status
 
-- [ ] Notebook written
-- [ ] Validated against Ladson R reference
-- [ ] Figures exported to /images/
-- [ ] Article published
+- [x] Notebook written
+- [x] Validated against Ladson R reference (BFI = 0.3875 vs. reference 0.3879)
+- [x] Figures exported to /images/
+- [x] Article published

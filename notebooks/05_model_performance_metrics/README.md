@@ -1,6 +1,6 @@
 # Notebook 05 — Model Performance Metrics Beyond NSE
 
-> **Related article:** _Is Nash-Sutcliffe Efficiency Enough? A Python Comparison of Calibration Metrics for Australian Flood Models_ (coming soon)
+> **Related article:** [Is Nash-Sutcliffe Efficiency Enough? A Python Comparison of Calibration Metrics for Australian Flood Models](https://lmillard79.github.io/insights/2026/04/18/model-performance-metrics-nse-kge-python.html)
 
 ## What this notebook does
 
@@ -19,10 +19,12 @@ High NSE values are routinely produced by automated calibration on models that a
 ```
 05_model_performance_metrics/
 ├── README.md
-├── model_performance_metrics.ipynb # main notebook (to be created)
-└── data/
-    └── README.md
+└── model_performance_metrics.ipynb # main notebook
 ```
+
+Section 10 of the notebook (LYR RORB calibration application) is an intentional
+placeholder for a specific client project's real data and is not part of the
+published article -- see the notebook itself for what's needed to complete it.
 
 ## Dependencies
 
@@ -38,7 +40,8 @@ Applied to synthetic URBS outputs with known deficiencies — volume error, timi
 
 ## Status
 
-- [ ] Notebook written
-- [ ] Synthetic URBS outputs generated
-- [ ] Figures exported to /images/
-- [ ] Article published
+- [x] Notebook written
+- [x] Synthetic URBS outputs generated
+- [x] Figures exported to /images/
+- [x] Article published
+- [ ] LYR RORB calibration application (Section 10) — needs real project data, out of scope for the article

@@ -69,20 +69,38 @@ The site deploys automatically to GitHub Pages via GitHub Actions whenever chang
 ### Add a blog post
 
 ```bash
-./_scripts/new_post.sh "Your Post Title"
+./_scripts/new_post.sh "Your Post Title"              # commentary/insights post
+./_scripts/new_post.sh "Your Post Title" --tutorial    # Python tutorial post
 ```
 
-Or create a file in `_posts/` manually with front matter:
+Or create a file in `_posts/` manually. This is the actual pattern every current post follows — copy it, don't improvise a new one:
 
 ```yaml
 ---
-layout: single
 title: "Your Post Title"
-date: YYYY-MM-DD HH:MM:SS +1000
+date: YYYY-MM-DD
 categories: [insights]
-tags: [tag1, tag2]
+tags: [python, tutorial, hydrology]   # include "tutorial" only for the Python how-to series
+excerpt: "One or two sentences. Shown on the homepage 'Latest Insights' cards and /insights/."
+header:
+  overlay_color: "#0f172a"
+  overlay_filter: 0.7
+  overlay_image: /images/pano1.jpg     # or a topical image from /images/
+read_time: true
 ---
 ```
+
+A few conventions worth knowing before you write:
+
+- **Don't set `layout:`.** It defaults to `single` via `_config.yml`, which is what every real post relies on for the theme's masthead/sidebar/hero rendering. Setting `layout: post` (the old default in this script, now fixed) breaks that.
+- **`tags` containing `tutorial`** is what routes a post onto the `/python/` page as well as `/insights/` — see `_pages/python.md` and `_pages/insights.md`, both of which filter on it. Nothing else about a tutorial post is structurally different.
+- **Images** go in `/images/` named `YYYY-MM_short-topic-slug.png` (or `.jpg`), matching the post's date. Reference in-post with a `<figure>`/`<figcaption>` block — see any recent post's markdown for the pattern.
+- **Code-heavy posts** get a companion notebook under `notebooks/NN_slug/` (see the Python tutorial series). Not required for commentary posts.
+- **A post claiming a specific technical standard is correct** (ARR 2019 tables, code validated against a reference implementation, etc.) should actually be validated before publishing — run the code, check the numbers, don't take a draft's claim on faith. `_drafts/` is scaffolding, not content; treat any bracketed `_[placeholder text]_` as unwritten, not "mostly done."
+
+### Content backlog
+
+`_pages/resources/content-ideas.md` (excluded from the build, so it's a private working note) tracks source material for future posts — currently the unused LinkedIn material from a September 2026 content audit. Check there before starting from a blank page.
 
 ### Add a page
 

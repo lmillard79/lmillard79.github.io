@@ -84,6 +84,7 @@ exclude:
   # Internal working notes -- kept in the repo for reference, not published
   - _pages/resources/seo-plan.md
   - _pages/resources/sitemap-submission-guide.md
+  - _pages/resources/content-ideas.md
 
 # Defaults
 defaults:
