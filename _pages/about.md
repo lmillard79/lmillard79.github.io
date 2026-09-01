@@ -22,8 +22,8 @@ I deliver flood risk management solutions and surface water impact assessments t
 
 <div class="skills-grid" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
   <span style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 0.3rem 0.9rem; font-size: 0.9rem; font-weight: 600;">RPEQ #8795</span>
-  <span style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 0.3rem 0.9rem; font-size: 0.9rem; font-weight: 600;">CEng MICE</span>
-  <span style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 0.3rem 0.9rem; font-size: 0.9rem; font-weight: 600;">CPEng</span>
+  <span style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 0.3rem 0.9rem; font-size: 0.9rem; font-weight: 600;">CPEng #2328510</span>
+  <span style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 0.3rem 0.9rem; font-size: 0.9rem; font-weight: 600;">CEng MICE #65580633</span>
   <span style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 0.3rem 0.9rem; font-size: 0.9rem; font-weight: 600;">FIEAust</span>
 </div>
 
@@ -36,7 +36,7 @@ I deliver flood risk management solutions and surface water impact assessments t
   <div class="timeline-item">
     <h3>Principal Engineer / Hydrologist</h3>
     <p class="date">May 2022 – Present · WRM Water & Environment Pty Ltd</p>
-    <p>Lead water resources modelling analyst supporting water storage operation and drought management. Delivering 50+ surface water impact assessments for renewable energy infrastructure (solar, wind, BESS) across three states. Key projects include the Little Yarra River flood study (80 km²) and Logan/Albert Rivers study (calibrated to four major flood events).</p>
+    <p>Lead water resources modelling analyst supporting water storage operation and drought management. Delivering 50+ surface water impact assessments for renewable energy infrastructure (solar, wind, BESS) across three states. Key projects include the Little Yarra River flood study (80 km²), Logan/Albert Rivers study (calibrated to four major flood events), design flood hydrology for Queensland Hydro's Pioneer–Burdekin Pumped-Hydro Energy Scheme, and a 136-year continuous simulation flood resilience study for the Darling Downs and Northern Territory road networks (presented HWRS 2025, IPWEA NT 2024, Life of Mine 2025). Independent peer reviewer for dam safety and flood studies including Chifley Dam, Finch Hatton, and Crystal Waters.</p>
     <p><em>Tools: GoldSIM, URBS, TUFLOW, Python, QGIS</em></p>
   </div>
 
@@ -55,13 +55,13 @@ I deliver flood risk management solutions and surface water impact assessments t
   <div class="timeline-item">
     <h3>Senior Engineer</h3>
     <p class="date">Aug 2011 – Aug 2014 · Department of Transport and Main Roads (TMR)</p>
-    <p>Author of the <strong>TMR Bridge Scour Manual (2013)</strong> — Queensland's first statewide scour guidance. Flood impact assessments for roads and bridges using MikeFlood, HEC-RAS, and TUFLOW. Developed continuous simulation methodology using 136 years of data for the Darling Downs road network. Road closure analysis for all Federal Highways throughout the Northern Territory.</p>
+    <p>Author of the <strong>TMR Bridge Scour Manual (2013)</strong> — Queensland's first statewide scour guidance, awarded a Chief Engineer's Excellence Award. Flood impact assessments for roads and bridges using MikeFlood, HEC-RAS, and TUFLOW. Developed continuous simulation methodology using 136 years of data for the Darling Downs road network. Road closure analysis for all Federal Highways throughout the Northern Territory.</p>
   </div>
 
   <div class="timeline-item">
     <h3>Senior Engineer — Water Resources</h3>
     <p class="date">2005 – Sep 2011 · AECOM (Australia & United Kingdom)</p>
-    <p>Managed projects £30k–£220k across UK and Australia. Hydrologic and hydraulic modelling using MIKE FLOOD, HEC-RAS, MIKE21, RORB, and RAFTS. Water sensitive urban design, SWMP and PAR assessments per Environment Agency guidelines.</p>
+    <p>Managed projects £30k–£220k across UK and Australia. Hydrologic and hydraulic modelling using MIKE FLOOD, HEC-RAS, MIKE21, RORB, and RAFTS. Water sensitive urban design, SWMP and PAR assessments per Environment Agency guidelines. Project managed the multidisciplinary Crossrail Cell 1 Wallasea Island scheme — now Europe's most extensive intertidal wetland restoration.</p>
   </div>
 
 </div>
@@ -72,7 +72,8 @@ I deliver flood risk management solutions and surface water impact assessments t
 
 - **Master of Engineering Science (Water & Wastewater)** — University of New South Wales, 2006–2009
   Surface water hydrology, urban hydrology, catchment and water resources modelling, hydrodynamics of rivers and estuaries.
-- **Bachelor of Civil Engineering** — James Cook University
+- **Bachelor of Engineering (Civil)** — University of Queensland
+  Department of Main Roads Undergraduate Engineering Scholarship recipient.
 - **Bachelor of Business (Management)** — James Cook University, 2003–2005
 
 ---

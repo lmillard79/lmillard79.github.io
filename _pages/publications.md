@@ -19,6 +19,27 @@ classes: wide
 ## <i class="fas fa-file-alt"></i> Conference Papers
 
 <div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">HWRS 2025: Darling Downs Flood Link Study</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>Hydrology & Water Resources Symposium</strong> · 2025</p>
+  <p>136-year continuous simulation flood resilience study for the Darling Downs and Northern Territory road networks, calibrated to 20 gauges across the Condamine/Balonne, Mooney and Macintyre River basins.</p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">Queensland Water Symposium 2025: Renewable Energy Surface Water Assessments</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>Queensland Water Symposium</strong> · 2025</p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">Life of Mine Conference 2025: NT Gas Roads Hydrology</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>Life of Mine Conference</strong> · 2025</p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">IPWEA NT Conference 2024: NT Gas Roads Hydrology — Identification of Weak Links</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>IPWEA NT Conference</strong> · 2024</p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
   <h3 style="margin-bottom: 0.3rem;">Floodplain Management Association 2025: Continuous Simulation for Flood Frequency Analysis</h3>
   <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>FMA Conference</strong> · 2025</p>
   <p><a href="/docs/Millard_FMA2025_11D_ContSimFFA.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a></p>
