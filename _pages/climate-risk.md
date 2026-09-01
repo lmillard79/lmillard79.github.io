@@ -51,13 +51,3 @@ classes: wide
     <p>New posts in this series are in progress.</p>
   </div>
 {% endif %}
-
----
-
-<div style="margin-top: 2rem; color: #94a3b8; font-size: 0.95rem;">
-  <h3 style="color: #cbd5e1;">What's next</h3>
-  <p>One more piece in progress, continuing the theme of reporting what the data and methods show rather than asserting more than they can support:</p>
-  <ol>
-    <li><strong>Stochastic rainfall generation with <code>pyraingen</code></strong> — a practitioner's walkthrough of the package for exploring plausible rainfall changes at different durations and AEPs.</li>
-  </ol>
-</div>
