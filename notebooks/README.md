@@ -15,6 +15,7 @@ Each notebook is self-contained. Clone just the subdirectory you need and run it
 | 05 | [Model Performance Metrics](05_model_performance_metrics/) | [published](https://lmillard79.github.io/insights/2026/04/18/model-performance-metrics-nse-kge-python.html) | done |
 | 06 | [FFA Non-Stationarity Diagnostic](06_ffa_nonstationarity_diagnostic/) | [published](https://lmillard79.github.io/insights/2026/09/01/ffa-nonstationarity-outlier-diagnostic-python.html) | done |
 | 07 | [pyraingen Evaluation](07_pyraingen_evaluation/) | [published](https://lmillard79.github.io/insights/2026/09/01/pyraingen-stochastic-rainfall-evaluation.html) | done |
+| 08 | [POT Exponential Fit](08_pot_exponential_fit/) | [published](https://lmillard79.github.io/insights/2026/09/01/pot-exponential-fit-python.html) | done |
 
 ## Requirements
 
