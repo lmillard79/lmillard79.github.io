@@ -63,7 +63,7 @@ classes: wide
   <ol>
     <li><strong>Baseflow Separation</strong> — Lyne-Hollick filter, Python translation of Ladson et al. (2013)</li>
     <li><strong>ARR Temporal Pattern QA</strong> — screen for embedded burst errors before ensemble runs</li>
-    <li><strong>ARF Calculator</strong> — ARR 2019 Book 2 equations, all 11 regions, importable module</li>
+    <li><strong>ARF Calculator</strong> — ARR 2019 Book 2 equations, all 10 regions, importable module</li>
     <li><strong>Monte Carlo Loss Sampling</strong> — ARR 2019 IL/CL distributions, URBS pre-processor output</li>
     <li><strong>Model Performance Metrics</strong> — NSE, KGE, PBIAS, and peak flow bias compared</li>
   </ol>

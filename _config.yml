@@ -49,6 +49,8 @@ nav:
     url: "/services/"
   - title: "Python"
     url: "/python/"
+  - title: "Climate Risk"
+    url: "/climate-risk/"
   - title: "Blog"
     url: "/blog/"
 

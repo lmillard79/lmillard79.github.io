@@ -3,7 +3,7 @@ title: "The Silent Drawdown: Is Evaporation Eating Our Water Security?"
 date: 2026-01-15
 categories: [insights]
 tags: [water-resources, climate-change, dam-safety]
-excerpt: "The past three years — 2024, 2023, and 2025 — were the three hottest years on record. For Australian dam operators and water planners, the most significant consequence isn't a flood or a drought. It's the atmosphere pulling roughly 40% of storage capacity annually — and accelerating."
+excerpt: "The past three years — 2024, 2023, and 2025 — were the three hottest years on record. For Australian dam operators and water planners, one under-examined consequence isn't a flood or a drought — it's an estimated 40% of storage capacity pulled by evaporation annually, a rate that may keep climbing."
 header:
   overlay_color: "#0f172a"
   overlay_filter: 0.7
@@ -17,7 +17,7 @@ The global temperature record has been rewritten three times in three years. Acc
 - **2023**: 1.48–1.60°C — second hottest
 - **2025**: 1.44°C — third hottest, and notably a **La Niña year**
 
-That last point is significant. La Niña conditions typically produce cooler global temperatures. The fact that 2025 still ranked third-hottest despite La Niña forcing suggests the background warming signal has now overwhelmed the natural variability that previously made La Niña years reliably cooler.
+That last point is significant. La Niña conditions typically produce cooler global temperatures. Climate scientists have pointed to years like 2025 — still ranking third-hottest despite La Niña forcing — as evidence that the background warming signal is now overwhelming the natural variability that previously made La Niña years reliably cooler.
 
 <figure>
   <img src="/images/2026-01_ecmwf-global-temperature-anomaly-distribution.jpg" alt="ECMWF/C3S global surface air temperature anomaly distribution 1940-2025">
@@ -34,7 +34,7 @@ The physics is straightforward. Pan evaporation rates scale with temperature, va
 
 For a storage system like Wivenhoe Dam (Lake Wivenhoe surface area ~109 km² at full supply level), a 10% increase in annual evaporation rate represents tens of gigalitres of additional water loss annually — water that doesn't appear in the rainfall-runoff model, doesn't show up in inflow statistics, and doesn't get credited in demand projections.
 
-**The atmosphere is pulling approximately 40% of annual storage capacity from major Australian reservoirs through evaporation — and that fraction is increasing as temperatures rise.**
+**One estimate puts the atmosphere pulling approximately 40% of annual storage capacity from major Australian reservoirs through evaporation — a fraction some researchers expect to keep increasing as temperatures rise.**
 
 ## Why This Doesn't Appear in Water Security Assessments
 
@@ -52,7 +52,7 @@ This has three concrete implications for dam operators and water planners:
 
 **2. Drought response planning underestimates severity.** Water restriction levels and demand management triggers are calibrated against historical drought trajectories. If the underlying loss function has changed, those triggers may activate later than they should.
 
-**3. The next Millennium Drought will be worse.** Not just because inflows may be lower, but because the losses between rain events will be higher. A storage entering a multi-year drought at equivalent percentage levels faces higher absolute evaporation losses in a warmer climate.
+**3. The next Millennium Drought could be worse.** Not just because inflows may be lower, but because the losses between rain events would likely be higher too. A storage entering a multi-year drought at equivalent percentage levels would face higher absolute evaporation losses in a warmer climate.
 
 ## What Honest Planning Looks Like
 
