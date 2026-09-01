@@ -16,6 +16,10 @@ Each notebook is self-contained. Clone just the subdirectory you need and run it
 | 06 | [FFA Non-Stationarity Diagnostic](06_ffa_nonstationarity_diagnostic/) | [published](https://lmillard79.github.io/insights/2026/09/01/ffa-nonstationarity-outlier-diagnostic-python.html) | done |
 | 07 | [pyraingen Evaluation](07_pyraingen_evaluation/) | [published](https://lmillard79.github.io/insights/2026/09/01/pyraingen-stochastic-rainfall-evaluation.html) | done |
 | 08 | [POT Exponential Fit](08_pot_exponential_fit/) | [published](https://lmillard79.github.io/insights/2026/09/01/pot-exponential-fit-python.html) | done |
+| 09 | [Water Balance Waterfall Chart](09_water_balance_waterfall/) | [published](https://lmillard79.github.io/insights/2026/09/01/water-balance-waterfall-python.html) | done |
+| 10 | [Better Line Graphs](10_better_line_graphs/) | [published](https://lmillard79.github.io/insights/2026/09/01/better-line-graphs-python.html) | done |
+| 11 | [Rainbow Colour Scales](11_rainbow_colour_scales/) | [published](https://lmillard79.github.io/insights/2026/09/01/rainbow-colour-scales-python.html) | done |
+| 12 | [Nonlinear Model Fitting](12_nonlinear_model_fitting/) | [published](https://lmillard79.github.io/insights/2026/09/01/nonlinear-model-fitting-python.html) | done |
 
 ## Requirements
 
