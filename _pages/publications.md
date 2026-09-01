@@ -66,7 +66,7 @@ classes: wide
 </div>
 
 <div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
-  <h3 style="margin-bottom: 0.3rem;">Flood Frequency Analysis: Practical Guidance for Engineering Practitioners</h3>
+  <h3 style="margin-bottom: 0.3rem;">Probably Some Practical Advice on Flood Frequency Analysis</h3>
   <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;">
     <strong>Engineers Australia</strong> · November 2023
   </p>

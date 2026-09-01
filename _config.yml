@@ -29,6 +29,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Build Settings
 markdown: kramdown
