@@ -29,7 +29,7 @@ classes: wide
   <p>The branch is functional and testable. I'm actively developing it and welcome <strong>user feedback and bug reports</strong> via GitHub Issues — this is genuinely useful for Australian practitioners who need a pure-Python ARR 2019–compliant FFA workflow.</p>
   <p style="margin-top: 0.8rem;">
     <a href="https://github.com/lmillard79/pyextremes/blob/ARR2019_Book3/docs/user-guide/15-flood-frequency-analysis.md" target="_blank" rel="noopener" style="margin-right: 1rem;">📄 User Guide</a>
-    <a href="/2026/03/22/pyextremes-arr2019-flood-frequency-python/" style="margin-right: 1rem;">📝 Insights Post</a>
+    <a href="/insights/2026/03/22/pyextremes-arr2019-flood-frequency-python.html" style="margin-right: 1rem;">📝 Insights Post</a>
     <a href="https://github.com/lmillard79/pyextremes/tree/ARR2019_Book3" target="_blank" rel="noopener">⭐ View on GitHub</a>
   </p>
 </div>
@@ -73,6 +73,19 @@ classes: wide
 
 ---
 
+## <i class="fas fa-map-marked-alt"></i> Interactive Tools
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #64748b; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">Peak–Area Relationship Explorer</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;">Web app · Australian flood peak/catchment-area analysis</p>
+  <p>An interactive tool for exploring peak flow vs. catchment area relationships across modelled Australian flood studies — geospatial mapping and statistical comparison of flood characteristics by region.</p>
+  <p style="margin-top: 0.8rem;">
+    <a href="https://area-peakflow-66e1be9aba7f.herokuapp.com/" target="_blank" rel="noopener">Launch the tool →</a>
+  </p>
+</div>
+
+---
+
 ## <i class="fas fa-code"></i> Technical Projects
 
 <div style="background: rgba(255,255,255,0.04); border-left: 4px solid #64748b; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
@@ -81,6 +94,7 @@ classes: wide
   <p>A Python pre/post-adapter enabling GoldSim reservoir routing models to run natively within a Delft-FEWS real-time forecasting system. The adapter translates FEWS PI-XML time series to GoldSim spreadsheet inputs (pre-adapter) and converts GoldSim output back to PI-XML for FEWS import (post-adapter), triggered by a batch controller. Presented at the 2019 TUFLOW User Conference.</p>
   <p style="margin-top: 0.8rem;">
     <a href="/blog/delft-fews-adapter/" style="margin-right: 1rem;">📝 Technical Post</a>
+    <a href="/Worked_Example_FEWS-GoldSim-Adapter.slides.html" target="_blank" rel="noopener">🖥️ Worked Example Slides</a>
   </p>
 </div>
 
@@ -93,5 +107,5 @@ classes: wide
 ---
 
 <div class="notice--info" style="margin-top: 2rem;">
-  <p><strong><a href="https://github.com/lmillard79" target="_blank" rel="noopener">View all repositories on GitHub →</a></strong> &nbsp;|&nbsp; Questions or collaboration on any of the above: <a href="mailto:lindsay.milard@outlook.com.au">get in touch</a>.</p>
+  <p><strong><a href="https://github.com/lmillard79" target="_blank" rel="noopener">View all repositories on GitHub →</a></strong> &nbsp;|&nbsp; Questions or collaboration on any of the above: <a href="mailto:lindsay.millard@outlook.com.au">get in touch</a>.</p>
 </div>

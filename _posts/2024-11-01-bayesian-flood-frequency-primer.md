@@ -56,7 +56,7 @@ annual_max <- c(240, 380, 195, 440, 310, ...)  # your data
 # Posterior samples give you the full distribution over quantiles
 ```
 
-I've written more detail on this in my [Bayesian Coin Toss post](/2019/05/12/BayesianCoinToss/) which walks through the mechanics of Bayesian updating — a useful foundation before tackling flood frequency.
+I've written more detail on this in my [Bayesian Coin Toss post](/blog/bayesian-coin-toss/) which walks through the mechanics of Bayesian updating — a useful foundation before tackling flood frequency.
 
 ## When Is It Worth It?
 

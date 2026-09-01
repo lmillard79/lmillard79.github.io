@@ -1,53 +1,46 @@
-# Lindsay Millard - Professional Portfolio Website
+# Lindsay Millard — Professional Portfolio Website
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://lmillard79.github.io/)
 [![Jekyll](https://img.shields.io/badge/Jekyll-CC0000?style=for-the-badge&logo=jekyll&logoColor=white)](https://jekyllrb.com/)
-[![Cayman Theme](https://img.shields.io/badge/Theme-Cayman-159818?style=for-the-badge)](https://pages-themes.github.io/cayman/)
+[![Minimal Mistakes](https://img.shields.io/badge/Theme-Minimal%20Mistakes-159957?style=for-the-badge)](https://mmistakes.github.io/minimal-mistakes/)
 
-This is the repository for my professional portfolio website showcasing my expertise in hydrology, water resources engineering, and data science.
+This is the repository for my professional portfolio website, showcasing my work in hydrology, water resources engineering, and data science.
 
 ## Features
 
-- **Modern & Responsive Design**: Built with Jekyll and the Cayman theme for optimal viewing on all devices
-- **Fast Performance**: Optimized for quick loading and smooth navigation
-- **SEO Optimized**: Built-in search engine optimization features
-- **Blog Ready**: Easy-to-use blog system for sharing technical articles and insights
-- **Project Showcase**: Clean, organized display of professional projects and case studies
+- **Dark, minimal-mistakes-based theme** for a clean, professional feel on any device
+- **SEO optimised** via `jekyll-seo-tag`
+- **Blog** for technical articles, insights, and Python tutorials
+- **Project showcase** of open-source tools and technical work
 
 ## Project Structure
 
 ```
 .
-├── _includes/      # Reusable components (header, footer, etc.)
-├── _layouts/       # Page templates
-├── _pages/         # Main content pages
-│   ├── about/      # About me section
-│   ├── projects/   # Project portfolio
-│   ├── blog/       # Blog posts
-│   └── resources/  # Technical resources and cheatsheets
+├── _includes/      # Reusable components (custom head, feature rows)
+├── _layouts/       # Page templates (falls through to the remote theme
+│                     where no local override is defined)
+├── _pages/         # Main content pages (About, Expertise, Projects,
+│                     Publications, Python, Blog resources)
+├── _posts/         # Blog posts and technical write-ups
+├── notebooks/      # Companion Jupyter notebooks for the Python series
 ├── assets/         # Static assets (CSS, JS, images)
 └── _config.yml     # Site configuration
 ```
 
+**Note:** `_pages/` starts with an underscore, so it is not picked up by Jekyll automatically — it's force-included via `include: [_pages]` in `_config.yml`. Keep that in mind if you ever rename or restructure it.
+
 ## Technical Stack
 
 - **Static Site Generator**: [Jekyll](https://jekyllrb.com/)
-- **Theme**: [Cayman](https://pages-themes.github.io/cayman/)
+- **Theme**: [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) (dark skin), loaded via `remote_theme`
 - **Hosting**: [GitHub Pages](https://pages.github.com/)
-- **CI/CD**: GitHub Actions
+- **CI/CD**: GitHub Actions (`.github/workflows/jekyll.yml`)
 
-## Getting Started
+## Local Development
 
-### Prerequisites
-
-- Ruby (recommended: 2.5.0 or higher)
-- Bundler (`gem install bundler`)
-- Jekyll (`gem install jekyll`)
-
-### Local Development
-
-1. **Install Prerequisites**
-   - [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (version 2.7 or higher)
+1. **Install prerequisites**
+   - [Ruby](https://www.ruby-lang.org/en/documentation/installation/) 2.7+
    - [Bundler](https://bundler.io/): `gem install bundler`
 
 2. **Clone the repository**
@@ -65,118 +58,57 @@ This is the repository for my professional portfolio website showcasing my exper
    ```bash
    bundle exec jekyll serve
    ```
-   The site will be available at `http://localhost:4000`
+   The site will be available at `http://localhost:4000`.
 
 ## Deployment
 
-This site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
-
-## Theme
-
-This site uses the [Cayman theme](https://github.com/pages-themes/cayman) for GitHub Pages.
-git add .
-git commit -m "Update site content and structure"
-git push origin main
-```
-
-The site will be available at: https://lmillard79.github.io
-
-### Manual Build (Optional)
-
-If you need to build the site manually:
-
-```bash
-bundle exec jekyll build
-```
-
-The built site will be available in the `_site` directory.
+The site deploys automatically to GitHub Pages via GitHub Actions whenever changes are pushed to `main`.
 
 ## Adding New Content
 
-### Create a New Blog Post
+### Add a blog post
 
 ```bash
 ./_scripts/new_post.sh "Your Post Title"
 ```
 
-Or manually create a new markdown file in `_posts/` with the following front matter:
+Or create a file in `_posts/` manually with front matter:
 
 ```yaml
 ---
-layout: post
+layout: single
 title: "Your Post Title"
 date: YYYY-MM-DD HH:MM:SS +1000
-categories: [category1, category2]
+categories: [insights]
 tags: [tag1, tag2]
 ---
 ```
 
-### Add a New Project
+### Add a page
 
-Create a new markdown file in `_pages/projects/` with the following front matter:
+Create a markdown file under `_pages/` with front matter, e.g.:
 
 ```yaml
 ---
-layout: page
-title: "Project Name"
-description: "Brief description of the project"
-image: /path/to/image.jpg
+layout: single
+title: "Page Name"
+permalink: /page-name/
+author_profile: true
 ---
 ```
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE.txt).
 
-## Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/lmillard79/lmillard79.github.io/issues).
-
-## 📬 Contact
+## Contact
 
 - GitHub: [@lmillard79](https://github.com/lmillard79)
 - LinkedIn: [Lindsay Millard](https://www.linkedin.com/in/lindsaymillard)
-- Email: [lindsay.millard@example.com](mailto:lindsay.millard@example.com)
+- Email: [lindsay.millard@outlook.com.au](mailto:lindsay.millard@outlook.com.au)
 
 ---
 
 <p align="center">
   <i>Built with Jekyll</i>
 </p>
-- GIS and spatial analysis (QGIS, ArcGIS)
-- Project management and client relations
-
-### Professional Experience
-
-With over 15 years of experience in water resources engineering, I have successfully delivered projects across multiple sectors including:
-
-- Transport infrastructure (road and rail drainage design)
-- Mining (water management for large-scale operations)
-- Civil infrastructure (urban development and water sensitive design)
-- Water utilities (strategic water resource planning)
-
-## Technical Implementation
-
-The website uses:
-
-- Jekyll static site generator
-- Minimal Mistakes theme
-- Responsive design for all devices
-- Structured navigation for easy content discovery
-- Blog functionality for technical articles
-- Portfolio showcase for key projects
-
-## Deployment
-
-The website is automatically deployed to GitHub Pages from the `main` branch.
-
-## Maintenance
-
-To update the website:
-
-1. Make changes to the relevant Markdown files in the `_pages` directory
-2. Update blog posts in the `_posts` directory
-3. Modify styling in the `_sass` directory if needed
-4. Push changes to GitHub for automatic deployment
-
-For any inquiries, please contact lindsay.milard79@gmail.com

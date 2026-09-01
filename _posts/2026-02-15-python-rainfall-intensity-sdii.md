@@ -67,7 +67,7 @@ The southeast Queensland and coastal NSW stations are showing the strongest inte
 
 The Python script pulls live SILO data via API for any Australian station and generates the plot automatically. Key libraries: `pandas`, `matplotlib`, `requests`.
 
-Drop a comment on the [LinkedIn post](https://www.linkedin.com/in/lindsaymillard/) or [email me](mailto:lindsay.milard@outlook.com.au) and I'll share the code for your location.
+Drop a comment on the [LinkedIn post](https://www.linkedin.com/in/lindsaymillard/) or [email me](mailto:lindsay.millard@outlook.com.au) and I'll share the code for your location.
 
 ---
 

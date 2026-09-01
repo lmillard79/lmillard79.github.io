@@ -63,4 +63,4 @@ A post-processing workflow that used to take 2 days for a typical study now take
 
 ---
 
-*I'm happy to share code snippets or discuss specific post-processing challenges. Reach out via [LinkedIn](https://www.linkedin.com/in/lindsaymillard) or [email](mailto:lindsay.milard@outlook.com.au).*
+*I'm happy to share code snippets or discuss specific post-processing challenges. Reach out via [LinkedIn](https://www.linkedin.com/in/lindsaymillard) or [email](mailto:lindsay.millard@outlook.com.au).*

@@ -42,7 +42,7 @@ For dam operators and flood forecasters, tracking where the current season sits 
 - **Storage trajectory** — is this season likely to challenge spillway design events, or is it a moderate recharge year?
 - **Operational posture** — when does the trajectory warrant moving from routine to enhanced monitoring?
 
-This type of historical benchmarking analysis is straightforward to run against the SILO Patched Point Dataset for any gauge in Australia. If you want the approach applied to your region, [get in touch](mailto:lindsay.milard@outlook.com.au).
+This type of historical benchmarking analysis is straightforward to run against the SILO Patched Point Dataset for any gauge in Australia. If you want the approach applied to your region, [get in touch](mailto:lindsay.millard@outlook.com.au).
 
 ---
 

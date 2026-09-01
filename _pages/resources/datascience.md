@@ -59,4 +59,4 @@ I contribute to the water resources engineering community through:
 
 ---
 
-*For consulting opportunities or collaboration on water resources projects, please [contact me](mailto:lindsay.milard79@gmail.com).*
+*For collaboration on water resources projects, please [contact me](mailto:lindsay.millard@outlook.com.au).*

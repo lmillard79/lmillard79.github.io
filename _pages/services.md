@@ -1,18 +1,18 @@
 ---
 layout: single
-title: "Professional Services"
+title: "Expertise"
 permalink: /services/
 author_profile: true
 header:
   overlay_color: "#0f172a"
   overlay_filter: 0.7
   overlay_image: /images/pano1.jpg
-  caption: "Specialist Engineering & Water Resources Consulting"
+  caption: "Flood Risk Engineering & Water Resources Management"
 classes: wide
 ---
 
 <div class="intro text-center" style="max-width: 800px; margin: 0 auto 3rem auto; font-size: 1.2rem; color: #cbd5e1;">
-  <p>I deliver high-end specialist consulting at the intersection of <strong>flood risk engineering</strong> and <strong>water resource management</strong> — with 20+ years of experience enabling major infrastructure projects to proceed safely and confidently.</p>
+  <p>Specialist practice at the intersection of <strong>flood risk engineering</strong> and <strong>water resource management</strong> — 20+ years enabling major infrastructure projects to proceed safely and confidently.</p>
 </div>
 
 ## <i class="fas fa-water"></i> Core Capabilities
@@ -27,7 +27,6 @@ classes: wide
     <p class="archive__item-excerpt">Technical lead for complex flood mapping studies protecting thousands of properties. Advanced 1D/2D modelling including calibration to multiple historic flood events.</p>
     <p><strong>Recent projects:</strong> Little Yarra River (80 km²), Logan/Albert Rivers (calibrated to 4 major events)</p>
     <p><strong>Tools:</strong> TUFLOW, HEC-RAS, MIKE FLOOD</p>
-    <a href="mailto:lindsay.milard@outlook.com.au?subject=Flood Study Inquiry" class="btn btn--primary">Enquire</a>
   </div>
 
   <div class="feature__item">
@@ -37,7 +36,6 @@ classes: wide
     <h3 class="archive__item-title">Water Resources & Drought Management</h3>
     <p class="archive__item-excerpt">Water balance assessments, drought risk forecasting, storage operation optimisation, and climate change impact assessment using CMIP6 data for councils and utilities.</p>
     <p><strong>Tools:</strong> GoldSIM, URBS, Python</p>
-    <a href="mailto:lindsay.milard@outlook.com.au?subject=Water Resources Inquiry" class="btn btn--primary">Enquire</a>
   </div>
 
   <div class="feature__item">
@@ -47,7 +45,6 @@ classes: wide
     <h3 class="archive__item-title">Dam Safety & Breach Analysis</h3>
     <p class="archive__item-excerpt">Lead hydrologist for consequence assessments of major Queensland dams. Monte Carlo breach simulation methodology for conditional probability of single or multiple embankment breaches, endorsed by Professor David Bowles (international dam safety expert).</p>
     <p><strong>Focus:</strong> Risk Quantification, PAR, Consequence Assessment</p>
-    <a href="mailto:lindsay.milard@outlook.com.au?subject=Dam Safety Inquiry" class="btn btn--primary">Enquire</a>
   </div>
 
 </div>
@@ -100,14 +97,14 @@ classes: wide
 
 </div>
 
-## <i class="fas fa-globe"></i> Where I Work
+## <i class="fas fa-globe"></i> Where I've Worked
 
-Providing services across Australia, with experience from UK, UAE, and Saudi Arabia engagements.
+Australia, with experience from UK, UAE, and Saudi Arabia engagements.
 
 <div class="notice--info" style="margin-top: 3rem; text-align: center;">
-  <h3>Ready to Start?</h3>
-  <p>Available for consulting engagements, specialist technical review, and contract roles.</p>
-  <a href="mailto:lindsay.milard@outlook.com.au" class="btn btn--inverse">Contact Me</a>
+  <h3>Let's Connect</h3>
+  <p>Open to discussing technical challenges, consulting engagements, or collaboration on complex water resources problems.</p>
+  <a href="https://www.linkedin.com/in/lindsaymillard" class="btn btn--primary" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/lindsaymillard" class="btn btn--primary" target="_blank" rel="noopener">LinkedIn Profile</a>
+  <a href="mailto:lindsay.millard@outlook.com.au" class="btn btn--inverse"><i class="fas fa-envelope"></i> Email</a>
 </div>

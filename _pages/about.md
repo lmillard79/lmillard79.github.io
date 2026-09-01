@@ -98,6 +98,7 @@ Australia · United Kingdom · United Arab Emirates · Saudi Arabia
   <p>Open to discussing technical challenges, consulting engagements, or collaboration on complex water resources problems.</p>
   <p>
     <a href="https://www.linkedin.com/in/lindsaymillard" class="btn btn--primary" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
-    <a href="mailto:lindsay.milard@outlook.com.au" class="btn btn--inverse"><i class="fas fa-envelope"></i> Email</a>
+    <a href="mailto:lindsay.millard@outlook.com.au" class="btn btn--inverse"><i class="fas fa-envelope"></i> Email</a>
+    <a href="/docs/Lindsay%20Millard_6%20pager.pdf" class="btn btn--inverse" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Download CV</a>
   </p>
 </div>

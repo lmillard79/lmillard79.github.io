@@ -67,7 +67,7 @@ print(f"Removed {len(model.extremes) - len(censored_extremes)} PILFs from the fi
 model.extremes = censored_extremes
 ```
 
-This is directly analogous to the sensitivity analysis approach used in the [2024 Kedron Brook Flood Study](/2025/03/15/kedron-brook-flood-study-2022-aep-analysis/) — where excluding the 2022 events tests whether the record is being dominated by a small number of large values. MGBT is the automated version of that test, applied to the lower tail.
+This is directly analogous to the sensitivity analysis approach used in the [2024 Kedron Brook Flood Study](/insights/2025/03/15/kedron-brook-flood-study-2022-aep-analysis.html) — where excluding the 2022 events tests whether the record is being dominated by a small number of large values. MGBT is the automated version of that test, applied to the lower tail.
 
 ## 3. TCEV — Two-Component Extreme Value Distribution
 
@@ -153,4 +153,4 @@ Whether the additions eventually make it into the upstream pyextremes library is
 
 *Fork: [lmillard79/pyextremes, ARR2019_Book3](https://github.com/lmillard79/pyextremes/tree/ARR2019_Book3). Based on Georgy Bocharnikov's [pyextremes](https://github.com/georgebv/pyextremes) (MIT licence).*
 
-*Related: [A Practitioner's Primer on Bayesian Flood Frequency Analysis](/2024/11/01/bayesian-flood-frequency-primer/) · [Reading the 2024 Kedron Brook Flood Study](/2025/03/15/kedron-brook-flood-study-2022-aep-analysis/)*
+*Related: [A Practitioner's Primer on Bayesian Flood Frequency Analysis](/insights/2024/11/01/bayesian-flood-frequency-primer.html) · [Reading the 2024 Kedron Brook Flood Study](/insights/2025/03/15/kedron-brook-flood-study-2022-aep-analysis.html)*

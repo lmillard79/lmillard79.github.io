@@ -19,11 +19,49 @@ classes: wide
 ## <i class="fas fa-file-alt"></i> Conference Papers
 
 <div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
-  <h3 style="margin-bottom: 0.3rem;">Probably some practical advice on flood frequency analysis</h3>
+  <h3 style="margin-bottom: 0.3rem;">Floodplain Management Association 2025: Continuous Simulation for Flood Frequency Analysis</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>FMA Conference</strong> · 2025</p>
+  <p><a href="/docs/Millard_FMA2025_11D_ContSimFFA.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a></p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">Life of Mine 2025: Hourly Rainfall from Daily Data</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>Life of Mine Conference</strong> · 2025</p>
+  <p>Statistical methods for disaggregating rainfall data, with applications in flood modelling and urban drainage design.</p>
+  <p><a href="/docs/HourlyRainfallfromDaily_WRM_LoM_paper183.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a></p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">HWRS 2025: A Continuous Future Climate for Water Resources Management</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>Hydrology & Water Resources Symposium</strong> · 2025</p>
+  <p>Climate change implications for long-term water resources planning, and continuous simulation modelling approaches for future climate scenarios.</p>
+  <p><a href="/docs/FullPaper_Millard_ClimateDataCentury_HWRS2025.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a></p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">HWRS 2025: URBS Continuous Simulation Modelling</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>Hydrology & Water Resources Symposium</strong> · 2025 · Co-author</p>
+  <p><a href="/docs/FullPaper_Cullen_URBS_CSM_HWRS2025.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a></p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">Flood Frequency Analysis: Practical Guidance for Engineering Practitioners</h3>
   <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;">
     <strong>Engineers Australia</strong> · November 2023
   </p>
   <p>Practical guidance on flood frequency analysis methodology for engineering practitioners — covering common pitfalls, record limitations, and defensible approaches to design flood estimation.</p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">Draining Down the Risk</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>ANCOLD Conference</strong> · 2021</p>
+  <p>Risk-based approaches to water management and innovative drainage solutions for complex site conditions.</p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">A Tale of Two Sites — Fish Passage</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>ANCOLD Conference</strong> · 2020</p>
+  <p><a href="/docs/ANCOLD%20%23107_TaleofTwoSites_FishPassage_combination_rev1_PRINT.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a></p>
 </div>
 
 <div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
@@ -32,9 +70,15 @@ classes: wide
     <strong>ANCOLD Conference</strong> · August 2019
   </p>
   <p>Presents a Monte Carlo dam breach simulation approach to derive conditional probabilities for single or multiple embankment breaches and breach sequence, considering erosion initiation due to velocity and duration of overtopping flow.</p>
-  <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #94a3b8;">
-    Presented at the Australian National Committee on Large Dams (ANCOLD) Annual Conference.
+  <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+    <a href="/docs/ANCOLD%202019%20-%20One%20breach%20or%20more_v03.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a>
   </p>
+</div>
+
+<div style="background: rgba(255,255,255,0.04); border-left: 4px solid #2e8bc0; border-radius: 6px; padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;">
+  <h3 style="margin-bottom: 0.3rem;">Scour Evaluation</h3>
+  <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;"><strong>E&amp;T Forum</strong> · 2013</p>
+  <p><a href="/docs/ET%20Forum%20L%20Millard%20Scour%20Evaluation%20Presentation%20(Final).pdf" target="_blank" rel="noopener">Read the presentation (PDF) →</a></p>
 </div>
 
 ---
@@ -68,7 +112,7 @@ classes: wide
   </p>
   <p>Fork of pyextremes extended for ARR 2019 Book 3 / Bulletin 17C at-site flood frequency analysis. Adds native LP3 distribution, Multiple Grubbs-Beck Test for PILF identification, TCEV distribution, and LH-moments for Australian catchment data.</p>
   <p style="margin-top: 0.5rem; font-size: 0.9rem;">
-    <a href="https://github.com/lmillard79/pyextremes/tree/ARR2019_Book3" target="_blank" rel="noopener">GitHub</a> · <a href="/2026/03/22/pyextremes-arr2019-flood-frequency-python/">Insights Post</a>
+    <a href="https://github.com/lmillard79/pyextremes/tree/ARR2019_Book3" target="_blank" rel="noopener">GitHub</a> · <a href="/insights/2026/03/22/pyextremes-arr2019-flood-frequency-python.html">Insights Post</a>
   </p>
 </div>
 
