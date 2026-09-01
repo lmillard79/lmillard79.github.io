@@ -11,7 +11,7 @@ header:
 read_time: true
 ---
 
-Tony Ladson's blog has come up as a reference more than once on this site already — his baseflow separation method, his writing on model performance metrics, his work on ARR loss distributions. I learned a lot of practical Australian hydrology from reading his R, and I'd like to start properly returning the favour: porting specific methods from his blog to Python, checked against his own published numbers rather than just "inspired by" them. This is the first one.
+Tony Ladson's blog has come up as a reference more than once on this site already — his baseflow separation method, his writing on model performance metrics, his work on ARR loss distributions. I learned a lot of practical Australian hydrology from reading his R, and I'd like to start properly returning the favour: porting specific methods from his blog to Python, checked against his own published numbers rather than just "inspired by" them. This is the first one — and the pattern for the whole series: the explanation and the underlying method are his; I'm just providing a hopefully useful translation service for readers who, like me, know Python better than R.
 
 The source is [Fitting a probability model to POT data](https://tonyladson.wordpress.com/2019/03/25/fitting-a-probability-model-to-pot-data/) (25 March 2019), with the R source published separately as a [gist](https://gist.github.com/TonyLadson/5b01838fef1140293397e23eebe12079). Read his original post for the full explanation — what follows is a Python port and my own summary of the method, not a substitute for it.
 
