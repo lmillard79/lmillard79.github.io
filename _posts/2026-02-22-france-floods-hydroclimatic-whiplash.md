@@ -38,9 +38,9 @@ The most dangerous scenario in modern water management isn't a drought or a floo
 
 France moved from managing a prolonged dry period to a nationwide flood emergency across a single weather sequence. The transition was not gradual.
 
-Australia is familiar with this pattern. What's changing is the amplitude and speed of the oscillation.
+Australia is familiar with this pattern. The open question is whether the amplitude and speed of the oscillation are themselves increasing.
 
-The historical baseline has shifted. We can no longer design for the climate we had; we must engineer for the climate we have.
+If the historical baseline has genuinely shifted, we can no longer design for the climate we had — we need to engineer for the climate we have.
 
 ---
 

@@ -11,13 +11,13 @@ header:
 read_time: true
 ---
 
-The Colorado River Basin offers one of the clearest case studies in how climate change is exposing critical vulnerabilities in water infrastructure — not through catastrophic failure, but through the slow erosion of the operating envelope until routine conditions become emergencies.
+The Colorado River Basin is one of the most closely studied examples of a water system's operating envelope eroding under prolonged reduced inflows — not through catastrophic failure, but through routine conditions slowly becoming emergencies.
 
 ## The Crisis
 
 The numbers are stark:
 
-- The Colorado River's flow has **fallen 20% this century** due to warming-driven evapotranspiration increases
+- The Colorado River's flow has **fallen an estimated 20% this century** — research attributes much of that decline to warming-driven evapotranspiration increases across the basin
 - Lake Powell and Lake Mead have both sat **below 30% capacity** in recent years
 - In 2023, Lake Powell's surface level dropped **within 30 feet of minimum power pool** — the threshold below which hydropower generation must cease
 - 25 million people and billions of dollars in agriculture depend on this system
@@ -30,7 +30,7 @@ At very low storage levels, the normal operational spillways and outlet works at
 
 The River Outlet Works has a critical design flaw: it experiences **damaging cavitation** at the flow velocities required when it's the sole release pathway. It was designed as a backup system, not a primary one. When water levels dropped to the point where it became the primary release mechanism, operators were caught between releasing water through a system that damages itself in doing so, or not releasing water at all.
 
-This is the signature of infrastructure designed for a stable operating range that no longer exists.
+It's a pattern worth recognising: infrastructure designed around a stable operating range can fail well before a reservoir empties, once that range narrows enough.
 
 ## The Broader Lesson
 
@@ -40,15 +40,15 @@ As Wade Graham summarised in *High Country News* (Feb 2026): *"Lake Powell — a
 
 ## The Australian Parallel
 
-We're not immune to this pattern. Our dam infrastructure was designed around historical inflow records, many of which are now being revised downward as the climate signal becomes clearer. Spillway adequacy assessments and operating rules that were approved against 20th-century hydrology may need systematic review.
+We're not immune to this pattern, and it's worth asking how much of our own dam infrastructure was designed around historical inflow records that are now being revised downward. Spillway adequacy assessments and operating rules approved against 20th-century hydrology are a reasonable place to start checking.
 
-The questions we should be asking:
+The questions worth asking:
 
 - **Which of our major storages are operating with reduced buffer against inflow variability?** Not just current storage levels, but structural reductions in average inflows.
 - **Are operating rule curves based on inflow assumptions that are no longer valid?** Particularly in the Murray-Darling and southern Australia where long-term drying trends are clearest.
 - **Where are our "River Outlet Works" equivalents?** Every major dam has a failure mode that was designed as a last resort. Climate change is steadily shrinking the operating envelope that keeps those last resorts from becoming the primary option.
 
-The window for proactive adaptation is narrower than it looks.
+Worth asking before the answer gets forced on us: how much runway is actually left?
 
 ---
 

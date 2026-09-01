@@ -31,13 +31,13 @@ The critical shift: in bankruptcy, the question is no longer "how do we restore 
 
 Apply the diagnostic to the Murray-Darling Basin: permanent environmental flow violations, structural groundwater depletion in the lower Darling, and a fundamental mismatch between extraction rights and sustainable yield that no single year of good rainfall can resolve.
 
-That pattern fits bankruptcy more closely than crisis.
+Run through the UNU's own diagnostic questions, and that combination reads closer to bankruptcy than crisis.
 
 ## The Southeast Queensland Data Point
 
 During 2019–2020, Southeast Queensland storages approached critical levels despite the significant water grid infrastructure built after the Millennium Drought. That infrastructure was designed to prevent exactly that outcome.
 
-Part of the explanation lies in accelerating evaporative losses. The atmosphere is pulling an estimated **40% of storage annually** — a figure that increases as warming overshoots the climate assumptions embedded in the water grid's planning basis. We're losing water capital faster than historical baselines predict.
+Part of the explanation may lie in accelerating evaporative losses. One estimate puts the atmosphere pulling **around 40% of storage annually** from SEQ's reservoirs — a figure some attribute to rising temperatures overshooting the climate assumptions embedded in the water grid's planning basis. If that holds, it would mean we're losing water capital faster than historical baselines predict.
 
 If the planning infrastructure was designed against a climate baseline that has since shifted, the storage buffer built into the system may be smaller in practice than it appears on paper.
 

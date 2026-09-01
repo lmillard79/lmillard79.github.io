@@ -23,7 +23,7 @@ Put that figure on a scale an engineer can feel:
 - On February 4, Storm Leonardo delivered **512.5 mm in 24 hours** — smashing a 78-year-old record
 - That single day's rainfall exceeded **Madrid's entire annual average**
 
-This isn't just a big storm. It's a convergence of a negative North Atlantic Oscillation (NAO) phase and a persistent atmospheric river carrying tropical moisture — a meteorological configuration that standard return period analysis was not calibrated to capture at this intensity and duration.
+This isn't just a big storm. Meteorologists tracking the event pointed to a convergence of a negative North Atlantic Oscillation (NAO) phase and a persistent atmospheric river carrying tropical moisture — a configuration standard return period analysis wasn't calibrated to capture at this intensity and duration.
 
 ## The Hydrological Consequence
 
@@ -37,9 +37,9 @@ From a design and risk management standpoint, this is a direct challenge to the 
 
 **Are our current IFD (Intensity-Duration-Frequency) curves prepared for a climate that no longer follows historical averages?**
 
-The 2019 Australian Rainfall and Runoff revision acknowledges non-stationarity as a concern, but the bulk of our design flood estimation practice still relies on frequency analysis fitted to pre-2000 records. Events like Grazalema are not outliers to be discarded — they are data points about what the tail of the distribution actually looks like under atmospheric conditions that are becoming more common.
+The 2019 Australian Rainfall and Runoff revision acknowledges non-stationarity as a concern, but the bulk of our design flood estimation practice still relies on frequency analysis fitted to pre-2000 records. Events like Grazalema are not outliers to be discarded — they're data points about what the tail of the distribution actually looks like. Whether configurations like this one are becoming more frequent is precisely the kind of question non-stationarity analysis is for, not something a single event can settle.
 
-The historical baseline has shifted. The question for practitioners is whether our standards have kept pace.
+If the historical baseline has genuinely shifted, the question for practitioners is whether our standards have kept pace.
 
 ---
 
