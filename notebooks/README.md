@@ -13,6 +13,7 @@ Each notebook is self-contained. Clone just the subdirectory you need and run it
 | 03 | [ARF Calculator — ARR 2019](03_arf_calculator/) | _coming soon_ | draft |
 | 04 | [Monte Carlo Loss Sampling](04_monte_carlo_loss_sampling/) | [published](https://lmillard79.github.io/insights/2026/04/25/monte-carlo-loss-sampling-arr2019-python.html) | done |
 | 05 | [Model Performance Metrics](05_model_performance_metrics/) | [published](https://lmillard79.github.io/insights/2026/04/18/model-performance-metrics-nse-kge-python.html) | done |
+| 06 | [FFA Non-Stationarity Diagnostic](06_ffa_nonstationarity_diagnostic/) | [published](https://lmillard79.github.io/insights/2026/09/01/ffa-nonstationarity-outlier-diagnostic-python.html) | done |
 
 ## Requirements
 

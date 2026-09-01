@@ -56,9 +56,8 @@ classes: wide
 
 <div style="margin-top: 2rem; color: #94a3b8; font-size: 0.95rem;">
   <h3 style="color: #cbd5e1;">What's next</h3>
-  <p>Two pieces in progress, continuing the theme of reporting what the data and methods show rather than asserting more than they can support:</p>
+  <p>One more piece in progress, continuing the theme of reporting what the data and methods show rather than asserting more than they can support:</p>
   <ol>
-    <li><strong>Detecting outliers in flood frequency analysis</strong> — fitting a stationary distribution to the full record, testing for trend, and checking what percentile a stationary model would have placed a recent record-breaking event at. Not climate attribution — a diagnostic for when a record event is worth a closer look.</li>
     <li><strong>Stochastic rainfall generation with <code>pyraingen</code></strong> — a practitioner's walkthrough of the package for exploring plausible rainfall changes at different durations and AEPs.</li>
   </ol>
 </div>
